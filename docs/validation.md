@@ -1,3 +1,7 @@
+# Historical delivery record before the annotation revision
+
+The current course has 371 pages. Lecture 2 has 88 and Lecture 3 has 97; the other five module counts remain as below. The report that follows describes the preceding 370-page version.
+
 # Delivery checks — 16 October 2026
 
 370 slide pages across seven teaching modules. The revised Lecture 3 has 98 pages, with matching editable Beamer source, slide-indexed notes and course outline. Its six short-meeting routes are in the syllabus and reading list.

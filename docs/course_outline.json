@@ -261,7 +261,7 @@
   {
     "number": 2,
     "title": "Money, inflation and activity",
-    "slides": 86,
+    "slides": 88,
     "outline": [
       {
         "page": 1,
@@ -655,126 +655,138 @@
       },
       {
         "page": 66,
+        "title": "Fed policy assessments: June 2026",
+        "section": "Inflation and policy feedback",
+        "kind": "data"
+      },
+      {
+        "page": 67,
+        "title": "What each dot means",
+        "section": "Inflation and policy feedback",
+        "kind": "intuition"
+      },
+      {
+        "page": 68,
         "title": "A simple Phillips relationship",
         "section": "Inflation and policy feedback",
         "kind": "intuition"
       },
       {
-        "page": 67,
+        "page": 69,
         "title": "Expectations shift the Phillips curve",
         "section": "Inflation and policy feedback",
         "kind": "plot"
       },
       {
-        "page": 68,
+        "page": 70,
         "title": "Inflation deviations are easier to analyse",
         "section": "Inflation and policy feedback",
         "kind": "theory"
       },
       {
-        "page": 69,
+        "page": 71,
         "title": "A simple model of inflation persistence",
         "section": "Inflation and policy feedback",
         "kind": "theory"
       },
       {
-        "page": 70,
+        "page": 72,
         "title": "The same shock can decay or amplify",
         "section": "Inflation and policy feedback",
         "kind": "plot"
       },
       {
-        "page": 71,
+        "page": 73,
         "title": "Exercise: inflation rises while output falls",
         "section": "Inflation and policy feedback",
         "kind": "exercise"
       },
       {
-        "page": 72,
+        "page": 74,
         "title": "Modern rate targeting",
         "section": "Modern rate targeting",
         "kind": "intuition"
       },
       {
-        "page": 73,
+        "page": 75,
         "title": "Choose the rate, and let the monetary quantity adjust",
         "section": "Modern rate targeting",
         "kind": "theory"
       },
       {
-        "page": 74,
+        "page": 76,
         "title": "With a rate target, policy sets a horizontal line",
         "section": "Modern rate targeting",
         "kind": "plot"
       },
       {
-        "page": 75,
+        "page": 77,
         "title": "Fiscal expansion with an unchanged rate target",
         "section": "Modern rate targeting",
         "kind": "plot"
       },
       {
-        "page": 76,
+        "page": 78,
         "title": "A private-demand slowdown shifts IS inward",
         "section": "Modern rate targeting",
         "kind": "plot"
       },
       {
-        "page": 77,
+        "page": 79,
         "title": "Optional mathematical extension",
         "section": "Optional mathematical extension",
         "kind": "intuition"
       },
       {
-        "page": 78,
+        "page": 80,
         "title": "Optional extension: what changes the feedback?",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 79,
+        "page": 81,
         "title": "Inflation responds to activity and past inflation",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 80,
+        "page": 82,
         "title": "Real-rate restraint reduces the output gap",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 81,
+        "page": 83,
         "title": "Policy adds real restraint when inflation exceeds target",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 82,
+        "page": 84,
         "title": "Substitution gives a stability condition",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 83,
+        "page": 85,
         "title": "A two-date endowment economy",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 84,
+        "page": 86,
         "title": "The individual intertemporal budget",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 85,
+        "page": 87,
         "title": "Market clearing pins down a real rate",
         "section": "Optional mathematical extension",
         "kind": "optional"
       },
       {
-        "page": 86,
+        "page": 88,
         "title": "Further reading",
         "section": "Reading",
         "kind": "reference"
@@ -784,7 +796,7 @@
   {
     "number": 3,
     "title": "Bonds and yield curves",
-    "slides": 98,
+    "slides": 97,
     "outline": [
       {
         "page": 1,
@@ -974,402 +986,396 @@
       },
       {
         "page": 32,
-        "title": "Fitted zero curves on a common date",
+        "title": "The zero-coupon (spot) yield curve",
         "section": "Curves and forwards",
-        "kind": "data"
+        "kind": "theory"
       },
       {
         "page": 33,
-        "title": "Spot, par and YTM are different objects",
+        "title": "STRIPS and estimated spot rates",
         "section": "Curves and forwards",
         "kind": "intuition"
       },
       {
         "page": 34,
+        "title": "Fitted zero-coupon spot yields",
+        "section": "Curves and forwards",
+        "kind": "data"
+      },
+      {
+        "page": 35,
+        "title": "Spot, par and YTM are different objects",
+        "section": "Curves and forwards",
+        "kind": "intuition"
+      },
+      {
+        "page": 36,
         "title": "A non-flat curve discounts dates differently",
         "section": "Curves and forwards",
         "kind": "theory"
       },
       {
-        "page": 35,
+        "page": 37,
         "title": "Bootstrapping a two-year discount factor",
         "section": "Curves and forwards",
         "kind": "example"
       },
       {
-        "page": 36,
+        "page": 38,
         "title": "A forward loan is agreed today",
         "section": "Curves and forwards",
         "kind": "diagram"
       },
       {
-        "page": 37,
+        "page": 39,
         "title": "Two ways to lock a two-year payoff",
         "section": "Curves and forwards",
         "kind": "intuition"
       },
       {
-        "page": 38,
+        "page": 40,
         "title": "Exact no-arbitrage across the two routes",
         "section": "Curves and forwards",
         "kind": "theory"
       },
       {
-        "page": 39,
+        "page": 41,
         "title": "Worked forward rate",
         "section": "Curves and forwards",
         "kind": "example"
       },
       {
-        "page": 40,
+        "page": 42,
         "title": "Replicating the forward with two zeros",
         "section": "Curves and forwards",
         "kind": "example"
       },
       {
-        "page": 41,
+        "page": 43,
         "title": "A mispriced forward creates a locked profit",
         "section": "Curves and forwards",
         "kind": "example"
       },
       {
-        "page": 42,
+        "page": 44,
         "title": "A forward is a price; a forecast is a belief",
         "section": "Curves and forwards",
         "kind": "intuition"
       },
       {
-        "page": 43,
+        "page": 45,
         "title": "Expectations and term premia",
         "section": "Expectations and term premia",
         "kind": "divider"
       },
       {
-        "page": 44,
+        "page": 46,
         "title": "Rolling over leaves the second rate unknown",
         "section": "Expectations and term premia",
         "kind": "example"
       },
       {
-        "page": 45,
-        "title": "Compounding averages forward rates",
-        "section": "Expectations and term premia",
-        "kind": "theory"
-      },
-      {
-        "page": 46,
-        "title": "The expectations hypothesis adds an assumption",
-        "section": "Expectations and term premia",
-        "kind": "theory"
-      },
-      {
         "page": 47,
+        "title": "Exact compounding across maturities",
+        "section": "Expectations and term premia",
+        "kind": "theory"
+      },
+      {
+        "page": 48,
+        "title": "A premium for each forward interval",
+        "section": "Expectations and term premia",
+        "kind": "theory"
+      },
+      {
+        "page": 49,
         "title": "An explicit expected short-rate path",
         "section": "Expectations and term premia",
         "kind": "plot"
       },
       {
-        "page": 48,
+        "page": 50,
         "title": "Why a term premium can appear",
         "section": "Expectations and term premia",
         "kind": "intuition"
       },
       {
-        "page": 49,
-        "title": "Add the premium as a separate component",
-        "section": "Expectations and term premia",
-        "kind": "example"
-      },
-      {
-        "page": 50,
-        "title": "The yield decomposition, now defined",
-        "section": "Expectations and term premia",
-        "kind": "theory"
-      },
-      {
         "page": 51,
-        "title": "One observed yield can have different stories",
+        "title": "Premiums can differ across future years",
         "section": "Expectations and term premia",
         "kind": "example"
       },
       {
         "page": 52,
-        "title": "An estimated US decomposition over time",
+        "title": "Compound the forward rates, period by period",
         "section": "Expectations and term premia",
-        "kind": "data"
+        "kind": "theory"
       },
       {
         "page": 53,
-        "title": "Reading the model snapshot",
+        "title": "Worked five-year compounded yield",
         "section": "Expectations and term premia",
-        "kind": "data"
+        "kind": "example"
       },
       {
         "page": 54,
-        "title": "Fed dot plot: June 2026",
-        "section": "Expectations and term premia",
-        "kind": "picture"
-      },
-      {
-        "page": 55,
-        "title": "What each dot means",
-        "section": "Expectations and term premia",
-        "kind": "intuition"
-      },
-      {
-        "page": 56,
-        "title": "June\u2019s individual assessments and medians",
-        "section": "Expectations and term premia",
-        "kind": "data"
-      },
-      {
-        "page": 57,
         "title": "Three objects to keep separate",
         "section": "Expectations and term premia",
         "kind": "intuition"
       },
       {
-        "page": 58,
-        "title": "A cut today can coexist with rising long yields",
+        "page": 55,
+        "title": "Policy cuts and rising spot yields",
         "section": "Expectations and term premia",
         "kind": "example"
       },
       {
-        "page": 59,
+        "page": 56,
         "title": "Duration and convexity",
         "section": "Duration and convexity",
         "kind": "divider"
       },
       {
-        "page": 60,
-        "title": "The price\u2013yield relation is curved",
+        "page": 57,
+        "title": "Price sensitivity to a yield change",
         "section": "Duration and convexity",
         "kind": "plot"
       },
       {
-        "page": 61,
+        "page": 58,
         "title": "Modified duration is the normalized slope",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 62,
+        "page": 59,
         "title": "A zero\u2019s duration follows by differentiation",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 63,
+        "page": 60,
         "title": "Coupon duration weights the payment dates",
         "section": "Duration and convexity",
         "kind": "example"
       },
       {
-        "page": 64,
+        "page": 61,
         "title": "Macaulay and modified duration",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 65,
-        "title": "DV01 converts sensitivity into money",
+        "page": 62,
+        "title": "Dollar value of one basis point: DV01",
         "section": "Duration and convexity",
         "kind": "example"
       },
       {
-        "page": 66,
+        "page": 63,
         "title": "A ten-basis-point move",
         "section": "Duration and convexity",
         "kind": "example"
       },
       {
-        "page": 67,
+        "page": 64,
         "title": "Duration comes from a Taylor expansion",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 68,
+        "page": 65,
         "title": "Convexity normalizes the second derivative",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 69,
+        "page": 66,
         "title": "A zero\u2019s convexity is explicit",
         "section": "Duration and convexity",
         "kind": "theory"
       },
       {
-        "page": 70,
+        "page": 67,
         "title": "Exact, tangent and quadratic repricing",
         "section": "Duration and convexity",
         "kind": "plot"
       },
       {
-        "page": 71,
+        "page": 68,
         "title": "Work out a one-percentage-point move",
         "section": "Duration and convexity",
         "kind": "example"
       },
       {
-        "page": 72,
+        "page": 69,
         "title": "The asymmetry has economic meaning",
         "section": "Duration and convexity",
         "kind": "intuition"
       },
       {
-        "page": 73,
+        "page": 70,
         "title": "Sensitivity is conditional on the experiment",
         "section": "Duration and convexity",
         "kind": "intuition"
       },
       {
-        "page": 74,
+        "page": 71,
         "title": "A liability changes what counts as risky",
         "section": "Duration and convexity",
         "kind": "intuition"
       },
       {
-        "page": 75,
+        "page": 72,
         "title": "A bond fund usually keeps exposure beyond one maturity",
         "section": "Duration and convexity",
         "kind": "intuition"
       },
       {
-        "page": 76,
+        "page": 73,
         "title": "Hedging and market cases",
         "section": "Hedging and market cases",
         "kind": "divider"
       },
       {
-        "page": 77,
+        "page": 74,
         "title": "News lab: income horizon or price trade?",
         "section": "Hedging and market cases",
         "kind": "case"
       },
       {
-        "page": 78,
+        "page": 75,
         "title": "News lab: buying during a Treasury sell-off",
         "section": "Hedging and market cases",
         "kind": "case"
       },
       {
-        "page": 79,
+        "page": 76,
         "title": "Two real auctions, two different questions",
         "section": "Hedging and market cases",
         "kind": "data"
       },
       {
-        "page": 80,
+        "page": 77,
         "title": "An auction tail needs a market benchmark",
         "section": "Hedging and market cases",
         "kind": "example"
       },
       {
-        "page": 81,
+        "page": 78,
         "title": "A curve view needs two maturity scenarios",
         "section": "Hedging and market cases",
         "kind": "plot"
       },
       {
-        "page": 82,
+        "page": 79,
         "title": "This scenario is a bull steepening",
         "section": "Hedging and market cases",
         "kind": "example"
       },
       {
-        "page": 83,
+        "page": 80,
         "title": "Expressing the relative view",
         "section": "Hedging and market cases",
         "kind": "intuition"
       },
       {
-        "page": 84,
+        "page": 81,
         "title": "Match DV01, rather than market values",
         "section": "Hedging and market cases",
         "kind": "exercise"
       },
       {
-        "page": 85,
+        "page": 82,
         "title": "Work out the scenario profit and loss",
         "section": "Hedging and market cases",
         "kind": "answer"
       },
       {
-        "page": 86,
+        "page": 83,
         "title": "A small parallel move cancels at first order",
         "section": "Hedging and market cases",
         "kind": "example"
       },
       {
-        "page": 87,
+        "page": 84,
         "title": "Counterfactual: the curve flattens",
         "section": "Hedging and market cases",
         "kind": "exercise"
       },
       {
-        "page": 88,
-        "title": "A cut with a sell-off: the complete calculation",
+        "page": 85,
+        "title": "Price impact of the policy-cut scenario",
         "section": "Hedging and market cases",
         "kind": "example"
       },
       {
-        "page": 89,
+        "page": 86,
         "title": "Questions before taking the trade",
         "section": "Hedging and market cases",
         "kind": "intuition"
       },
       {
-        "page": 90,
+        "page": 87,
         "title": "Optional foundations",
         "section": "Optional foundations",
         "kind": "divider"
       },
       {
-        "page": 91,
+        "page": 88,
         "title": "General forward intervals",
         "section": "Optional foundations",
         "kind": "theory"
       },
       {
-        "page": 92,
+        "page": 89,
         "title": "Continuous and annual-effective spot rates",
         "section": "Optional foundations",
         "kind": "theory"
       },
       {
-        "page": 93,
+        "page": 90,
         "title": "The par coupon comes from discount factors",
         "section": "Optional foundations",
         "kind": "theory"
       },
       {
-        "page": 94,
+        "page": 91,
+        "title": "Optional: ACM estimates",
+        "section": "Optional foundations",
+        "kind": "data"
+      },
+      {
+        "page": 92,
+        "title": "ACM components use a model convention",
+        "section": "Optional foundations",
+        "kind": "data"
+      },
+      {
+        "page": 93,
         "title": "Two states: equal average payoff, different price",
         "section": "Optional foundations",
         "kind": "example"
       },
       {
-        "page": 95,
+        "page": 94,
         "title": "A stochastic discount factor prices states",
         "section": "Optional foundations",
         "kind": "theory"
       },
       {
-        "page": 96,
+        "page": 95,
         "title": "Optional liability hedge: match value and duration",
         "section": "Optional foundations",
         "kind": "exercise"
       },
       {
-        "page": 97,
+        "page": 96,
         "title": "Reading",
         "section": "Reading",
         "kind": "divider"
       },
       {
-        "page": 98,
+        "page": 97,
         "title": "Reading and next questions",
         "section": "Reading",
         "kind": "reference"

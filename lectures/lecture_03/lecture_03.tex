@@ -299,9 +299,22 @@ Reported bid-to-cover & 2.56\\\bottomrule\end{tabular}\end{center}\eqnote{Issue:
 \end{tikzpicture}\end{center}\eqnote{14 October 2026. Published monthly grid, 3 months to 30 years; fitted points are not independent quotes.}
 \end{frame}
 
-% Slide 32: Fitted zero curves on a common date
+% Slide 32: The zero-coupon (spot) yield curve
 
-\begin{frame}{Fitted zero curves on a common date}
+\begin{frame}{The zero-coupon (spot) yield curve}
+\point{One payment at maturity T, with no intermediate coupons.}\[i_t(T)=\left[\frac{F}{p_t^{\rm zero}(T)}\right]^{1/T}-1.\]\point{The curve plots this annualized rate against maturity T.}\eqnote{Each point discounts a single payment: $p_t^{\rm zero}(T)=F[1+i_t(T)]^{-T}$.}
+\end{frame}
+
+% Slide 33: STRIPS and estimated spot rates
+
+\begin{frame}{STRIPS and estimated spot rates}
+\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.29\textwidth}>{\raggedright\arraybackslash}p{0.64\textwidth}@{}}\toprule \textbf{Object} & \textbf{Meaning}\\\midrule Treasury STRIP & A traded principal or coupon payment separated from a Treasury security.\\[2mm]
+Fitted ZCB curve & Discount factors inferred by fitting observed bond prices.\\\bottomrule\end{tabular}\end{center}\eqnote{The US panel fits off-the-run coupon bonds. Its points are model-implied ZCB yields, rather than STRIPS quotes.}
+\end{frame}
+
+% Slide 34: Fitted zero-coupon spot yields
+
+\begin{frame}{Fitted zero-coupon spot yields}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
 \draw[Ink!10] (0.0000,0.0000)--(0.0000,2.4500);\node[below,font=\scriptsize] at (0.0000,0.0000){1};
 \draw[Ink!10] (1.3793,0.0000)--(1.3793,2.4500);\node[below,font=\scriptsize] at (1.3793,0.0000){5};
@@ -350,7 +363,7 @@ Reported bid-to-cover & 2.56\\\bottomrule\end{tabular}\end{center}\eqnote{Issue:
 \end{tikzpicture}\end{center}\eqnote{9 October 2026. Continuous source yields converted by i = exp(z) $-$ 1. Different currencies and samples.}
 \end{frame}
 
-% Slide 33: Spot, par and YTM are different objects
+% Slide 35: Spot, par and YTM are different objects
 
 \begin{frame}{Spot, par and YTM are different objects}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.36\textwidth}>{\raggedright\arraybackslash}p{0.57\textwidth}@{}}\toprule \textbf{Rate} & \textbf{Pricing question}\\\midrule Spot $i_t(T)$ & What discounts one payment at T?\\[2mm]
@@ -358,44 +371,44 @@ Par coupon rate & Which coupon makes a new bond worth F?\\[2mm]
 Bond-specific $i^{\rm YTM}$ & Which single rate fits this coupon schedule’s price?\\\bottomrule\end{tabular}\end{center}\eqnote{More plotted maturities make the fitted shape visible. They do not add independent market quotes.}
 \end{frame}
 
-% Slide 34: A non-flat curve discounts dates differently
+% Slide 36: A non-flat curve discounts dates differently
 
 \begin{frame}{A non-flat curve discounts dates differently}
 \[p_t=\frac{C}{1+i_t(1)}+\frac{C+F}{[1+i_t(2)]^2}.\]\point{Use each payment’s own spot rate. The coupon rate does not choose the discount rate.}
 \end{frame}
 
-% Slide 35: Bootstrapping a two-year discount factor
+% Slide 37: Bootstrapping a two-year discount factor
 
 \begin{frame}{Bootstrapping a two-year discount factor}
 \[d_t(1)=0.96,\quad C=5,\quad F=100,\quad p_t=100.\]\[100=5(0.96)+105d_t(2)\quad\Rightarrow\quad d_t(2)=0.906667.\]\[i_t(2)=d_t(2)^{-1/2}-1=5.021\%.\]
 \end{frame}
 
-% Slide 36: A forward loan is agreed today
+% Slide 38: A forward loan is agreed today
 
 \begin{frame}{A forward loan is agreed today}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small,align=center}]\draw[->,Ink!50](-.4,0)--(11.4,0);\draw[Ink](0.0,-.1)--(0.0,.1);\node[below]at(0.0,-.16){Today};\node[above,text width=2.6cm]at(0.0,.2){Lock f(1,2)};\draw[Ink](5.5,-.1)--(5.5,.1);\node[below]at(5.5,-.16){Year 1};\node[above,text width=2.6cm]at(5.5,.2){Lend 100};\draw[Ink](11.0,-.1)--(11.0,.1);\node[below]at(11.0,-.16){Year 2};\node[above,text width=2.6cm]at(11.0,.2){Receive $100[1+f(1,2)]$};\end{tikzpicture}\end{center}\point{The future loan rate is fixed before the money changes hands.}
 \end{frame}
 
-% Slide 37: Two ways to lock a two-year payoff
+% Slide 39: Two ways to lock a two-year payoff
 
 \begin{frame}{Two ways to lock a two-year payoff}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}@{}}\toprule \textbf{Route A} & \textbf{Route B}\\\midrule Buy a two-year zero. & Invest for one year.\\[2mm]
 Lock the whole two-year return today. & Lock year 2 using a forward agreed today.\\\bottomrule\end{tabular}\end{center}\eqnote{Same initial investment, final date, currency, credit and collateral assumptions.}
 \end{frame}
 
-% Slide 38: Exact no-arbitrage across the two routes
+% Slide 40: Exact no-arbitrage across the two routes
 
 \begin{frame}{Exact no-arbitrage across the two routes}
 \[\boxed{[1+i_t(2)]^2=[1+i_t(1)][1+f_t(1,2)].}\]\point{The forward rate adjusts until the locked final payoffs match.}
 \end{frame}
 
-% Slide 39: Worked forward rate
+% Slide 41: Worked forward rate
 
 \begin{frame}{Worked forward rate}
 \[i_t(1)=4\%,\qquad i_t(2)=5\%.\]\[f_t(1,2)=\frac{1.05^2}{1.04}-1=6.0096\%.\]\[100(1.05)^2=100(1.04)(1.060096)=110.25.\]
 \end{frame}
 
-% Slide 40: Replicating the forward with two zeros
+% Slide 42: Replicating the forward with two zeros
 
 \begin{frame}{Replicating the forward with two zeros}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Position} & \textbf{Today} & \textbf{Year 1} & \textbf{Year 2}\\\midrule Short 100-face one-year zero & $+96.1538$ & $-100$ & 0\\[2mm]
@@ -403,26 +416,26 @@ Buy 106.0096-face two-year zero & $-96.1538$ & 0 & $+106.0096$\\[2mm]
 Net & 0 & $-100$ & $+106.0096$\\\bottomrule\end{tabular}\end{center}\eqnote{A future loan is a portfolio of dated claims. F is face value; f is the forward rate.}
 \end{frame}
 
-% Slide 41: A mispriced forward creates a locked profit
+% Slide 43: A mispriced forward creates a locked profit
 
 \begin{frame}{A mispriced forward creates a locked profit}
 \point{Suppose an otherwise identical quoted forward lets you lend at 8\%.}\point{Borrow synthetically at 6.0096\%, then lend the same 100 at 8\%.}\[\text{Year-2 net cash flow}=108-106.0096=1.9904.\]
 \end{frame}
 
-% Slide 42: A forward is a price; a forecast is a belief
+% Slide 44: A forward is a price; a forecast is a belief
 
 \begin{frame}{A forward is a price; a forecast is a belief}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}@{}}\toprule \textbf{Known today} & \textbf{Still uncertain}\\\midrule Locked $f_t(1,2)=6.0096\%$ & The one-year spot rate observed next year.\\[2mm]
 Its value follows from today’s discount factors. & Its expectation needs a model or survey.\\\bottomrule\end{tabular}\end{center}\eqnote{No-arbitrage links traded prices. It does not set the physical probability of future outcomes.}
 \end{frame}
 
-% Slide 43: Expectations and term premia
+% Slide 45: Expectations and term premia
 \section[Expectations and term premia]{Expectations and term premia}
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 3}\par\vspace{9mm}{\Huge\bfseries Expectations and term premia}\par\vspace{7mm}{\Large How much of a long yield can we interpret as a forecast?}
 \end{frame}
 
-% Slide 44: Rolling over leaves the second rate unknown
+% Slide 46: Rolling over leaves the second rate unknown
 
 \begin{frame}{Rolling over leaves the second rate unknown}
 \begin{center}\begin{tabular}{@{}ll@{}}\toprule \textbf{Year-2 rate after a 4\% first year} & \textbf{Final wealth from 100}\\\midrule 2\% & $100(1.04)(1.02)=106.08$\\[2mm]
@@ -430,19 +443,19 @@ Its value follows from today’s discount factors. & Its expectation needs a mod
 Two-year zero locked at 5\% & $110.25$\\\bottomrule\end{tabular}\end{center}\eqnote{An unhedged roll-over is risky. The forward-locked strategy on earlier slides is different.}
 \end{frame}
 
-% Slide 45: Compounding averages forward rates
+% Slide 47: Exact compounding across maturities
 
-\begin{frame}{Compounding averages forward rates}
+\begin{frame}{Exact compounding across maturities}
 \[[1+i_t(n)]^n=\prod_{k=0}^{n-1}[1+f_t(k,k+1)].\]\[\ln[1+i_t(n)]=\frac1n\sum_{k=0}^{n-1}\ln[1+f_t(k,k+1)].\]\eqnote{$f_t(0,1)=i_t(1)$. These are rates locked today, not expected future spot rates.}
 \end{frame}
 
-% Slide 46: The expectations hypothesis adds an assumption
+% Slide 48: A premium for each forward interval
 
-\begin{frame}{The expectations hypothesis adds an assumption}
-\[f_t(k,k+1)\approx\mathbb E_t\,i^{(1)}_{t+k}.\]\point{It treats the forward as an estimate of the future one-year rate, with no forward risk premium.}\eqnote{$i^{(1)}_{t+k}$: the one-year market rate prevailing at that future date.}
+\begin{frame}{A premium for each forward interval}
+\[\mu_k\equiv\mathbb E_t[i_{t+k}(1)],\qquad f_t(k,k+1)=\mu_k+\varphi_t(k).\]\point{$\varphi_t(k)$ is the forward-minus-expected-rate wedge for year k.}\eqnote{It can differ by horizon and observation date, and can have either sign.}
 \end{frame}
 
-% Slide 47: An explicit expected short-rate path
+% Slide 49: An explicit expected short-rate path
 
 \begin{frame}{An explicit expected short-rate path}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
@@ -462,173 +475,38 @@ Two-year zero locked at 5\% & $110.25$\\\bottomrule\end{tabular}\end{center}\eqn
 \fill[Teal] (5.0000,1.4700) circle (2pt);\node[above right,font=\scriptsize] at (5.0000,1.4700){};
 \fill[Teal] (7.0000,1.4700) circle (2pt);\node[above right,font=\scriptsize] at (7.0000,1.4700){};
 \fill[Teal] (9.0000,1.4700) circle (2pt);\node[above right,font=\scriptsize] at (9.0000,1.4700){};
-\end{tikzpicture}\end{center}\[\text{Arithmetic average}=\frac{4+3.5+3+3+3}{5}=3.30\%.\]
+\end{tikzpicture}\end{center}\eqnote{Hypothetical expectations: 4.0\%, 3.5\%, 3.0\%, 3.0\%, 3.0\%. A forecast does not lock a return.}
 \end{frame}
 
-% Slide 48: Why a term premium can appear
+% Slide 50: Why a term premium can appear
 
 \begin{frame}{Why a term premium can appear}
 \point{A short-horizon holder of a long bond faces resale-price risk.}\point{Investors may demand compensation for exposure to bad outcomes.}\eqnote{A bond that hedges the investor’s bad states can instead command an insurance value.}
 \end{frame}
 
-% Slide 49: Add the premium as a separate component
+% Slide 51: Premiums can differ across future years
 
-\begin{frame}{Add the premium as a separate component}
-\[\underbrace{3.30\%}_{\text{expected-rate component}}+\underbrace{0.70\%}_{\text{term premium}}=\underbrace{4.00\%}_{\text{five-year yield}}.\]\point{The same expected path can support a different long yield if investors price the risk differently.}
+\begin{frame}{Premiums can differ across future years}
+\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.1\textwidth}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.26\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}@{}}\toprule \textbf{Year k} & \textbf{Expected rate} & \textbf{Forward premium} & \textbf{Locked forward}\\\midrule 0 & 4.0\% & 0.0 points & 4.0\%\\[2mm]
+1 & 3.5\% & 0.4 points & 3.9\%\\[2mm]
+2 & 3.0\% & 0.6 points & 3.6\%\\[2mm]
+3 & 3.0\% & 0.8 points & 3.8\%\\[2mm]
+4 & 3.0\% & 1.0 points & 4.0\%\\\bottomrule\end{tabular}\end{center}\eqnote{Hypothetical. In each row, $f_t(k,k+1)=\mu_k+\varphi_t(k)$.}
 \end{frame}
 
-% Slide 50: The yield decomposition, now defined
+% Slide 52: Compound the forward rates, period by period
 
-\begin{frame}{The yield decomposition, now defined}
-\[\boxed{i_t(n)\approx\frac1n\sum_{k=0}^{n-1}\mathbb E_t i^{(1)}_{t+k}+TP_t(n).}\]\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.35\textwidth}>{\raggedright\arraybackslash}p{0.58\textwidth}@{}}\toprule \textbf{Symbol} & \textbf{Meaning}\\\midrule $n$ & Years to maturity\\[2mm]
-$\mathbb E_t i^{(1)}_{t+k}$ & Expected one-year rate in year k\\[2mm]
-$TP_t(n)$ & Term premium for that maturity\\\bottomrule\end{tabular}\end{center}\eqnote{Approximation under a specified term-structure model.}
+\begin{frame}{Compound the forward rates, period by period}
+\[\boxed{[1+i_t(n)]^n=\prod_{k=0}^{n-1}\left[1+\mu_k+\varphi_t(k)\right].}\]\[\mu_k=\mathbb E_t[i_{t+k}(1)],\qquad \varphi_t(k)=f_t(k,k+1)-\mu_k.\]\eqnote{The premium can vary in every future period. Gross returns multiply across periods.}
 \end{frame}
 
-% Slide 51: One observed yield can have different stories
+% Slide 53: Worked five-year compounded yield
 
-\begin{frame}{One observed yield can have different stories}
-\begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Story} & \textbf{Expected-rate component} & \textbf{Term premium} & \textbf{Yield}\\\midrule A & 3.30\% & 0.70\% & 4.00\%\\[2mm]
-B & 3.80\% & 0.20\% & 4.00\%\\\bottomrule\end{tabular}\end{center}\point{The yield alone cannot tell us which component investors changed.}
+\begin{frame}{Worked five-year compounded yield}
+\[(1+i_t(5))^5=1.040\times1.039\times1.036\times1.038\times1.040.\]\[i_t(5)=\left(1.040\times1.039\times1.036\times1.038\times1.040\right)^{1/5}-1=3.8599\%.\]\eqnote{With all future premiums set to zero, the same expected path gives 3.2992\% under that added assumption.}
 \end{frame}
 
-% Slide 52: An estimated US decomposition over time
-
-\begin{frame}{An estimated US decomposition over time}
-\begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
-\draw[Ink!10] (0.0000,0.0000)--(0.0000,2.5500);\node[below,font=\scriptsize] at (0.0000,0.0000){2020};
-\draw[Ink!10] (3.0000,0.0000)--(3.0000,2.5500);\node[below,font=\scriptsize] at (3.0000,0.0000){2022};
-\draw[Ink!10] (6.0000,0.0000)--(6.0000,2.5500);\node[below,font=\scriptsize] at (6.0000,0.0000){2024};
-\draw[Ink!10] (9.0000,0.0000)--(9.0000,2.5500);\node[below,font=\scriptsize] at (9.0000,0.0000){2026};
-\draw[Ink!10] (0.0000,0.0000)--(10.0000,0.0000);\node[left,font=\scriptsize] at (0.0000,0.0000){-2};
-\draw[Ink!10] (0.0000,0.6375)--(10.0000,0.6375);\node[left,font=\scriptsize] at (0.0000,0.6375){0};
-\draw[Ink!10] (0.0000,1.2750)--(10.0000,1.2750);\node[left,font=\scriptsize] at (0.0000,1.2750){2};
-\draw[Ink!10] (0.0000,1.9125)--(10.0000,1.9125);\node[left,font=\scriptsize] at (0.0000,1.9125){4};
-\draw[Ink!10] (0.0000,2.5500)--(10.0000,2.5500);\node[left,font=\scriptsize] at (0.0000,2.5500){6};
-\draw[->,Ink!70] (0,0)--(10.22,0);\draw[->,Ink!70] (0,0)--(0,2.73);
-\node[below] at (5.0,-.36){Month-end observation};\node[anchor=west] at (0,2.8499999999999996){Percent};
-\draw[Ink!40,dashed] (0.0000,0.6375)--(10.0000,0.6375);
-\draw[Ink,thick] plot coordinates {(0.0000,1.1219) (0.1250,1.0005) (0.2500,0.8842) (0.3750,0.8557) (0.5000,0.8511) (0.6250,0.8508) (0.7500,0.8100) (0.8750,0.8661) (1.0000,0.8524) (1.1250,0.9208) (1.2500,0.9073) (1.3750,0.9323) (1.5000,0.9967) (1.6250,1.1296) (1.7500,1.2328) (1.8750,1.1966) (2.0000,1.1760) (2.1250,1.1259) (2.2500,1.0522) (2.3750,1.0702) (2.5000,1.1451) (2.6250,1.1569) (2.7500,1.1133) (2.8750,1.1428) (3.0000,1.2314) (3.1250,1.2370) (3.2500,1.3835) (3.3750,1.5753) (3.5000,1.5623) (3.6250,1.6266) (3.7500,1.4925) (3.8750,1.6502) (4.0000,1.8685) (4.1250,1.9727) (4.2500,1.8033) (4.3750,1.8657) (4.5000,1.7493) (4.6250,1.9098) (4.7500,1.7580) (4.8750,1.7434) (5.0000,1.8098) (5.1250,1.8647) (5.2500,1.9034) (5.3750,1.9405) (5.5000,2.1267) (5.6250,2.2162) (5.7500,2.0494) (5.8750,1.8823) (6.0000,1.9132) (6.1250,1.9951) (6.2500,1.9679) (6.3750,2.1127) (6.5000,2.0747) (6.6250,2.0171) (6.7500,1.9354) (6.8750,1.8817) (7.0000,1.8436) (7.1250,2.0071) (7.2500,1.9718) (7.3750,2.0995) (7.5000,2.1021) (7.6250,1.9939) (7.7500,1.9926) (7.8750,1.9821) (8.0000,2.0610) (8.1250,2.0020) (8.2500,2.0394) (8.3750,1.9997) (8.5000,1.9759) (8.6250,1.9615) (8.7500,1.9390) (8.8750,1.9905) (9.0000,2.0126) (9.1250,1.9223) (9.2500,2.0230) (9.3750,2.0552) (9.5000,2.0760) (9.6250,2.0646) (9.7500,2.1749) (9.8750,2.1730) (10.0000,2.3138)};
-\draw[Teal,thick] plot coordinates {(0.0000,1.4808) (0.1250,1.4116) (0.2500,1.2684) (0.3750,1.2697) (0.5000,1.2512) (0.6250,1.2437) (0.7500,1.2489) (0.8750,1.2216) (1.0000,1.2291) (1.1250,1.2140) (1.2500,1.2173) (1.3750,1.1928) (1.5000,1.1678) (1.6250,1.1664) (1.7500,1.1405) (1.8750,1.1468) (2.0000,1.1354) (2.1250,1.2139) (2.2500,1.2107) (2.3750,1.2270) (2.5000,1.2457) (2.6250,1.3109) (2.7500,1.3443) (2.8750,1.3604) (3.0000,1.4421) (3.1250,1.4910) (3.2500,1.6586) (3.3750,1.7013) (3.5000,1.6855) (3.6250,1.7375) (3.7500,1.7725) (3.8750,1.8919) (4.0000,2.0324) (4.1250,2.0376) (4.2500,2.0429) (4.3750,2.0509) (4.5000,2.0052) (4.6250,2.0684) (4.7500,1.9915) (4.8750,1.9806) (5.0000,2.0303) (5.1250,2.1106) (5.2500,2.1061) (5.3750,2.1062) (5.5000,2.0810) (5.6250,2.0888) (5.7500,2.0340) (5.8750,1.9921) (6.0000,1.9811) (6.1250,2.0481) (6.2500,2.0549) (6.3750,2.1263) (6.5000,2.0755) (6.6250,2.0592) (6.7500,1.9744) (6.8750,1.9246) (7.0000,1.8817) (7.1250,1.9572) (7.2500,1.9479) (7.3750,1.9482) (7.5000,1.9477) (7.6250,1.9129) (7.7500,1.8767) (7.8750,1.7950) (8.0000,1.8272) (8.1250,1.8052) (8.2500,1.8396) (8.3750,1.7546) (8.5000,1.7824) (8.6250,1.7834) (8.7500,1.7547) (8.8750,1.7522) (9.0000,1.7696) (9.1250,1.7338) (9.2500,1.8162) (9.3750,1.8274) (9.5000,1.8654) (9.6250,1.9032) (9.7500,1.9093) (9.8750,1.9309) (10.0000,2.0317)};
-\draw[Rust,dashed,thick] plot coordinates {(0.0000,0.2786) (0.1250,0.2264) (0.2500,0.2533) (0.3750,0.2235) (0.5000,0.2374) (0.6250,0.2446) (0.7500,0.1986) (0.8750,0.2820) (1.0000,0.2608) (1.1250,0.3443) (1.2500,0.3275) (1.3750,0.3770) (1.5000,0.4664) (1.6250,0.6007) (1.7500,0.7297) (1.8750,0.6874) (2.0000,0.6780) (2.1250,0.5495) (2.2500,0.4790) (2.3750,0.4806) (2.5000,0.5370) (2.6250,0.4835) (2.7500,0.4064) (2.8750,0.4199) (3.0000,0.4268) (3.1250,0.3835) (3.2500,0.3624) (3.3750,0.5115) (3.5000,0.5144) (3.6250,0.5266) (3.7500,0.3575) (3.8750,0.3958) (4.0000,0.4736) (4.1250,0.5725) (4.2500,0.3979) (4.3750,0.4523) (4.5000,0.3816) (4.6250,0.4789) (4.7500,0.4040) (4.8750,0.4003) (5.0000,0.4170) (5.1250,0.3916) (5.2500,0.4349) (5.3750,0.4718) (5.5000,0.6832) (5.6250,0.7649) (5.7500,0.6529) (5.8750,0.5277) (6.0000,0.5696) (6.1250,0.5845) (6.2500,0.5506) (6.3750,0.6240) (6.5000,0.6367) (6.6250,0.5954) (6.7500,0.5985) (6.8750,0.5945) (7.0000,0.5995) (7.1250,0.6874) (7.2500,0.6615) (7.3750,0.7887) (7.5000,0.7919) (7.6250,0.7185) (7.7500,0.7534) (7.8750,0.8247) (8.0000,0.8713) (8.1250,0.8344) (8.2500,0.8373) (8.3750,0.8826) (8.5000,0.8310) (8.6250,0.8156) (8.7500,0.8218) (8.8750,0.8759) (9.0000,0.8805) (9.1250,0.8260) (9.2500,0.8444) (9.3750,0.8652) (9.5000,0.8481) (9.6250,0.7989) (9.7500,0.9031) (9.8750,0.8795) (10.0000,0.9196)};
-\draw[Ink,thick] (0.0,3.3099999999999996)--(0.35,3.3099999999999996);\node[anchor=west,font=\small] at (0.45,3.3099999999999996){Fitted yield};
-\draw[Teal,thick] (3.3333333333333335,3.3099999999999996)--(3.6833333333333336,3.3099999999999996);\node[anchor=west,font=\small] at (3.7833333333333337,3.3099999999999996){Modeled path};
-\draw[Rust,dashed] (6.666666666666667,3.3099999999999996)--(7.016666666666667,3.3099999999999996);\node[anchor=west,font=\small] at (7.116666666666667,3.3099999999999996){Term premium};
-\end{tikzpicture}\end{center}\eqnote{NY Fed ACM model, ten-year maturity. January 2020–September 2026. Components are estimates.}
-\end{frame}
-
-% Slide 53: Reading the model snapshot
-
-\begin{frame}{Reading the model snapshot}
-\[4.37\%+0.89\%=5.26\%\quad\text{approximately}.\]\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.6\textwidth}>{\raggedright\arraybackslash}p{0.33\textwidth}@{}}\toprule \textbf{30 September 2026} & \textbf{ACM estimate}\\\midrule Modeled rate-path component & 4.3740\%\\[2mm]
-Term premium & 0.8850\%\\[2mm]
-Fitted ten-year yield & 5.2590\%\\\bottomrule\end{tabular}\end{center}\eqnote{The two components are model estimates. Their sum uses unrounded data.}
-\end{frame}
-
-% Slide 54: Fed dot plot: June 2026
-
-\begin{frame}[plain]
-\begin{tikzpicture}[remember picture,overlay]
-\node[inner sep=0]at([yshift=3mm]current page.center){\includegraphics[height=7.5cm]{assets/fed_dot_plot_supplied_june2026.png}};
-\node[font=\small,text=Ink,text width=14.3cm,align=center]at([yshift=5.5mm]current page.south){Fed SEP, 17 June 2026. The supplied graphic’s BLS credit is incorrect.};
-\end{tikzpicture}
-\end{frame}
-
-% Slide 55: What each dot means
-
-\begin{frame}{What each dot means}
-\point{One official’s assessment of appropriate policy at that year-end.}\point{The assessment depends on that official’s economic outlook.}\point{Dots are anonymous. We cannot join a person’s path across columns.}\eqnote{The dispersion is across officials. It is not a probability distribution of future policy outcomes.}
-\end{frame}
-
-% Slide 56: June’s individual assessments and medians
-
-\begin{frame}{June’s individual assessments and medians}
-\begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
-\draw[Ink!10] (1.2500,0.0000)--(1.2500,2.6000);\node[below,font=\scriptsize] at (1.2500,0.0000){2026};
-\draw[Ink!10] (3.7500,0.0000)--(3.7500,2.6000);\node[below,font=\scriptsize] at (3.7500,0.0000){2027};
-\draw[Ink!10] (6.2500,0.0000)--(6.2500,2.6000);\node[below,font=\scriptsize] at (6.2500,0.0000){2028};
-\draw[Ink!10] (8.7500,0.0000)--(8.7500,2.6000);\node[below,font=\scriptsize] at (8.7500,0.0000){Longer run};
-\draw[Ink!10] (0.0000,0.5652)--(10.0000,0.5652);\node[left,font=\scriptsize] at (0.0000,0.5652){3.0};
-\draw[Ink!10] (0.0000,1.1304)--(10.0000,1.1304);\node[left,font=\scriptsize] at (0.0000,1.1304){3.5};
-\draw[Ink!10] (0.0000,1.6957)--(10.0000,1.6957);\node[left,font=\scriptsize] at (0.0000,1.6957){4.0};
-\draw[Ink!10] (0.0000,2.2609)--(10.0000,2.2609);\node[left,font=\scriptsize] at (0.0000,2.2609){4.5};
-\draw[->,Ink!70] (0,0)--(10.22,0);\draw[->,Ink!70] (0,0)--(0,2.7800000000000002);
-\node[below] at (5.0,-.36){Assessment horizon};\node[anchor=west] at (0,2.9){Policy target midpoint (\%)};
-\fill[Teal] (1.2500,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (1.2500,0.9891){};
-\fill[Teal] (0.5062,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (0.5062,1.2717){};
-\fill[Teal] (0.7188,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (0.7188,1.2717){};
-\fill[Teal] (0.9313,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (0.9313,1.2717){};
-\fill[Teal] (1.1438,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (1.1438,1.2717){};
-\fill[Teal] (1.3562,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (1.3562,1.2717){};
-\fill[Teal] (1.5687,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (1.5687,1.2717){};
-\fill[Teal] (1.7812,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (1.7812,1.2717){};
-\fill[Teal] (1.9938,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (1.9938,1.2717){};
-\fill[Teal] (1.0375,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (1.0375,1.5543){};
-\fill[Teal] (1.2500,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (1.2500,1.5543){};
-\fill[Teal] (1.4625,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (1.4625,1.5543){};
-\fill[Teal] (0.8250,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (0.8250,1.8370){};
-\fill[Teal] (1.0375,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (1.0375,1.8370){};
-\fill[Teal] (1.2500,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (1.2500,1.8370){};
-\fill[Teal] (1.4625,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (1.4625,1.8370){};
-\fill[Teal] (1.6750,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (1.6750,1.8370){};
-\fill[Teal] (1.2500,2.1196) circle (2pt);\node[above right,font=\scriptsize] at (1.2500,2.1196){};
-\fill[Teal] (3.7500,0.4239) circle (2pt);\node[above right,font=\scriptsize] at (3.7500,0.4239){};
-\fill[Teal] (3.4313,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (3.4313,0.7065){};
-\fill[Teal] (3.6437,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (3.6437,0.7065){};
-\fill[Teal] (3.8563,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (3.8563,0.7065){};
-\fill[Teal] (4.0687,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (4.0687,0.7065){};
-\fill[Teal] (3.5375,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (3.5375,0.9891){};
-\fill[Teal] (3.7500,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (3.7500,0.9891){};
-\fill[Teal] (3.9625,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (3.9625,0.9891){};
-\fill[Teal] (3.6437,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (3.6437,1.2717){};
-\fill[Teal] (3.8563,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (3.8563,1.2717){};
-\fill[Teal] (3.3250,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (3.3250,1.5543){};
-\fill[Teal] (3.5375,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (3.5375,1.5543){};
-\fill[Teal] (3.7500,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (3.7500,1.5543){};
-\fill[Teal] (3.9625,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (3.9625,1.5543){};
-\fill[Teal] (4.1750,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (4.1750,1.5543){};
-\fill[Teal] (3.6437,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (3.6437,1.8370){};
-\fill[Teal] (3.8563,1.8370) circle (2pt);\node[above right,font=\scriptsize] at (3.8563,1.8370){};
-\fill[Teal] (3.7500,2.1196) circle (2pt);\node[above right,font=\scriptsize] at (3.7500,2.1196){};
-\fill[Teal] (6.2500,0.4239) circle (2pt);\node[above right,font=\scriptsize] at (6.2500,0.4239){};
-\fill[Teal] (5.7188,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (5.7188,0.7065){};
-\fill[Teal] (5.9313,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (5.9313,0.7065){};
-\fill[Teal] (6.1437,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (6.1437,0.7065){};
-\fill[Teal] (6.3563,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (6.3563,0.7065){};
-\fill[Teal] (6.5687,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (6.5687,0.7065){};
-\fill[Teal] (6.7812,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (6.7812,0.7065){};
-\fill[Teal] (6.1437,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (6.1437,0.9891){};
-\fill[Teal] (6.3563,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (6.3563,0.9891){};
-\fill[Teal] (5.8250,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (5.8250,1.2717){};
-\fill[Teal] (6.0375,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (6.0375,1.2717){};
-\fill[Teal] (6.2500,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (6.2500,1.2717){};
-\fill[Teal] (6.4625,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (6.4625,1.2717){};
-\fill[Teal] (6.6750,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (6.6750,1.2717){};
-\fill[Teal] (6.0375,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (6.0375,1.5543){};
-\fill[Teal] (6.2500,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (6.2500,1.5543){};
-\fill[Teal] (6.4625,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (6.4625,1.5543){};
-\fill[Teal] (8.6438,0.4239) circle (2pt);\node[above right,font=\scriptsize] at (8.6438,0.4239){};
-\fill[Teal] (8.8563,0.4239) circle (2pt);\node[above right,font=\scriptsize] at (8.8563,0.4239){};
-\fill[Teal] (8.1125,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (8.1125,0.5652){};
-\fill[Teal] (8.3250,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (8.3250,0.5652){};
-\fill[Teal] (8.5375,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (8.5375,0.5652){};
-\fill[Teal] (8.7500,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,0.5652){};
-\fill[Teal] (8.9625,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (8.9625,0.5652){};
-\fill[Teal] (9.1750,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (9.1750,0.5652){};
-\fill[Teal] (9.3875,0.5652) circle (2pt);\node[above right,font=\scriptsize] at (9.3875,0.5652){};
-\fill[Teal] (8.6438,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (8.6438,0.7065){};
-\fill[Teal] (8.8563,0.7065) circle (2pt);\node[above right,font=\scriptsize] at (8.8563,0.7065){};
-\fill[Teal] (8.7500,0.8478) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,0.8478){};
-\fill[Teal] (8.6438,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (8.6438,0.9891){};
-\fill[Teal] (8.8563,0.9891) circle (2pt);\node[above right,font=\scriptsize] at (8.8563,0.9891){};
-\fill[Teal] (8.7500,1.1304) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,1.1304){};
-\fill[Teal] (8.7500,1.2717) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,1.2717){};
-\fill[Teal] (8.7500,1.4130) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,1.4130){};
-\fill[Teal] (8.7500,1.5543) circle (2pt);\node[above right,font=\scriptsize] at (8.7500,1.5543){};
-\end{tikzpicture}\end{center}\eqnote{Official medians, rounded: 3.8\%, 3.6\%, 3.4\%, 3.1\%. Editable replot from the Fed’s Figure 2.}
-\end{frame}
-
-% Slide 57: Three objects to keep separate
+% Slide 54: Three objects to keep separate
 
 \begin{frame}{Three objects to keep separate}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.3\textwidth}>{\raggedright\arraybackslash}p{0.39\textwidth}@{}}\toprule \textbf{Object} & \textbf{Whose information?} & \textbf{What is it?}\\\midrule Fed dots & Individual officials & Conditional policy assessments\\[2mm]
@@ -636,24 +514,23 @@ Forward $f_t(T_1,T_2)$ & Market prices today & Rate on a locked future interval\
 Expectation $\mathbb E_t i^{(1)}$ & A model or survey & Belief about a future market rate\\\bottomrule\end{tabular}\end{center}
 \end{frame}
 
-% Slide 58: A cut today can coexist with rising long yields
+% Slide 55: Policy cuts and rising spot yields
 
-\begin{frame}{A cut today can coexist with rising long yields}
-\begin{center}\begin{tabular}{@{}lll@{}}\toprule \textbf{Hypothetical experiment} & \textbf{Before} & \textbf{After}\\\midrule Current policy target $\bar i$ & 4.00\% & 3.75\%\\[2mm]
-Expected average future short rates & 3.30\% & 3.40\%\\[2mm]
-Term premium & 0.70\% & 0.90\%\\[2mm]
-Long yield, approximately & 4.00\% & 4.30\%\\\bottomrule\end{tabular}\end{center}\eqnote{The current setting is only one part of the path. This is an invented scenario.}
+\begin{frame}{Policy cuts and rising spot yields}
+\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.42\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.26\textwidth}@{}}\toprule \textbf{Hypothetical rates} & \textbf{Before} & \textbf{After}\\\midrule Policy target $\bar i$ & 4.00\% & 3.75\%\\[2mm]
+Current one-year spot $i_t(1)$ & 4.00\% & 3.90\%\\[2mm]
+Year-2 expectation + premium & $3.0+0.5=3.5\%$ & $3.4+1.0=4.4\%$\\\bottomrule\end{tabular}\end{center}\[i_t(2):\quad\sqrt{1.040(1.035)}-1\;\longrightarrow\;\sqrt{1.039(1.044)}-1.\]\eqnote{Two-year spot yield: 3.7497\% to 4.1497\%. The policy target and one-year spot are different rates.}
 \end{frame}
 
-% Slide 59: Duration and convexity
+% Slide 56: Duration and convexity
 \section[Duration and convexity]{Duration and convexity}
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 3}\par\vspace{9mm}{\Huge\bfseries Duration and convexity}\par\vspace{7mm}{\Large How does a discount-rate move change the price?}
 \end{frame}
 
-% Slide 60: The price–yield relation is curved
+% Slide 57: Price sensitivity to a yield change
 
-\begin{frame}{The price–yield relation is curved}
+\begin{frame}{Price sensitivity to a yield change}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
 \draw[Ink!10] (0.0000,0.0000)--(0.0000,2.4500);\node[below,font=\scriptsize] at (0.0000,0.0000){1};
 \draw[Ink!10] (2.5000,0.0000)--(2.5000,2.4500);\node[below,font=\scriptsize] at (2.5000,0.0000){3};
@@ -667,22 +544,22 @@ Long yield, approximately & 4.00\% & 4.30\%\\\bottomrule\end{tabular}\end{center
 \node[below] at (5.0,-.36){Yield i (\%)};\node[anchor=west] at (0,2.75){Price per 100 face};
 \draw[Teal,thick] plot coordinates {(0.0000,2.2508) (0.1250,2.2111) (0.2500,2.1718) (0.3750,2.1330) (0.5000,2.0945) (0.6250,2.0565) (0.7500,2.0189) (0.8750,1.9817) (1.0000,1.9449) (1.1250,1.9085) (1.2500,1.8725) (1.3750,1.8368) (1.5000,1.8016) (1.6250,1.7667) (1.7500,1.7322) (1.8750,1.6981) (2.0000,1.6643) (2.1250,1.6309) (2.2500,1.5978) (2.3750,1.5651) (2.5000,1.5328) (2.6250,1.5008) (2.7500,1.4691) (2.8750,1.4378) (3.0000,1.4068) (3.1250,1.3761) (3.2500,1.3457) (3.3750,1.3157) (3.5000,1.2860) (3.6250,1.2566) (3.7500,1.2275) (3.8750,1.1987) (4.0000,1.1702) (4.1250,1.1421) (4.2500,1.1142) (4.3750,1.0866) (4.5000,1.0593) (4.6250,1.0323) (4.7500,1.0055) (4.8750,0.9791) (5.0000,0.9529) (5.1250,0.9270) (5.2500,0.9013) (5.3750,0.8760) (5.5000,0.8509) (5.6250,0.8260) (5.7500,0.8014) (5.8750,0.7771) (6.0000,0.7530) (6.1250,0.7292) (6.2500,0.7056) (6.3750,0.6822) (6.5000,0.6591) (6.6250,0.6363) (6.7500,0.6136) (6.8750,0.5912) (7.0000,0.5691) (7.1250,0.5471) (7.2500,0.5254) (7.3750,0.5039) (7.5000,0.4826) (7.6250,0.4616) (7.7500,0.4408) (7.8750,0.4201) (8.0000,0.3997) (8.1250,0.3795) (8.2500,0.3595) (8.3750,0.3397) (8.5000,0.3201) (8.6250,0.3007) (8.7500,0.2815) (8.8750,0.2625) (9.0000,0.2437) (9.1250,0.2250) (9.2500,0.2066) (9.3750,0.1884) (9.5000,0.1703) (9.6250,0.1524) (9.7500,0.1347) (9.8750,0.1172) (10.0000,0.0998)};
 \fill[Ink] (5.0000,0.9529) circle (2pt);\node[above right,font=\scriptsize] at (5.0000,0.9529){Initial point};
-\end{tikzpicture}\end{center}\eqnote{Ten-year zero, fixed face value 100. In this section i is the yield varied in the pricing formula.}
+\end{tikzpicture}\end{center}\eqnote{Fix cash flows and remaining maturity; vary only the yield. That yield comes from the term structure.}
 \end{frame}
 
-% Slide 61: Modified duration is the normalized slope
+% Slide 58: Modified duration is the normalized slope
 
 \begin{frame}{Modified duration is the normalized slope}
 \[D_{\rm mod}=-\frac1p\frac{dp}{di}.\]\[\frac{\Delta p}{p}\approx-D_{\rm mod}\Delta i.\]\eqnote{A 50 bp increase means $\Delta i$ = 0.005. The negative sign gives the price loss.}
 \end{frame}
 
-% Slide 62: A zero’s duration follows by differentiation
+% Slide 59: A zero’s duration follows by differentiation
 
 \begin{frame}{A zero’s duration follows by differentiation}
 \[p=F(1+i)^{-T},\qquad \frac{dp}{di}=-TF(1+i)^{-T-1}.\]\[\boxed{D_{\rm mod}=\frac{T}{1+i}.}\]\[T=10,\quad i=5\%\quad\Rightarrow\quad D_{\rm mod}=9.5238.\]
 \end{frame}
 
-% Slide 63: Coupon duration weights the payment dates
+% Slide 60: Coupon duration weights the payment dates
 
 \begin{frame}{Coupon duration weights the payment dates}
 \begin{center}\begin{tabular}{@{}lll@{}}\toprule \textbf{Date k} & \textbf{Cash flow} & \textbf{PV weight}\\\midrule 1 & 4 & 3.92\%\\[2mm]
@@ -690,43 +567,44 @@ Long yield, approximately & 4.00\% & 4.30\%\\\bottomrule\end{tabular}\end{center
 3 & 104 & 92.35\%\\\bottomrule\end{tabular}\end{center}\[D_{\rm Mac}=\sum_k k\,w_k=2.8844\text{ years}.\]
 \end{frame}
 
-% Slide 64: Macaulay and modified duration
+% Slide 61: Macaulay and modified duration
 
 \begin{frame}{Macaulay and modified duration}
-\[D_{\rm mod}=\frac{D_{\rm Mac}}{1+i}.\]\[D_{m Mac}=2.8844\quad\Rightarrow\quad D_{\rm mod}=2.7470\quad\text{at }i=5\%.\]\eqnote{Annual coupon convention. Payment timing gives Macaulay duration; the derivative gives modified duration.}
+\[D_{\rm mod}=\frac{D_{\rm Mac}}{1+i}.\]\[D_{
+m Mac}=2.8844\quad\Rightarrow\quad D_{\rm mod}=2.7470\quad\text{at }i=5\%.\]\eqnote{Annual coupon convention. Payment timing gives Macaulay duration; the derivative gives modified duration.}
 \end{frame}
 
-% Slide 65: DV01 converts sensitivity into money
+% Slide 62: Dollar value of one basis point: DV01
 
-\begin{frame}{DV01 converts sensitivity into money}
-\[DV01\approx V D_{\rm mod}\times10^{-4}.\]\[V=1{,}000{,}000,\quad D_{\rm mod}=8\quad\Rightarrow\quad DV01=800.\]\eqnote{DV01 is currency units per basis point. One bp = 0.01 percentage point = 0.0001.}
+\begin{frame}{Dollar value of one basis point: DV01}
+\point{DV01 means the dollar value of a one-basis-point yield move.}\[DV01\approx V D_{\rm mod}\times10^{-4}.\]\[V=\$1{,}000{,}000,\quad D_{\rm mod}=8\quad\Rightarrow\quad DV01=\$800/\mathrm{bp}.\]\eqnote{One bp = 0.01 percentage point = 0.0001. A 1 bp rise costs a long position about \$800.}
 \end{frame}
 
-% Slide 66: A ten-basis-point move
+% Slide 63: A ten-basis-point move
 
 \begin{frame}{A ten-basis-point move}
 \[\Delta i=+10\text{ bp}\quad\Rightarrow\quad\Delta V\approx-800\times10=-8{,}000.\]\[\Delta i=-10\text{ bp}\quad\Rightarrow\quad\Delta V\approx+8{,}000.\]\point{The linear approximation is symmetric. The exact price curve is curved.}
 \end{frame}
 
-% Slide 67: Duration comes from a Taylor expansion
+% Slide 64: Duration comes from a Taylor expansion
 
 \begin{frame}{Duration comes from a Taylor expansion}
 \[p(i+\Delta i)=p(i)+p'(i)\Delta i+\frac12p''(i)(\Delta i)^2+O((\Delta i)^3).\]\point{The first derivative is the tangent. The second derivative measures curvature.}\eqnote{Cash flows and maturity are fixed while the yield parameter changes.}
 \end{frame}
 
-% Slide 68: Convexity normalizes the second derivative
+% Slide 65: Convexity normalizes the second derivative
 
 \begin{frame}{Convexity normalizes the second derivative}
 \[\mathcal C=\frac1p\frac{d^2p}{di^2}.\]\[\boxed{\frac{\Delta p}{p}\approx-D_{\rm mod}\Delta i+\frac12\mathcal C(\Delta i)^2.}\]\eqnote{For a noncallable bond with fixed positive payments, the price–yield convexity is positive.}
 \end{frame}
 
-% Slide 69: A zero’s convexity is explicit
+% Slide 66: A zero’s convexity is explicit
 
 \begin{frame}{A zero’s convexity is explicit}
 \[\frac{d^2p}{di^2}=T(T+1)F(1+i)^{-T-2}.\]\[\boxed{\mathcal C=\frac{T(T+1)}{(1+i)^2}.}\]\[T=10,\quad i=5\%\quad\Rightarrow\quad\mathcal C=99.7732.\]
 \end{frame}
 
-% Slide 70: Exact, tangent and quadratic repricing
+% Slide 67: Exact, tangent and quadratic repricing
 
 \begin{frame}{Exact, tangent and quadratic repricing}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
@@ -750,26 +628,26 @@ Long yield, approximately & 4.00\% & 4.30\%\\\bottomrule\end{tabular}\end{center
 \end{tikzpicture}\end{center}\eqnote{Ten-year zero, initial yield 5\%, face 100. The quadratic follows the exact curve more closely locally.}
 \end{frame}
 
-% Slide 71: Work out a one-percentage-point move
+% Slide 68: Work out a one-percentage-point move
 
 \begin{frame}{Work out a one-percentage-point move}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Yield move} & \textbf{Exact} & \textbf{Duration} & \textbf{With convexity}\\\midrule -1 point & +10.042\% & +9.524\% & +10.023\%\\[2mm]
 +1 point & -9.043\% & -9.524\% & -9.025\%\\\bottomrule\end{tabular}\end{center}\[\tfrac12\mathcal C(0.01)^2=0.0049887\approx0.499\%.\]
 \end{frame}
 
-% Slide 72: The asymmetry has economic meaning
+% Slide 69: The asymmetry has economic meaning
 
 \begin{frame}{The asymmetry has economic meaning}
 \point{For equal rate moves, the gain from a fall exceeds the loss from a rise.}\point{More distant fixed payments generally amplify the curvature.}\eqnote{Positive convexity is valuable, but securities with different convexity need not have the same price or yield.}
 \end{frame}
 
-% Slide 73: Sensitivity is conditional on the experiment
+% Slide 70: Sensitivity is conditional on the experiment
 
 \begin{frame}{Sensitivity is conditional on the experiment}
 \point{A single-yield bump isolates one price-risk channel.}\point{Curve twists, credit spreads and changing cash flows need additional exposures.}\eqnote{Duration matching removes a local parallel-move exposure. It does not make a portfolio riskless.}
 \end{frame}
 
-% Slide 74: A liability changes what counts as risky
+% Slide 71: A liability changes what counts as risky
 
 \begin{frame}{A liability changes what counts as risky}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.41\textwidth}>{\raggedright\arraybackslash}p{0.52\textwidth}@{}}\toprule \textbf{Ten-year nominal liability of 100} & \textbf{Investment choice}\\\midrule Match the cash flow & A ten-year default-free zero pays 100 on the required date\\[2mm]
@@ -777,44 +655,46 @@ Roll short bills & The future reinvestment path is uncertain\\[2mm]
 Trade a long bond over one year & The sale price is uncertain\\\bottomrule\end{tabular}\end{center}
 \end{frame}
 
-% Slide 75: A bond fund usually keeps exposure beyond one maturity
+% Slide 72: A bond fund usually keeps exposure beyond one maturity
 
 \begin{frame}{A bond fund usually keeps exposure beyond one maturity}
 \point{A single bond has a contractual maturity payment.}\point{A rolling bond fund continually replaces holdings and retains a duration exposure.}\eqnote{The relevant comparison is the investor’s cash-flow need and holding horizon.}
 \end{frame}
 
-% Slide 76: Hedging and market cases
+% Slide 73: Hedging and market cases
 \section[Hedging and market cases]{Hedging and market cases}
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 3}\par\vspace{9mm}{\Huge\bfseries Hedging and market cases}\par\vspace{7mm}{\Large How does a finance view become a position with a measurable risk?}
 \end{frame}
 
-% Slide 77: News lab: income horizon or price trade?
+% Slide 74: News lab: income horizon or price trade?
 
 \begin{frame}{News lab: income horizon or price trade?}
 \point{A WSJ bond-strategy column asks investors to identify their objective.}\point{Compare a fixed spending need with a forecast of a bond-price rally.}\eqnote{Telis Demos, WSJ, 8 October 2026. Discussion prompt, not a trade recommendation.}
+\eqnote{\href{https://www.wsj.com/finance/investing/choosing-the-right-bond-strategy-for-todays-high-yield-world-0c4b6a78}{Read the WSJ column}}
 \end{frame}
 
-% Slide 78: News lab: buying during a Treasury sell-off
+% Slide 75: News lab: buying during a Treasury sell-off
 
 \begin{frame}{News lab: buying during a Treasury sell-off}
 \point{FT reporting describes investors adding Treasuries after a substantial rise in yields.}\point{A higher starting yield improves the quoted entry rate; a further rate rise can still create a near-term loss.}\eqnote{Clarfelt and Duguid, Financial Times, 13 October 2026. Separate the report from our hypothetical exercise.}
+\eqnote{\href{https://www.ft.com/content/6fa735a2-a590-4461-b092-920ba489e7a8}{Read the Financial Times article}}
 \end{frame}
 
-% Slide 79: Two real auctions, two different questions
+% Slide 76: Two real auctions, two different questions
 
 \begin{frame}{Two real auctions, two different questions}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Auction} & \textbf{Offering} & \textbf{High yield} & \textbf{Bid-to-cover}\\\midrule 7 Oct: ten-year note reopening & 39 bn & 5.300\% & 2.77\\[2mm]
 8 Oct: thirty-year bond reopening & 22 bn & 5.618\% & 2.54\\\bottomrule\end{tabular}\end{center}\eqnote{TreasuryDirect results, October 2026. These are auction yields, not coupon rates or total returns.}
 \end{frame}
 
-% Slide 80: An auction tail needs a market benchmark
+% Slide 77: An auction tail needs a market benchmark
 
 \begin{frame}{An auction tail needs a market benchmark}
 \[\text{Tail}=\text{auction stop yield}-\text{when-issued yield at the auction deadline}.\]\[5.30\%-5.28\%=0.02\text{ points}=2\text{ bp}.\]\eqnote{Illustrative numbers. Same issue, timestamp and quote convention are required.}
 \end{frame}
 
-% Slide 81: A curve view needs two maturity scenarios
+% Slide 78: A curve view needs two maturity scenarios
 
 \begin{frame}{A curve view needs two maturity scenarios}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
@@ -836,27 +716,27 @@ Trade a long bond over one year & The sale price is uncertain\\\bottomrule\end{t
 \end{tikzpicture}\end{center}\eqnote{Two risk points in an invented trade scenario. This is not a sparse empirical curve estimate.}
 \end{frame}
 
-% Slide 82: This scenario is a bull steepening
+% Slide 79: This scenario is a bull steepening
 
 \begin{frame}{This scenario is a bull steepening}
 \[\text{Slope}=i_{10}-i_2.\]\[4.50\%-4.20\%=0.30\%\quad\longrightarrow\quad4.40\%-3.70\%=0.70\%.\]\point{Yields fall. The long-minus-short yield spread widens.}
 \end{frame}
 
-% Slide 83: Expressing the relative view
+% Slide 80: Expressing the relative view
 
 \begin{frame}{Expressing the relative view}
 \begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.31\textwidth}>{\raggedright\arraybackslash}p{0.31\textwidth}>{\raggedright\arraybackslash}p{0.31\textwidth}@{}}\toprule \textbf{Leg} & \textbf{Benefit} & \textbf{Risk in this scenario}\\\midrule Buy two-year bond & Its yield falls 50 bp & Positive price contribution\\[2mm]
 Short ten-year bond & Its yield rises & Its 10 bp fall produces a loss\\\bottomrule\end{tabular}\end{center}\eqnote{A slope view needs a risk hedge. Equal face amounts do not match rate sensitivity.}
 \end{frame}
 
-% Slide 84: Match DV01, rather than market values
+% Slide 81: Match DV01, rather than market values
 
 \begin{frame}{Match DV01, rather than market values}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Position} & \textbf{Market value} & \textbf{Modified duration} & \textbf{DV01}\\\midrule Long two-year & 1,000,000 & 1.8 & 180 / bp\\[2mm]
 Short ten-year & ? & 8.0 & 180 / bp\\\bottomrule\end{tabular}\end{center}\[V_{\rm short}=\frac{180}{8(0.0001)}=225{,}000.\]
 \end{frame}
 
-% Slide 85: Work out the scenario profit and loss
+% Slide 82: Work out the scenario profit and loss
 
 \begin{frame}{Work out the scenario profit and loss}
 \begin{center}\begin{tabular}{@{}lll@{}}\toprule \textbf{Leg} & \textbf{Yield move} & \textbf{Approximate P\&L}\\\midrule Long two-year & $-$50 bp & $+180(50)=+9{,}000$\\[2mm]
@@ -864,13 +744,13 @@ Short ten-year & $-$10 bp & $-180(10)=-1{,}800$\\[2mm]
 Combined & 40 bp steepening & $+7{,}200$\\\bottomrule\end{tabular}\end{center}\eqnote{First-order repricing before carry, financing, trading costs and convexity.}
 \end{frame}
 
-% Slide 86: A small parallel move cancels at first order
+% Slide 83: A small parallel move cancels at first order
 
 \begin{frame}{A small parallel move cancels at first order}
 \[\Delta i_2=\Delta i_{10}=+25\text{ bp}.\]\[\Delta V\approx-180(25)+180(25)=0.\]\eqnote{The spread does not change. Higher-order risk and financing remain.}
 \end{frame}
 
-% Slide 87: Counterfactual: the curve flattens
+% Slide 84: Counterfactual: the curve flattens
 
 \begin{frame}{Counterfactual: the curve flattens}
 \begin{center}\begin{tabular}{@{}lll@{}}\toprule \textbf{Leg} & \textbf{Alternative yield move} & \textbf{Approximate P\&L}\\\midrule Long two-year & $-$10 bp & $+1{,}800$\\[2mm]
@@ -878,68 +758,101 @@ Short ten-year & $-$50 bp & $-9{,}000$\\[2mm]
 Combined & 40 bp flattening & $-7{,}200$\\\bottomrule\end{tabular}\end{center}\point{Both bonds rally, but this steepener loses.}
 \end{frame}
 
-% Slide 88: A cut with a sell-off: the complete calculation
+% Slide 85: Price impact of the policy-cut scenario
 
-\begin{frame}{A cut with a sell-off: the complete calculation}
-\[\Delta i_{10}\approx+0.10+0.20=+0.30\text{ percentage points}.\]\[V=1{,}000{,}000,\quad D_{\rm mod}=8\quad\Rightarrow\quad\Delta V\approx-24{,}000.\]\[\mathcal C=80\quad\Rightarrow\quad\text{quadratic correction}=+360.\]
+\begin{frame}{Price impact of the policy-cut scenario}
+\[\Delta i_2\approx+40\mathrm{\ bp}=+0.004.\]\[V=1{,}000{,}000,\quad D_{\rm mod}=1.8\quad\Rightarrow\quad\Delta V\approx-7{,}200.\]\[\mathcal C=5\quad\Rightarrow\quad\tfrac12 V\mathcal C(0.004)^2=+40.\]\eqnote{Approximate repricing: $-$7,160. The yield shock is rounded; carry and financing are excluded.}
 \end{frame}
 
-% Slide 89: Questions before taking the trade
+% Slide 86: Questions before taking the trade
 
 \begin{frame}{Questions before taking the trade}
 \point{Which future cash flow, rate shock and holding horizon are being priced?}\point{How does the forecast differ from the forward curve or market baseline?}\point{What happens under the opposite curve move, after financing and costs?}
 \end{frame}
 
-% Slide 90: Optional foundations
+% Slide 87: Optional foundations
 \section[Optional foundations]{Optional foundations}
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 3}\par\vspace{9mm}{\Huge\bfseries Optional foundations}\par\vspace{7mm}{\Large How do dates, states and compounding fit one pricing framework?}
 \end{frame}
 
-% Slide 91: General forward intervals
+% Slide 88: General forward intervals
 
 \begin{frame}{General forward intervals}
 \[[1+f_t(T_1,T_2)]^{T_2-T_1}=\frac{d_t(T_1)}{d_t(T_2)}.\]\[f_t(T_1,T_2)=\left[\frac{d_t(T_1)}{d_t(T_2)}\right]^{1/(T_2-T_1)}-1.\]\eqnote{Annual-effective forward convention. Actual contracts can use simple interest and specific day counts.}
 \end{frame}
 
-% Slide 92: Continuous and annual-effective spot rates
+% Slide 89: Continuous and annual-effective spot rates
 
 \begin{frame}{Continuous and annual-effective spot rates}
 \[d_t(T)=e^{-z_t(T)T}=[1+i_t(T)]^{-T}.\]\[i_t(T)=e^{z_t(T)}-1.\]\eqnote{The Fed and ECB zero inputs use continuous rates z. Our matched-date comparison converts them to i.}
 \end{frame}
 
-% Slide 93: The par coupon comes from discount factors
+% Slide 90: The par coupon comes from discount factors
 
 \begin{frame}{The par coupon comes from discount factors}
 \[F=c_{\rm par}F\sum_{k=1}^{n}d_t(k)+Fd_t(n).\]\[\boxed{c_{\rm par}=\frac{1-d_t(n)}{\sum_{k=1}^{n}d_t(k)}.}\]\eqnote{Annual coupon dates and unit year fractions in this simplified formula.}
 \end{frame}
 
-% Slide 94: Two states: equal average payoff, different price
+% Slide 91: Optional: ACM estimates
+
+\begin{frame}{Optional: ACM estimates}
+\begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
+\draw[Ink!10] (0.0000,0.0000)--(0.0000,2.5500);\node[below,font=\scriptsize] at (0.0000,0.0000){2020};
+\draw[Ink!10] (3.0000,0.0000)--(3.0000,2.5500);\node[below,font=\scriptsize] at (3.0000,0.0000){2022};
+\draw[Ink!10] (6.0000,0.0000)--(6.0000,2.5500);\node[below,font=\scriptsize] at (6.0000,0.0000){2024};
+\draw[Ink!10] (9.0000,0.0000)--(9.0000,2.5500);\node[below,font=\scriptsize] at (9.0000,0.0000){2026};
+\draw[Ink!10] (0.0000,0.0000)--(10.0000,0.0000);\node[left,font=\scriptsize] at (0.0000,0.0000){-2};
+\draw[Ink!10] (0.0000,0.6375)--(10.0000,0.6375);\node[left,font=\scriptsize] at (0.0000,0.6375){0};
+\draw[Ink!10] (0.0000,1.2750)--(10.0000,1.2750);\node[left,font=\scriptsize] at (0.0000,1.2750){2};
+\draw[Ink!10] (0.0000,1.9125)--(10.0000,1.9125);\node[left,font=\scriptsize] at (0.0000,1.9125){4};
+\draw[Ink!10] (0.0000,2.5500)--(10.0000,2.5500);\node[left,font=\scriptsize] at (0.0000,2.5500){6};
+\draw[->,Ink!70] (0,0)--(10.22,0);\draw[->,Ink!70] (0,0)--(0,2.73);
+\node[below] at (5.0,-.36){Month-end observation};\node[anchor=west] at (0,2.8499999999999996){Percent};
+\draw[Ink!40,dashed] (0.0000,0.6375)--(10.0000,0.6375);
+\draw[Ink,thick] plot coordinates {(0.0000,1.1219) (0.1250,1.0005) (0.2500,0.8842) (0.3750,0.8557) (0.5000,0.8511) (0.6250,0.8508) (0.7500,0.8100) (0.8750,0.8661) (1.0000,0.8524) (1.1250,0.9208) (1.2500,0.9073) (1.3750,0.9323) (1.5000,0.9967) (1.6250,1.1296) (1.7500,1.2328) (1.8750,1.1966) (2.0000,1.1760) (2.1250,1.1259) (2.2500,1.0522) (2.3750,1.0702) (2.5000,1.1451) (2.6250,1.1569) (2.7500,1.1133) (2.8750,1.1428) (3.0000,1.2314) (3.1250,1.2370) (3.2500,1.3835) (3.3750,1.5753) (3.5000,1.5623) (3.6250,1.6266) (3.7500,1.4925) (3.8750,1.6502) (4.0000,1.8685) (4.1250,1.9727) (4.2500,1.8033) (4.3750,1.8657) (4.5000,1.7493) (4.6250,1.9098) (4.7500,1.7580) (4.8750,1.7434) (5.0000,1.8098) (5.1250,1.8647) (5.2500,1.9034) (5.3750,1.9405) (5.5000,2.1267) (5.6250,2.2162) (5.7500,2.0494) (5.8750,1.8823) (6.0000,1.9132) (6.1250,1.9951) (6.2500,1.9679) (6.3750,2.1127) (6.5000,2.0747) (6.6250,2.0171) (6.7500,1.9354) (6.8750,1.8817) (7.0000,1.8436) (7.1250,2.0071) (7.2500,1.9718) (7.3750,2.0995) (7.5000,2.1021) (7.6250,1.9939) (7.7500,1.9926) (7.8750,1.9821) (8.0000,2.0610) (8.1250,2.0020) (8.2500,2.0394) (8.3750,1.9997) (8.5000,1.9759) (8.6250,1.9615) (8.7500,1.9390) (8.8750,1.9905) (9.0000,2.0126) (9.1250,1.9223) (9.2500,2.0230) (9.3750,2.0552) (9.5000,2.0760) (9.6250,2.0646) (9.7500,2.1749) (9.8750,2.1730) (10.0000,2.3138)};
+\draw[Teal,thick] plot coordinates {(0.0000,1.4808) (0.1250,1.4116) (0.2500,1.2684) (0.3750,1.2697) (0.5000,1.2512) (0.6250,1.2437) (0.7500,1.2489) (0.8750,1.2216) (1.0000,1.2291) (1.1250,1.2140) (1.2500,1.2173) (1.3750,1.1928) (1.5000,1.1678) (1.6250,1.1664) (1.7500,1.1405) (1.8750,1.1468) (2.0000,1.1354) (2.1250,1.2139) (2.2500,1.2107) (2.3750,1.2270) (2.5000,1.2457) (2.6250,1.3109) (2.7500,1.3443) (2.8750,1.3604) (3.0000,1.4421) (3.1250,1.4910) (3.2500,1.6586) (3.3750,1.7013) (3.5000,1.6855) (3.6250,1.7375) (3.7500,1.7725) (3.8750,1.8919) (4.0000,2.0324) (4.1250,2.0376) (4.2500,2.0429) (4.3750,2.0509) (4.5000,2.0052) (4.6250,2.0684) (4.7500,1.9915) (4.8750,1.9806) (5.0000,2.0303) (5.1250,2.1106) (5.2500,2.1061) (5.3750,2.1062) (5.5000,2.0810) (5.6250,2.0888) (5.7500,2.0340) (5.8750,1.9921) (6.0000,1.9811) (6.1250,2.0481) (6.2500,2.0549) (6.3750,2.1263) (6.5000,2.0755) (6.6250,2.0592) (6.7500,1.9744) (6.8750,1.9246) (7.0000,1.8817) (7.1250,1.9572) (7.2500,1.9479) (7.3750,1.9482) (7.5000,1.9477) (7.6250,1.9129) (7.7500,1.8767) (7.8750,1.7950) (8.0000,1.8272) (8.1250,1.8052) (8.2500,1.8396) (8.3750,1.7546) (8.5000,1.7824) (8.6250,1.7834) (8.7500,1.7547) (8.8750,1.7522) (9.0000,1.7696) (9.1250,1.7338) (9.2500,1.8162) (9.3750,1.8274) (9.5000,1.8654) (9.6250,1.9032) (9.7500,1.9093) (9.8750,1.9309) (10.0000,2.0317)};
+\draw[Rust,dashed,thick] plot coordinates {(0.0000,0.2786) (0.1250,0.2264) (0.2500,0.2533) (0.3750,0.2235) (0.5000,0.2374) (0.6250,0.2446) (0.7500,0.1986) (0.8750,0.2820) (1.0000,0.2608) (1.1250,0.3443) (1.2500,0.3275) (1.3750,0.3770) (1.5000,0.4664) (1.6250,0.6007) (1.7500,0.7297) (1.8750,0.6874) (2.0000,0.6780) (2.1250,0.5495) (2.2500,0.4790) (2.3750,0.4806) (2.5000,0.5370) (2.6250,0.4835) (2.7500,0.4064) (2.8750,0.4199) (3.0000,0.4268) (3.1250,0.3835) (3.2500,0.3624) (3.3750,0.5115) (3.5000,0.5144) (3.6250,0.5266) (3.7500,0.3575) (3.8750,0.3958) (4.0000,0.4736) (4.1250,0.5725) (4.2500,0.3979) (4.3750,0.4523) (4.5000,0.3816) (4.6250,0.4789) (4.7500,0.4040) (4.8750,0.4003) (5.0000,0.4170) (5.1250,0.3916) (5.2500,0.4349) (5.3750,0.4718) (5.5000,0.6832) (5.6250,0.7649) (5.7500,0.6529) (5.8750,0.5277) (6.0000,0.5696) (6.1250,0.5845) (6.2500,0.5506) (6.3750,0.6240) (6.5000,0.6367) (6.6250,0.5954) (6.7500,0.5985) (6.8750,0.5945) (7.0000,0.5995) (7.1250,0.6874) (7.2500,0.6615) (7.3750,0.7887) (7.5000,0.7919) (7.6250,0.7185) (7.7500,0.7534) (7.8750,0.8247) (8.0000,0.8713) (8.1250,0.8344) (8.2500,0.8373) (8.3750,0.8826) (8.5000,0.8310) (8.6250,0.8156) (8.7500,0.8218) (8.8750,0.8759) (9.0000,0.8805) (9.1250,0.8260) (9.2500,0.8444) (9.3750,0.8652) (9.5000,0.8481) (9.6250,0.7989) (9.7500,0.9031) (9.8750,0.8795) (10.0000,0.9196)};
+\draw[Ink,thick] (0.0,3.3099999999999996)--(0.35,3.3099999999999996);\node[anchor=west,font=\small] at (0.45,3.3099999999999996){Fitted yield};
+\draw[Teal,thick] (3.3333333333333335,3.3099999999999996)--(3.6833333333333336,3.3099999999999996);\node[anchor=west,font=\small] at (3.7833333333333337,3.3099999999999996){Modeled path};
+\draw[Rust,dashed] (6.666666666666667,3.3099999999999996)--(7.016666666666667,3.3099999999999996);\node[anchor=west,font=\small] at (7.116666666666667,3.3099999999999996){Term premium};
+\end{tikzpicture}\end{center}\eqnote{NY Fed ACM model, ten-year maturity. January 2020–September 2026. Components are estimates.}
+\end{frame}
+
+% Slide 92: ACM components use a model convention
+
+\begin{frame}{ACM components use a model convention}
+\[4.37\%+0.89\%=5.26\%\quad\text{approximately}.\]\begin{center}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.6\textwidth}>{\raggedright\arraybackslash}p{0.33\textwidth}@{}}\toprule \textbf{30 September 2026} & \textbf{ACM estimate}\\\midrule Modeled rate-path component & 4.3740\%\\[2mm]
+Term premium & 0.8850\%\\[2mm]
+Fitted ten-year yield & 5.2590\%\\\bottomrule\end{tabular}\end{center}\eqnote{An additive reporting convention of this model. The core pricing relation compounds forwards.}
+\end{frame}
+
+% Slide 93: Two states: equal average payoff, different price
 
 \begin{frame}{Two states: equal average payoff, different price}
 \begin{center}\begin{tabular}{@{}lllll@{}}\toprule \textbf{Payoff} & \textbf{Good state} & \textbf{Bad state} & \textbf{Expected payoff} & \textbf{Price}\\\midrule A & 100 & 0 & 50 & 40.00\\[2mm]
 B & 0 & 100 & 50 & 56.15\\\bottomrule\end{tabular}\end{center}\eqnote{Original two-state example. Both states have probability 1/2. Payments in the bad state are more valuable.}
 \end{frame}
 
-% Slide 95: A stochastic discount factor prices states
+% Slide 94: A stochastic discount factor prices states
 
 \begin{frame}{A stochastic discount factor prices states}
 \[p_t=\mathbb E_t[m_{t+1}X_{t+1}].\]\[p_t=\mathbb E_t[m]\,\mathbb E_t[X]+\operatorname{Cov}_t(m,X).\]\eqnote{X: future payoff. m: value today per unit paid in that state, adjusted for its probability.}
 \end{frame}
 
-% Slide 96: Optional liability hedge: match value and duration
+% Slide 95: Optional liability hedge: match value and duration
 
 \begin{frame}{Optional liability hedge: match value and duration}
 \[\text{Liability: }100\text{ in ten years},\qquad i=5\%.\]\[w_1+w_{20}=1,\qquad 1w_1+20w_{20}=10.\]\[w_1=\frac{10}{19},\qquad w_{20}=\frac9{19}.\]\eqnote{Weights are current market-value shares in one- and twenty-year zeros.}
 \end{frame}
 
-% Slide 97: Reading
+% Slide 96: Reading
 \section[Reading]{Reading}
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 3}\par\vspace{9mm}{\Huge\bfseries Reading}\par\vspace{7mm}{\Large Where can we deepen the finance and market perspective?}
 \end{frame}
 
-% Slide 98: Reading and next questions
+% Slide 97: Reading and next questions
 
 \begin{frame}{Reading and next questions}
 \point{Bodie, Kane and Marcus: pricing, term structure and bond-risk management.}\point{The two supplied finance courses: replication, realized returns, auctions and immunization.}\point{Fed, Treasury and ECB sources; WSJ and FT discussion readings via MIT.}\eqnote{Exact chapters, page mappings, dates and links are in the speaker notes and reading list.}

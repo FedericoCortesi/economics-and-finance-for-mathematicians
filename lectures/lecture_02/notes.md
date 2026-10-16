@@ -396,79 +396,91 @@ This is a possible rule a central banker might follow, not an accounting identit
 
 Reference: [Federal Reserve, Policy principles](https://www.federalreserve.gov/monetarypolicy/principles-for-the-conduct-of-monetary-policy.htm). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 66 — A simple Phillips relationship
+## Slide 66 — Fed policy assessments: June 2026
+
+The Fed’s vector chart contains 18 dots for 2026, 18 for 2027, 17 for 2028 and 18 longer-run dots. Projection values are rounded to one-eighth percentage point in the official figure. Extracted medians are 3.75, 3.625, 3.375 and 3.0625 percent, which match the published one-decimal medians 3.8, 3.6, 3.4 and 3.1. A median does not identify a particular participant’s whole forecast path. The chart plots the official observations directly and remains editable. The June date is historical, not the current policy outlook.
+
+Reference: [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../../data/fed_dots_june2026.csv.
+
+## Slide 67 — What each dot means
+
+A dot is neither a commitment by the FOMC nor a market contract. Officials provide a policy assessment conditional on their own economic projections. The cross-sectional spread is disagreement among those assessments, not an uncertainty band for one participant or a set of market-implied probabilities. Longer run means convergence under appropriate policy without further shocks, not a security maturity. The June projection date must remain visible when comparing with later news.
+
+Reference: [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../../data/fed_dots_june2026.csv.
+
+## Slide 68 — A simple Phillips relationship
 
 This is a stylised expectations-augmented Phillips relationship, not a permanent inflation-output menu. Expectations and cost shocks shift it. All inflation/gap entries use percentage points here. In long-run equilibrium with a zero gap and zero cost disturbance, actual inflation equals the expected rate.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 67 — Expectations shift the Phillips curve
+## Slide 69 — Expectations shift the Phillips curve
 
 At zero output gap, inflation is 2% or 4% depending on expectations. Moving along one curve changes activity with expectations fixed; changing expectations shifts the curve. This is why policies that temporarily boost demand cannot permanently choose higher output at an unchanged inflation cost.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 68 — Inflation deviations are easier to analyse
+## Slide 70 — Inflation deviations are easier to analyse
 
 Define the deviation before any stability equation. One percentage point means 3 minus 2 here, not a 1% proportional increase. The next slides constitute a conditional mathematical extension rather than an empirical estimate.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 69 — A simple model of inflation persistence
+## Slide 71 — A simple model of inflation persistence
 
 This is an assumed scalar recurrence. The effective coefficient summarises feedback after policy and other mechanisms. Its values are hypothetical. The next graph begins at d_0=1 with later shocks zero. Do not infer a from current high inflation alone.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 70 — The same shock can decay or amplify
+## Slide 72 — The same shock can decay or amplify
 
 With no subsequent shocks, d_t=a^t d_0. A=0.60 converges to target, a=1 preserves the initial deviation, and a=1.15 amplifies it. Negative coefficients of magnitude at least one can create non-decaying/unstable oscillations. The graph is not a forecast or proof that wage catch-up inevitably explodes.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 71 — Exercise: inflation rises while output falls
+## Slide 73 — Exercise: inflation rises while output falls
 
 Ask for separate demand, supply and expectations channels. An unchanged nominal rate can be more or less restrictive if expected inflation or neutral changes. Tightening can reduce second-round demand pressure but cannot directly replace missing energy. There is no unique numerical answer without further assumptions.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 72 — Modern rate targeting
+## Slide 74 — Modern rate targeting
 
 The classic fixed-money model is now complete. Change the monetary closure explicitly: select bar i and supply money/reserves consistently with implementation, instead of independently fixing both the monetary quantity and market i.
 
 Reference: [New York Fed, Policy implementation](https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 73 — Choose the rate, and let the monetary quantity adjust
+## Slide 75 — Choose the rate, and let the monetary quantity adjust
 
 This is the textbook rate-target representation, with a horizontal policy line in (Y,i) space. In actual operating frameworks, reserve supply, administered rates, liquidity facilities and bank behaviour determine implementation; the broad money stock is not mechanically set one-for-one by a central-bank dial. The key comparison is a fixed rate versus a fixed monetary quantity in the simplified model. The Taylor-style reaction rule can change the selected bar i when the state changes, so the horizontal line is a conditional intermeeting setting, not the full reaction function.
 
 Reference: [New York Fed, Policy implementation](https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation). [MIT, Principles of Macroeconomics](https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 74 — With a rate target, policy sets a horizontal line
+## Slide 76 — With a rate target, policy sets a horizontal line
 
 Use the modern rate-target representation after the classic LM mechanism is understood. The bank supplies reserves consistently with implementing its target. It does not directly set each credit rate or every maturity. A horizontal line is this chosen target, not the complete central-bank reaction function.
 
 Reference: [MIT, Principles of Macroeconomics](https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 75 — Fiscal expansion with an unchanged rate target
+## Slide 77 — Fiscal expansion with an unchanged rate target
 
 The illustrative IS changes from i=24−0.2Y to i=26−0.2Y. At i=4, output rises from 100 to 110. Fiscal financing, expectations and other demand components are held fixed. Do not infer the same multiplier under every policy regime.
 
 Reference: [MIT, Principles of Macroeconomics](https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 76 — A private-demand slowdown shifts IS inward
+## Slide 78 — A private-demand slowdown shifts IS inward
 
 Illustrative inward IS is i=22−0.2Y. At i=4, output falls from 100 to 90. This is a shift of planned spending, distinct from a movement caused by changing the rate. A policy response could change the outcome, but is held fixed in this graph.
 
 Reference: [MIT, Principles of Macroeconomics](https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 77 — Optional mathematical extension
+## Slide 79 — Optional mathematical extension
 
 State the question for this section, then ask the group for a prediction before showing the following example.
 
 Reference:  [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 78 — Optional extension: what changes the feedback?
+## Slide 80 — Optional extension: what changes the feedback?
 
 **Optional mathematical extension.**
 
@@ -476,7 +488,7 @@ Offer this block as an optional extension. The main economic logic can be unders
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 79 — Inflation responds to activity and past inflation
+## Slide 81 — Inflation responds to activity and past inflation
 
 **Optional mathematical extension.**
 
@@ -484,7 +496,7 @@ Every variable is now defined on slides preceding the equation or on this slide.
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 80 — Real-rate restraint reduces the output gap
+## Slide 82 — Real-rate restraint reduces the output gap
 
 **Optional mathematical extension.**
 
@@ -492,7 +504,7 @@ Use capital B to avoid reusing the investment parameter b. This response combine
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 81 — Policy adds real restraint when inflation exceeds target
+## Slide 83 — Policy adds real restraint when inflation exceeds target
 
 **Optional mathematical extension.**
 
@@ -500,7 +512,7 @@ This assumed real-rate rule is a simple illustration, not the actual Taylor rule
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 82 — Substitution gives a stability condition
+## Slide 84 — Substitution gives a stability condition
 
 **Optional mathematical extension.**
 
@@ -508,25 +520,25 @@ Substitute the real-rate response into the demand equation, then substitute dema
 
 Reference: [Sergeyev, Bocconi 30054, lecture 23, PDF pp. 14–21](https://drive.google.com/file/d/1FreNyAPUY8fg5c_IjFFi1uUR2dPEXa1K/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 83 — A two-date endowment economy
+## Slide 85 — A two-date endowment economy
 
 In this pure exchange example there is one representative consumer, no production/investment, and a one-period real bond. Aggregate consumption must equal aggregate endowment at each date. Bond holdings sum to zero, but an equilibrium price still determines the rate at which households would want to shift consumption. This is an optional exact foundation for the prior verbal statement.
 
 Reference: [Federal Reserve, Measuring the Natural Rate of Interest](https://www.federalreserve.gov/econres/feds/measuring-the-natural-rate-of-interest.htm). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 84 — The individual intertemporal budget
+## Slide 86 — The individual intertemporal budget
 
 Value both dates in current consumption units. Future consumption and future endowment are discounted at the same real bond rate. Maximising the log utility from the previous slide subject to this budget gives the Euler equation on the next. Aggregate market clearing then selects the rate that makes the individual plan equal available endowments.
 
 Reference: [Federal Reserve, Measuring the Natural Rate of Interest](https://www.federalreserve.gov/econres/feds/measuring-the-natural-rate-of-interest.htm). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 85 — Market clearing pins down a real rate
+## Slide 87 — Market clearing pins down a real rate
 
 The Euler equation compares the marginal utility cost of saving one unit now with the discounted marginal utility gain later. With log utility and market clearing, substitute the endowments. More future resources raise the rate; more patience, a larger beta, lowers it. This special equilibrium is not a universal formula for an observed market rate.
 
 Reference: [Federal Reserve, Measuring the Natural Rate of Interest](https://www.federalreserve.gov/econres/feds/measuring-the-natural-rate-of-interest.htm). [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
-## Slide 86 — Further reading
+## Slide 88 — Further reading
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 

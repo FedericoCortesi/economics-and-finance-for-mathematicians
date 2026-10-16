@@ -1,17 +1,18 @@
-# Lecture 3 — revision map, 16 October 2026
+# Lecture 3 — annotation revision map
 
-The former 37-page bond module is now a 98-page finance module with six short-meeting routes and optional foundations. Its source, PDF, slide-indexed notes and course outline use the same numbering.
+Updated 16 October 2026. Lecture 3 now has 97 pages; Lecture 2 has 88. Each source, PDF, outline and speaker script uses its final numbering.
 
-| Requested change | New pages | Implementation |
-|---|---:|---|
-| Use the two finance courses and textbook | 4–16, 18–26, 34–42, 60–75, 91–96 | Replication, realized returns, bill auctions, immunization and state-dependent payoff valuation; original examples and plots |
-| Keep established notation | 5–6, throughout | i nominal, r real, ī policy target, f forward, F face value; p is an asset price, P remains the price level |
-| Denser empirical curves | 29–33 | All 14 US par tenors, 358 ECB par maturities, common-date monthly fitted zeros and explicit quote conversions |
-| Explain old slide 24 decomposition | 44–53, 57–58 | Uncertain rollover → exact forward compounding → expectations assumption → numerical path → term-risk pricing → defined approximation → estimated data |
-| Supplied Fed chart | 54–57 | Exact supplied image, corrected source caption, explanation of individual dots and editable official-data replot |
-| Convexity and Taylor expansion | 60–73 | Derivatives, normalization, zero formulas, exact/tangent/quadratic comparison, symmetric numerical shocks and option caveat |
-| Auctions and actual numbers | 18–25, 79–80 | Original allocation exercise; current terms/rules; dated four-week, ten-year and thirty-year results; hypothetical tail benchmark |
-| News and finance perspective | 74–89 | Investor horizons, two newspaper prompts, DV01-matched steepener, P&L and adverse counterfactual |
-| Future asset pricing | 94–96 | Optional original two-state payoff example, stochastic discount factor and liability hedge |
+| Original annotation | Current location | Change |
+|---|---|---|
+| 54: image with incorrect credit | Lecture 2, 66–67 | Removed supplied image; kept one official-data dot-plot replot and its explanation, placed after the policy reaction rule |
+| 56: repeated dot plot | Lecture 2, 66 | Only one chart remains across the two lectures, with a clickable official Fed source |
+| 32: meaning of zero curve | Lecture 3, 32–35 | Defines a zero-coupon spot curve, distinguishes STRIPS from fitted discount factors, then shows the empirical curves |
+| 50: multiplicative yields | Lecture 3, 47–53 | Exact product of forward gross returns; separately defined premium for each annual interval; five-year compounded example |
+| 65: unexplained DV01 | Lecture 3, 62–63 | Expands the acronym, defines one basis point, and works through currency sensitivity and signs |
+| 60: yield-shock assumption | Lecture 3, 57–58 | Fixes payments and remaining maturity while changing the yield selected from the term structure |
+| 77: WSJ link | Lecture 3, 74 | Visible clickable article link in the PDF |
+| 78: FT link | Lecture 3, 75 | Visible clickable article link in the PDF |
 
-See [readings and routes](lecture_03_readings.md) for exact source access, textbook pagination and data assumptions. The user-suggested AI-trade article is saved in the private reading backlog for a later Lecture 2 discussion; Lecture 2 is unchanged in this revision.
+ACM estimates are optional at Lecture 3, 91–92. Their additive model-reporting convention is distinguished from the exact compounded-forward pricing relation. The policy-cut example at 55 and its price calculation at 85 now use the compounded spot-yield scenario consistently.
+
+See [readings and routes](lecture_03_readings.md) for the bibliography, dated inputs and access notes.

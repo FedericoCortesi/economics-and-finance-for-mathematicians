@@ -9,8 +9,8 @@ The seven modules below are the current starting point. Future classes will expa
 | Class | Subject | Slides | Teaching time including discussion |
 |---|---|---:|---|
 | 1 | Output, income and capital flows | 42 | 55–70 minutes |
-| 2 | Money, inflation and activity | 86 | 90–120; or four short meetings minutes |
-| 3 | Bonds and yield curves | 98 | 150–180 minutes in six short meetings, plus optional extensions |
+| 2 | Money, inflation and activity | 88 | 90–120; or four short meetings minutes |
+| 3 | Bonds and yield curves | 97 | 150–180 minutes in six short meetings, plus optional extensions |
 | 4 | Foreign exchange | 36 | 55–75 minutes |
 | 5 | Open-economy policy and regimes | 38 | 55–75 minutes |
 | 6 | Currency crises and the euro | 28 | 45–60 minutes |
@@ -41,7 +41,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 
 **Learning objectives:** Use i, r and the policy target ī consistently; discount a zero-coupon payment; distinguish the exact purchasing-power conversion, Fisher approximation and long-run Fisher effect; solve saving/investment shifts; explain inflation without assuming extra money; derive classic LM from money demand and bond-market adjustment; read an illustrative policy rule and post-Covid chart; compare fixed-money policy with rate targeting.
 
-**25–30-minute teaching blocks:** Open with the horizon caveat (2) and bakery illustration (3). Use four short meetings if needed. Rates and the real benchmark: 6–17 (25–30 min). Inflation and money: 18–27 (15 min), 29–35 (12 min). Classic IS–LM: 37–45 (15 min), 49–57 (15 min); 46–48 give the optional spending-function algebra. Policy feedback and modern targeting: 59–67 (15 min), 68–76 (15 min). Slides 77–85 are optional mathematical follow-up. See `docs/lecture_02_revision_map.md` for the original annotated slide numbers.
+**25–30-minute teaching blocks:** Open with the horizon caveat (2) and bakery illustration (3). Use four short meetings if needed. Rates and the real benchmark: 6–17 (25–30 min). Inflation and money: 18–27 (15 min), 29–35 (12 min). Classic IS–LM: 37–45 (15 min), 49–57 (15 min); 46–48 give the optional spending-function algebra. Policy feedback and modern targeting: 59–65 (12 min), 66–67 (Fed communication, 5 min), 68–78 (18 min). Slides 79–87 are optional mathematical follow-up. See `docs/lecture_02_revision_map.md` for the original annotated slide numbers.
 
 | Section | Slide range | Teaching emphasis |
 |---|---:|---|
@@ -49,10 +49,10 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | Interest and inflation | 5–27 | Prediction, mechanism, worked example and discussion |
 | Money and short rates | 28–35 | Prediction, mechanism, worked example and discussion |
 | IS–LM and shocks | 36–57 | Prediction, mechanism, worked example and discussion |
-| Inflation and policy feedback | 58–71 | Prediction, mechanism, worked example and discussion |
-| Modern rate targeting | 72–76 | Prediction, mechanism, worked example and discussion |
-| Optional mathematical extension | 77–85 | Optional algebra or a second pass |
-| Reading | 86–86 | Prediction, mechanism, worked example and discussion |
+| Inflation and policy feedback | 58–73 | Prediction, mechanism, worked example and discussion |
+| Modern rate targeting | 74–78 | Prediction, mechanism, worked example and discussion |
+| Optional mathematical extension | 79–87 | Optional algebra or a second pass |
+| Reading | 88–88 | Prediction, mechanism, worked example and discussion |
 
 **Reading:** Bocconi lecture(s) 6, 23–24; textbook ch. 15 and 16; MIT for IS–LM. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_02/notes.md`.
 
@@ -60,27 +60,27 @@ Times include discussion and are approximate. Optional mathematical slides can b
 
 ## 3. Bonds and yield curves
 
-**Learning objectives:** Price dated cash flows by replication; separate coupon, spot rate, YTM and holding return; clear a Treasury-bill auction and convert its quote conventions; bootstrap a discount factor and derive a locked forward; distinguish market forwards, policy assessments and physical expectations; understand a model-based yield decomposition; derive duration and convexity from Taylor expansion; size and stress a DV01-matched curve trade. Optional extensions introduce state prices and liability immunization.
+**Learning objectives:** Price dated cash flows by replication; separate coupon, spot rate, YTM and holding return; clear a Treasury-bill auction and convert its quote conventions; bootstrap a discount factor and derive a locked forward; distinguish market forwards, policy assessments and physical expectations; compound forward gross returns with period-specific premiums; distinguish ZCB spot curves from traded STRIPS; derive duration and convexity from Taylor expansion; size and stress a DV01-matched curve trade. Optional extensions introduce state prices and liability immunization.
 
-**25–30-minute teaching blocks:** Six meetings: prices/returns (4–16); bills/auctions (18–26); curves/forwards (28–42); expectations/premia/dots (44–58); duration/convexity (60–74); market cases/curve trade (77–89). The [detailed routes](docs/lecture_03_readings.md) allocate minutes within each block. Slides 91–96 are an optional mathematical meeting. Begin with a sign prediction, then compute, then change one assumption.
+**25–30-minute teaching blocks:** Six meetings: prices/returns (4–16); bills/auctions (18–26); curves/forwards (28–44); expectations/premia (46–55); duration/convexity (57–71); market cases/curve trade (74–86). The [detailed routes](docs/lecture_03_readings.md) allocate minutes within each block. Slides 88–95 are an optional mathematical meeting. The official dot plot and its interpretation are in Lecture 2, slides 66–67. Begin with a sign prediction, then compute, then change one assumption.
 
 | Section | Slide range | Teaching emphasis |
 |---|---:|---|
 | Introduction | 1–2 | Route and finance perspective |
 | Cash flows and prices | 3–16 | Replication, zero/coupon prices, YTM versus realized return |
 | Bills and auctions | 17–26 | Allocation, uniform price, observed auction and quotation arithmetic |
-| Curves and forwards | 27–42 | Dense dated curves, spot/par distinction, bootstrap and exact forward replication |
-| Expectations and term premia | 43–58 | Build the approximation gradually; compare model estimates, official dots and traded prices |
-| Duration and convexity | 59–75 | Derivatives, worked Taylor approximation, horizon and liability risk |
-| Hedging and market cases | 76–89 | Newspaper questions, auction evidence, sized steepener and counterfactual |
-| Optional foundations | 90–96 | Compounding, general forwards, par coupons, state prices and immunization |
-| Reading | 97–98 | Finance courses, textbook and current sources |
+| Curves and forwards | 27–44 | Dense dated curves, spot/par distinction, bootstrap and exact forward replication |
+| Expectations and term premia | 45–55 | Exact forward compounding, a premium per future period, and a worked product |
+| Duration and convexity | 56–72 | Derivatives, worked Taylor approximation, horizon and liability risk |
+| Hedging and market cases | 73–86 | Newspaper questions, auction evidence, sized steepener and counterfactual |
+| Optional foundations | 87–95 | General forwards, par coupons, optional ACM model components, state prices and immunization |
+| Reading | 96–97 | Finance courses, textbook and current sources |
 
 **Reading:** Jensen's *Financial Economics* (2023), Parts 2 and 14–16; Rodemeier's *Financial Markets and Institutions* (2022), Lectures 3–4; Bodie, Kane & Marcus, *Investments*, 11th ed., chapters 14–16. Krugman–Obstfeld–Melitz chapter 14 provides the international asset-return bridge. Exact sections, page mappings, official datasets and newspaper access notes are in [Lecture 3 readings](docs/lecture_03_readings.md) and the [source map](docs/source_map.md).
 
 **Trading questions:** What payoff and horizon are being priced? Which future return is locked rather than forecast? How can long yields rise after a policy cut? How much does the curve view gain or lose after sizing both legs and reversing the scenario?
 
-**Accuracy:** Annual-effective teaching rates differ from source-native bill/par conventions. Curves have exact dates; fitted monthly points are not independent quotes. The expected-rate/term-premium split requires a model. A June policy dot is neither a commitment nor a market price. DV01 neutrality is local and conditional; trade P&L excludes financing, costs and cash-flow changes unless stated.
+**Accuracy:** Annual-effective teaching rates differ from source-native bill/par conventions. Curves have exact dates; fitted monthly points are not independent quotes. No-arbitrage compounds forward gross returns exactly. Splitting a forward into an expected future spot rate and a horizon-specific wedge requires expectations information. The optional ACM chart has its own additive model-reporting convention. A June policy dot is neither a commitment nor a market price. DV01 neutrality is local and conditional; trade P&L excludes financing, costs and cash-flow changes unless stated.
 
 ## 4. Foreign exchange
 

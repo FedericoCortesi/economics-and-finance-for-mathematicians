@@ -13,8 +13,8 @@ The current seven modules start with macroeconomics and move through bonds, fore
 | Class | Slides | Pages | Speaker notes |
 |---|---|---:|---|
 | 1 | [Output, income and capital flows](lectures/lecture_01/lecture_01.pdf) | 42 | [Notes](lectures/lecture_01/notes.md) |
-| 2 | [Money, inflation and activity](lectures/lecture_02/lecture_02.pdf) | 86 | [Notes](lectures/lecture_02/notes.md) |
-| 3 | [Bonds and yield curves](lectures/lecture_03/lecture_03.pdf) | 98 | [Notes](lectures/lecture_03/notes.md) |
+| 2 | [Money, inflation and activity](lectures/lecture_02/lecture_02.pdf) | 88 | [Notes](lectures/lecture_02/notes.md) |
+| 3 | [Bonds and yield curves](lectures/lecture_03/lecture_03.pdf) | 97 | [Notes](lectures/lecture_03/notes.md) |
 | 4 | [Foreign exchange](lectures/lecture_04/lecture_04.pdf) | 36 | [Notes](lectures/lecture_04/notes.md) |
 | 5 | [Open-economy policy and regimes](lectures/lecture_05/lecture_05.pdf) | 38 | [Notes](lectures/lecture_05/notes.md) |
 | 6 | [Currency crises and the euro](lectures/lecture_06/lecture_06.pdf) | 28 | [Notes](lectures/lecture_06/notes.md) |
@@ -57,6 +57,6 @@ Krugman, Obstfeld & Melitz, *International Economics: Theory and Policy*, and pu
 
 Examples and unlabelled model curves are hypothetical. Empirical charts use frozen CSV snapshots with observation dates, units and source URLs. Those snapshots describe their stated dates and are not live market views. The notes distinguish accounting identities from causal models and short-run assumptions from long-run benchmarks.
 
-The supplied June Fed dot-plot graphic is credited separately and accompanied by an editable official-data replot. The four teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
+Lecture 2 includes an editable June Fed dot plot sourced directly from the official SEP. The four teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
 
 Prepared by Federico Vittorio Cortesi. This course is a work in progress.

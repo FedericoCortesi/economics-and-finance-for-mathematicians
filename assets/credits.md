@@ -9,6 +9,6 @@ Original illustrations generated with the built-in OpenAI image-generation tool 
 
 Prompts requested a wide 16:9 painted/cut-paper editorial style, navy/teal/ochre on ivory, no text, no numerical data, no logos and clear physical teaching examples. Full generation prompts are retained in `../docs/image_prompts.md` alongside the course source files. No textbook cartoons or photographed slide pages were reused.
 
-## Supplied empirical graphic
+## Official policy data
 
-`fed_dot_plot_supplied_june2026.png` is the Yahoo Finance graphic supplied by Federico for Lecture 3. It is not AI-generated. Its underlying observations were checked against the [Federal Reserve's 17 June 2026 SEP](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf), Figure 2. The supplied image erroneously credits the US Bureau of Labor Statistics; the slide's visible caption corrects the source to the Fed. The image file is unchanged. A separate original TikZ replot uses the frozen official dot data, rather than copying the chart design.
+The June 2026 Fed dot plot in Lecture 2 is an original editable TikZ chart of observations from the [Federal Reserve SEP, 17 June 2026](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf), Figure 2. The supplied Yahoo Finance image is no longer used. The official observations and release date are retained in `../data/fed_dots_june2026.csv`.

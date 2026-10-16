@@ -37,3 +37,7 @@ The revised deck has **86 slides**. This table maps the annotated 69-slide versi
 The post-Covid chart uses BLS CPI and the Federal Reserve target upper bound via FRED, January 2020–September 2026, retrieved 15 October 2026. It uses trailing 12-month CPI inflation and month-end policy observations. October 2025 CPI is missing in the source and is left as a gap. Observed inflation is not expected inflation, so the difference between these lines is not an ex ante real rate. Inputs and transformations are frozen in `../data/us_inflation_policy_2020_2026.csv`.
 
 The textbook references are ch. 16, printed pp. 459–462 and 480–482 (Fisher and short/long run), ch. 19, pp. 647–648 (saving/investment equilibrium), and ch. 15, pp. 423–426 (real money balances and money-market adjustment). Full URLs are in `source_map.md` and the slide-indexed notes.
+
+## Subsequent dot-plot placement
+
+Lecture 2 now has 88 pages. The official June 2026 Fed dot-plot replot and its interpretation are slides 66–67, following the possible policy reaction rule. Earlier slides 66–86 shift forward by two pages. The dot chart is taught here once; Lecture 3 keeps only the comparison between policy assessments, traded forwards and expectations.
