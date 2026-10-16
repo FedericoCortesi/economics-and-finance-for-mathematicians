@@ -57,6 +57,6 @@ Krugman, Obstfeld & Melitz, *International Economics: Theory and Policy*, and pu
 
 Examples and unlabelled model curves are hypothetical. Empirical charts use frozen CSV snapshots with observation dates, units and source URLs. Those snapshots describe their stated dates and are not live market views. The notes distinguish accounting identities from causal models and short-run assumptions from long-run benchmarks.
 
-Lecture 2 includes an editable June Fed dot plot sourced directly from the official SEP. The four teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
+Lecture 2 includes an editable June Fed dot plot sourced directly from the official SEP. The five teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
 
 Prepared by Federico Vittorio Cortesi. This course is a work in progress.

@@ -826,6 +826,10 @@ This expanded module is designed for several short meetings. Use the routes in `
 
 ## Slide 1 — Bonds and yield curves
 
+The opening illustration shows an invented investor exchanging capital for a claim, a workshop using productive machinery, and envelopes symbolizing future payments. The smaller envelopes suggest coupons and the larger final envelope suggests principal repayment; neither their number nor size specifies a pricing example. The picture introduces the distinction between real productive activity and the dated financial claim. It is an original AI-generated illustration, not evidence about a real issuer.
+
+Illustration: generated 16 October 2026 with the built-in OpenAI image-generation tool. Asset: `../assets/bond_workshop.png`. Full prompt: `image_prompts.md`.
+
 The finance perspective starts with a claim to dated cash flows and the price of replicating that claim. This lecture then distinguishes a promised yield from an investment return, a forward price from a forecast, and a rate view from a sized trade. The expanded module can be split into short meetings. Retain i for nominal rates, r for real rates and bar i for the policy target from Lecture 2.
 
 ## Slide 2 — Today’s route
