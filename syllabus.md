@@ -10,7 +10,7 @@ The seven modules below are the current starting point. Future classes will expa
 |---|---|---:|---|
 | 1 | Output, income and capital flows | 42 | 55–70 minutes |
 | 2 | Money, inflation and activity | 86 | 90–120; or four short meetings minutes |
-| 3 | Bonds and yield curves | 37 | 50–65 minutes |
+| 3 | Bonds and yield curves | 98 | 150–180 minutes in six short meetings, plus optional extensions |
 | 4 | Foreign exchange | 36 | 55–75 minutes |
 | 5 | Open-economy policy and regimes | 38 | 55–75 minutes |
 | 6 | Currency crises and the euro | 28 | 45–60 minutes |
@@ -60,20 +60,27 @@ Times include discussion and are approximate. Optional mathematical slides can b
 
 ## 3. Bonds and yield curves
 
-**Learning objectives:** Price zero and coupon payments; interpret face value, YTM, duration and bills; derive locked forward rates; separate forwards from forecasts; decompose a yield and size a DV01-matched slope trade.
+**Learning objectives:** Price dated cash flows by replication; separate coupon, spot rate, YTM and holding return; clear a Treasury-bill auction and convert its quote conventions; bootstrap a discount factor and derive a locked forward; distinguish market forwards, policy assessments and physical expectations; understand a model-based yield decomposition; derive duration and convexity from Taylor expansion; size and stress a DV01-matched curve trade. Optional extensions introduce state prices and liability immunization.
 
-**25–30-minute teaching blocks:** First meeting: 4–14 (14 min), 15–17 (5 min), 19–22 (8 min). Second meeting: 23–27 (8 min), 28–36 (18 min). Slides 18 and 24 give notation and algebra for a slower second pass.
+**25–30-minute teaching blocks:** Six meetings: prices/returns (4–16); bills/auctions (18–26); curves/forwards (28–42); expectations/premia/dots (44–58); duration/convexity (60–74); market cases/curve trade (77–89). The [detailed routes](docs/lecture_03_readings.md) allocate minutes within each block. Slides 91–96 are an optional mathematical meeting. Begin with a sign prediction, then compute, then change one assumption.
 
 | Section | Slide range | Teaching emphasis |
 |---|---:|---|
-| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
-| Bonds and the yield curve | 3–27 | Prediction, mechanism, worked example and discussion |
-| A curve-slope exercise | 28–36 | Prediction, mechanism, worked example and discussion |
-| Reading | 37–37 | Prediction, mechanism, worked example and discussion |
+| Introduction | 1–2 | Route and finance perspective |
+| Cash flows and prices | 3–16 | Replication, zero/coupon prices, YTM versus realized return |
+| Bills and auctions | 17–26 | Allocation, uniform price, observed auction and quotation arithmetic |
+| Curves and forwards | 27–42 | Dense dated curves, spot/par distinction, bootstrap and exact forward replication |
+| Expectations and term premia | 43–58 | Build the approximation gradually; compare model estimates, official dots and traded prices |
+| Duration and convexity | 59–75 | Derivatives, worked Taylor approximation, horizon and liability risk |
+| Hedging and market cases | 76–89 | Newspaper questions, auction evidence, sized steepener and counterfactual |
+| Optional foundations | 90–96 | Compounding, general forwards, par coupons, state prices and immunization |
+| Reading | 97–98 | Finance courses, textbook and current sources |
 
-**Reading:** Bocconi lecture(s) 14 for asset-return logic; TreasuryDirect/BoE/NY Fed for fixed income. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_03/notes.md`.
+**Reading:** Jensen's *Financial Economics* (2023), Parts 2 and 14–16; Rodemeier's *Financial Markets and Institutions* (2022), Lectures 3–4; Bodie, Kane & Marcus, *Investments*, 11th ed., chapters 14–16. Krugman–Obstfeld–Melitz chapter 14 provides the international asset-return bridge. Exact sections, page mappings, official datasets and newspaper access notes are in [Lecture 3 readings](docs/lecture_03_readings.md) and the [source map](docs/source_map.md).
 
-**Trading question:** Which cash flow and maturity does a yield price, and what move would make the relative-value position lose?
+**Trading questions:** What payoff and horizon are being priced? Which future return is locked rather than forecast? How can long yields rise after a policy cut? How much does the curve view gain or lose after sizing both legs and reversing the scenario?
+
+**Accuracy:** Annual-effective teaching rates differ from source-native bill/par conventions. Curves have exact dates; fitted monthly points are not independent quotes. The expected-rate/term-premium split requires a model. A June policy dot is neither a commitment nor a market price. DV01 neutrality is local and conditional; trade P&L excludes financing, costs and cash-flow changes unless stated.
 
 ## 4. Foreign exchange
 

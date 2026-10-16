@@ -784,7 +784,7 @@
   {
     "number": 3,
     "title": "Bonds and yield curves",
-    "slides": 37,
+    "slides": 98,
     "outline": [
       {
         "page": 1,
@@ -800,211 +800,577 @@
       },
       {
         "page": 3,
-        "title": "Bonds and the yield curve",
-        "section": "Bonds and the yield curve",
-        "kind": "intuition"
+        "title": "Cash flows and prices",
+        "section": "Cash flows and prices",
+        "kind": "divider"
       },
       {
         "page": 4,
-        "title": "A bond is a schedule of promised payments",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "A bond is a dated payment contract",
+        "section": "Cash flows and prices",
+        "kind": "diagram"
       },
       {
         "page": 5,
-        "title": "A coupon rate applies to face value",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "Prices and cash-flow symbols",
+        "section": "Cash flows and prices",
+        "kind": "intuition"
       },
       {
         "page": 6,
-        "title": "The three-year cash-flow timeline",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "Rate symbols and horizons",
+        "section": "Cash flows and prices",
+        "kind": "intuition"
       },
       {
         "page": 7,
-        "title": "Face value and the price quote are different",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "A zero-coupon bond",
+        "section": "Cash flows and prices",
+        "kind": "example"
       },
       {
         "page": 8,
-        "title": "A zero-coupon bond has one future payment",
-        "section": "Bonds and the yield curve",
+        "title": "A discount factor prices one future unit",
+        "section": "Cash flows and prices",
         "kind": "theory"
       },
       {
         "page": 9,
-        "title": "Discounting a face value of 1,000",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "Replication gives the pricing intuition",
+        "section": "Cash flows and prices",
+        "kind": "intuition"
       },
       {
         "page": 10,
-        "title": "A coupon bond discounts every dated payment",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "A coupon bond is a basket of zeros",
+        "section": "Cash flows and prices",
+        "kind": "example"
       },
       {
         "page": 11,
-        "title": "The coupon-bond calculation",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "Worked price with a flat curve",
+        "section": "Cash flows and prices",
+        "kind": "example"
       },
       {
         "page": 12,
-        "title": "Higher discount yields mean lower bond prices",
-        "section": "Bonds and the yield curve",
-        "kind": "plot"
+        "title": "Market price determines yield to maturity",
+        "section": "Cash flows and prices",
+        "kind": "theory"
       },
       {
         "page": 13,
-        "title": "Duration measures local yield sensitivity",
-        "section": "Bonds and the yield curve",
+        "title": "Coupon, yield and return",
+        "section": "Cash flows and prices",
         "kind": "theory"
       },
       {
         "page": 14,
-        "title": "Treasury bills pay face value without periodic coupons",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
+        "title": "A 5% yield can produce a one-year loss",
+        "section": "Cash flows and prices",
+        "kind": "example"
       },
       {
         "page": 15,
-        "title": "The yield curve is one date with many maturities",
-        "section": "Bonds and the yield curve",
-        "kind": "plot"
-      },
-      {
-        "page": 16,
-        "title": "Yield curves can have different shapes",
-        "section": "Bonds and the yield curve",
-        "kind": "plot"
-      },
-      {
-        "page": 17,
-        "title": "US and euro-area curve snapshot",
-        "section": "Bonds and the yield curve",
-        "kind": "data"
-      },
-      {
-        "page": 18,
-        "title": "Spot, forward and coupon-bond yields",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 19,
-        "title": "Two ways to lock a two-year payoff",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 20,
-        "title": "No-arbitrage makes the locked payoffs match",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 21,
-        "title": "Calculating the implied forward",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 22,
-        "title": "A locked forward is not a guaranteed forecast",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 23,
-        "title": "A long yield contains a path and a premium",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 24,
-        "title": "Writing the yield decomposition mathematically",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 25,
-        "title": "Today's rate and a ten-year yield can move differently",
-        "section": "Bonds and the yield curve",
-        "kind": "theory"
-      },
-      {
-        "page": 26,
-        "title": "Exercise: a cut today with a bond sell-off",
-        "section": "Bonds and the yield curve",
-        "kind": "exercise"
-      },
-      {
-        "page": 27,
-        "title": "The decomposition gives the answer",
-        "section": "Bonds and the yield curve",
-        "kind": "solution"
-      },
-      {
-        "page": 28,
-        "title": "A curve-slope exercise",
-        "section": "A curve-slope exercise",
+        "title": "What holding to maturity locks in",
+        "section": "Cash flows and prices",
         "kind": "intuition"
       },
       {
+        "page": 16,
+        "title": "Risk-free depends on the investor\u2019s horizon",
+        "section": "Cash flows and prices",
+        "kind": "intuition"
+      },
+      {
+        "page": 17,
+        "title": "Bills and auctions",
+        "section": "Bills and auctions",
+        "kind": "divider"
+      },
+      {
+        "page": 18,
+        "title": "Treasury bills are short zero-coupon claims",
+        "section": "Bills and auctions",
+        "kind": "intuition"
+      },
+      {
+        "page": 19,
+        "title": "How the auction clears",
+        "section": "Bills and auctions",
+        "kind": "intuition"
+      },
+      {
+        "page": 20,
+        "title": "Two ways to submit a bid",
+        "section": "Bills and auctions",
+        "kind": "intuition"
+      },
+      {
+        "page": 21,
+        "title": "An invented bill auction",
+        "section": "Bills and auctions",
+        "kind": "exercise"
+      },
+      {
+        "page": 22,
+        "title": "The cutoff bidder receives a partial fill",
+        "section": "Bills and auctions",
+        "kind": "answer"
+      },
+      {
+        "page": 23,
+        "title": "One price for every successful bidder",
+        "section": "Bills and auctions",
+        "kind": "example"
+      },
+      {
+        "page": 24,
+        "title": "Actual four-week auction: 15 October 2026",
+        "section": "Bills and auctions",
+        "kind": "data"
+      },
+      {
+        "page": 25,
+        "title": "The same bill has different rate quotations",
+        "section": "Bills and auctions",
+        "kind": "example"
+      },
+      {
+        "page": 26,
+        "title": "Coupon bonds also have clean and dirty prices",
+        "section": "Bills and auctions",
+        "kind": "intuition"
+      },
+      {
+        "page": 27,
+        "title": "Curves and forwards",
+        "section": "Curves and forwards",
+        "kind": "divider"
+      },
+      {
+        "page": 28,
+        "title": "A yield curve is one date, many maturities",
+        "section": "Curves and forwards",
+        "kind": "plot"
+      },
+      {
         "page": 29,
-        "title": "A curve view needs two maturity forecasts",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "US Treasury par curve: all published tenors",
+        "section": "Curves and forwards",
+        "kind": "data"
       },
       {
         "page": 30,
-        "title": "This is a bull steepening",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "The short end deserves a closer look",
+        "section": "Curves and forwards",
+        "kind": "data"
       },
       {
         "page": 31,
-        "title": "Expressing the relative view with bonds",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "Euro-area AAA: 358 fitted maturities",
+        "section": "Curves and forwards",
+        "kind": "data"
       },
       {
         "page": 32,
-        "title": "DV01 puts the two legs on comparable terms",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "Fitted zero curves on a common date",
+        "section": "Curves and forwards",
+        "kind": "data"
       },
       {
         "page": 33,
-        "title": "Exercise: choose the size of the short leg",
-        "section": "A curve-slope exercise",
-        "kind": "exercise"
+        "title": "Spot, par and YTM are different objects",
+        "section": "Curves and forwards",
+        "kind": "intuition"
       },
       {
         "page": 34,
-        "title": "Equal DV01 requires unequal market values",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "A non-flat curve discounts dates differently",
+        "section": "Curves and forwards",
+        "kind": "theory"
       },
       {
         "page": 35,
-        "title": "Work out the scenario profit and loss",
-        "section": "A curve-slope exercise",
-        "kind": "application"
+        "title": "Bootstrapping a two-year discount factor",
+        "section": "Curves and forwards",
+        "kind": "example"
       },
       {
         "page": 36,
-        "title": "Counterfactual: what would make this trade lose?",
-        "section": "A curve-slope exercise",
-        "kind": "exercise"
+        "title": "A forward loan is agreed today",
+        "section": "Curves and forwards",
+        "kind": "diagram"
       },
       {
         "page": 37,
-        "title": "Further reading",
+        "title": "Two ways to lock a two-year payoff",
+        "section": "Curves and forwards",
+        "kind": "intuition"
+      },
+      {
+        "page": 38,
+        "title": "Exact no-arbitrage across the two routes",
+        "section": "Curves and forwards",
+        "kind": "theory"
+      },
+      {
+        "page": 39,
+        "title": "Worked forward rate",
+        "section": "Curves and forwards",
+        "kind": "example"
+      },
+      {
+        "page": 40,
+        "title": "Replicating the forward with two zeros",
+        "section": "Curves and forwards",
+        "kind": "example"
+      },
+      {
+        "page": 41,
+        "title": "A mispriced forward creates a locked profit",
+        "section": "Curves and forwards",
+        "kind": "example"
+      },
+      {
+        "page": 42,
+        "title": "A forward is a price; a forecast is a belief",
+        "section": "Curves and forwards",
+        "kind": "intuition"
+      },
+      {
+        "page": 43,
+        "title": "Expectations and term premia",
+        "section": "Expectations and term premia",
+        "kind": "divider"
+      },
+      {
+        "page": 44,
+        "title": "Rolling over leaves the second rate unknown",
+        "section": "Expectations and term premia",
+        "kind": "example"
+      },
+      {
+        "page": 45,
+        "title": "Compounding averages forward rates",
+        "section": "Expectations and term premia",
+        "kind": "theory"
+      },
+      {
+        "page": 46,
+        "title": "The expectations hypothesis adds an assumption",
+        "section": "Expectations and term premia",
+        "kind": "theory"
+      },
+      {
+        "page": 47,
+        "title": "An explicit expected short-rate path",
+        "section": "Expectations and term premia",
+        "kind": "plot"
+      },
+      {
+        "page": 48,
+        "title": "Why a term premium can appear",
+        "section": "Expectations and term premia",
+        "kind": "intuition"
+      },
+      {
+        "page": 49,
+        "title": "Add the premium as a separate component",
+        "section": "Expectations and term premia",
+        "kind": "example"
+      },
+      {
+        "page": 50,
+        "title": "The yield decomposition, now defined",
+        "section": "Expectations and term premia",
+        "kind": "theory"
+      },
+      {
+        "page": 51,
+        "title": "One observed yield can have different stories",
+        "section": "Expectations and term premia",
+        "kind": "example"
+      },
+      {
+        "page": 52,
+        "title": "An estimated US decomposition over time",
+        "section": "Expectations and term premia",
+        "kind": "data"
+      },
+      {
+        "page": 53,
+        "title": "Reading the model snapshot",
+        "section": "Expectations and term premia",
+        "kind": "data"
+      },
+      {
+        "page": 54,
+        "title": "Fed dot plot: June 2026",
+        "section": "Expectations and term premia",
+        "kind": "picture"
+      },
+      {
+        "page": 55,
+        "title": "What each dot means",
+        "section": "Expectations and term premia",
+        "kind": "intuition"
+      },
+      {
+        "page": 56,
+        "title": "June\u2019s individual assessments and medians",
+        "section": "Expectations and term premia",
+        "kind": "data"
+      },
+      {
+        "page": 57,
+        "title": "Three objects to keep separate",
+        "section": "Expectations and term premia",
+        "kind": "intuition"
+      },
+      {
+        "page": 58,
+        "title": "A cut today can coexist with rising long yields",
+        "section": "Expectations and term premia",
+        "kind": "example"
+      },
+      {
+        "page": 59,
+        "title": "Duration and convexity",
+        "section": "Duration and convexity",
+        "kind": "divider"
+      },
+      {
+        "page": 60,
+        "title": "The price\u2013yield relation is curved",
+        "section": "Duration and convexity",
+        "kind": "plot"
+      },
+      {
+        "page": 61,
+        "title": "Modified duration is the normalized slope",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 62,
+        "title": "A zero\u2019s duration follows by differentiation",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 63,
+        "title": "Coupon duration weights the payment dates",
+        "section": "Duration and convexity",
+        "kind": "example"
+      },
+      {
+        "page": 64,
+        "title": "Macaulay and modified duration",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 65,
+        "title": "DV01 converts sensitivity into money",
+        "section": "Duration and convexity",
+        "kind": "example"
+      },
+      {
+        "page": 66,
+        "title": "A ten-basis-point move",
+        "section": "Duration and convexity",
+        "kind": "example"
+      },
+      {
+        "page": 67,
+        "title": "Duration comes from a Taylor expansion",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 68,
+        "title": "Convexity normalizes the second derivative",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 69,
+        "title": "A zero\u2019s convexity is explicit",
+        "section": "Duration and convexity",
+        "kind": "theory"
+      },
+      {
+        "page": 70,
+        "title": "Exact, tangent and quadratic repricing",
+        "section": "Duration and convexity",
+        "kind": "plot"
+      },
+      {
+        "page": 71,
+        "title": "Work out a one-percentage-point move",
+        "section": "Duration and convexity",
+        "kind": "example"
+      },
+      {
+        "page": 72,
+        "title": "The asymmetry has economic meaning",
+        "section": "Duration and convexity",
+        "kind": "intuition"
+      },
+      {
+        "page": 73,
+        "title": "Sensitivity is conditional on the experiment",
+        "section": "Duration and convexity",
+        "kind": "intuition"
+      },
+      {
+        "page": 74,
+        "title": "A liability changes what counts as risky",
+        "section": "Duration and convexity",
+        "kind": "intuition"
+      },
+      {
+        "page": 75,
+        "title": "A bond fund usually keeps exposure beyond one maturity",
+        "section": "Duration and convexity",
+        "kind": "intuition"
+      },
+      {
+        "page": 76,
+        "title": "Hedging and market cases",
+        "section": "Hedging and market cases",
+        "kind": "divider"
+      },
+      {
+        "page": 77,
+        "title": "News lab: income horizon or price trade?",
+        "section": "Hedging and market cases",
+        "kind": "case"
+      },
+      {
+        "page": 78,
+        "title": "News lab: buying during a Treasury sell-off",
+        "section": "Hedging and market cases",
+        "kind": "case"
+      },
+      {
+        "page": 79,
+        "title": "Two real auctions, two different questions",
+        "section": "Hedging and market cases",
+        "kind": "data"
+      },
+      {
+        "page": 80,
+        "title": "An auction tail needs a market benchmark",
+        "section": "Hedging and market cases",
+        "kind": "example"
+      },
+      {
+        "page": 81,
+        "title": "A curve view needs two maturity scenarios",
+        "section": "Hedging and market cases",
+        "kind": "plot"
+      },
+      {
+        "page": 82,
+        "title": "This scenario is a bull steepening",
+        "section": "Hedging and market cases",
+        "kind": "example"
+      },
+      {
+        "page": 83,
+        "title": "Expressing the relative view",
+        "section": "Hedging and market cases",
+        "kind": "intuition"
+      },
+      {
+        "page": 84,
+        "title": "Match DV01, rather than market values",
+        "section": "Hedging and market cases",
+        "kind": "exercise"
+      },
+      {
+        "page": 85,
+        "title": "Work out the scenario profit and loss",
+        "section": "Hedging and market cases",
+        "kind": "answer"
+      },
+      {
+        "page": 86,
+        "title": "A small parallel move cancels at first order",
+        "section": "Hedging and market cases",
+        "kind": "example"
+      },
+      {
+        "page": 87,
+        "title": "Counterfactual: the curve flattens",
+        "section": "Hedging and market cases",
+        "kind": "exercise"
+      },
+      {
+        "page": 88,
+        "title": "A cut with a sell-off: the complete calculation",
+        "section": "Hedging and market cases",
+        "kind": "example"
+      },
+      {
+        "page": 89,
+        "title": "Questions before taking the trade",
+        "section": "Hedging and market cases",
+        "kind": "intuition"
+      },
+      {
+        "page": 90,
+        "title": "Optional foundations",
+        "section": "Optional foundations",
+        "kind": "divider"
+      },
+      {
+        "page": 91,
+        "title": "General forward intervals",
+        "section": "Optional foundations",
+        "kind": "theory"
+      },
+      {
+        "page": 92,
+        "title": "Continuous and annual-effective spot rates",
+        "section": "Optional foundations",
+        "kind": "theory"
+      },
+      {
+        "page": 93,
+        "title": "The par coupon comes from discount factors",
+        "section": "Optional foundations",
+        "kind": "theory"
+      },
+      {
+        "page": 94,
+        "title": "Two states: equal average payoff, different price",
+        "section": "Optional foundations",
+        "kind": "example"
+      },
+      {
+        "page": 95,
+        "title": "A stochastic discount factor prices states",
+        "section": "Optional foundations",
+        "kind": "theory"
+      },
+      {
+        "page": 96,
+        "title": "Optional liability hedge: match value and duration",
+        "section": "Optional foundations",
+        "kind": "exercise"
+      },
+      {
+        "page": 97,
+        "title": "Reading",
+        "section": "Reading",
+        "kind": "divider"
+      },
+      {
+        "page": 98,
+        "title": "Reading and next questions",
         "section": "Reading",
         "kind": "reference"
       }

@@ -809,234 +809,579 @@ Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 # Lecture 3 — Bonds and yield curves
 
-How do dated payments, expectations and risk premia produce a yield?
+Pricing cash flows, measuring risk and reading market expectations
 
 ## Delivery
 
-Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+This expanded module is designed for several short meetings. Use the routes in `../syllabus.md`. Model paths and unlabelled numbers are original hypothetical examples. Keep the observation date and quote convention visible when reading empirical charts. The source textbooks and course decks inform the explanations; their pages and proprietary figures are not redistributed. The supplied dot-plot graphic is retained with its source credit corrected in the caption.
 
 ## Slide 1 — Bonds and yield curves
 
-Open by asking the central question. Encourage predictions before introducing the model. The audience knows mathematics but is meeting economic mechanisms for the first time.
-
-Reference:  [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+The finance perspective starts with a claim to dated cash flows and the price of replicating that claim. This lecture then distinguishes a promised yield from an investment return, a forward price from a forecast, and a rate view from a sized trade. The expanded module can be split into short meetings. Retain i for nominal rates, r for real rates and bar i for the policy target from Lecture 2.
 
 ## Slide 2 — Today’s route
 
-Begin with cash-flow dates and the investor’s opportunity cost. Build up to yields, forwards and term premia before considering a trade. Ask for the sign of each price change before calculating it.
+Treat the sections as modular, rather than rushing all slides into one talk. Start each example by asking for a sign prediction, then calculate. The optional final block introduces state prices and compounding conventions. A detailed 25–30-minute route is in the syllabus.
 
-Reference: [Sergeyev, Bocconi 30054, lecture 4](https://drive.google.com/file/d/1witR08GiCkzxTwhiX9EBp3G-1FURosQ0/view?usp=drivesdk) [Sergeyev, Bocconi 30054, lecture 5](https://drive.google.com/file/d/1LfEQIo-QrncbVtc88G2yu5bLUYo-LEMT/view?usp=drivesdk) [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 3 — Cash flows and prices
 
-## Slide 3 — Bonds and the yield curve
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
 
-State the question for this section, then ask the group for a prediction before showing the following example.
+## Slide 4 — A bond is a dated payment contract
 
-Reference:  [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+This invented three-year bond pays annual coupons of 4 and principal of 100 at maturity. Define F as face value, c as the coupon rate and C as the coupon amount. A quoted price is the amount exchanged today for this contract. The coupon rate is written into the contract; the market yield adjusts as prices change. Ignore default, taxes, transaction costs and accrued interest for the initial examples.
 
-## Slide 4 — A bond is a schedule of promised payments
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-Define the instrument before predicting a ten-year yield. A promise can involve default risk; later idealised pricing examples hold cash flows fixed. F and P need not be equal. Q remains the consumer price index, so it cannot be confused with P.
+## Slide 5 — Prices and cash-flow symbols
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Use lower-case p for an asset price, leaving P for the aggregate price level from Lecture 2. T is remaining time, measured in years, not a calendar year label. The time argument t is omitted when there is no risk of confusion. A discount factor is a price per unit payment, so it has no face-value scale. We will use F exclusively for face value here and lower-case f for an interest-rate forward.
 
-## Slide 5 — A coupon rate applies to face value
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-Define c for bonds separately from the earlier consumption coefficient, which belongs to a different model and section. Emphasise the section context; c here is a labelled coupon rate. Actual Treasury notes/bonds pay semiannually; this teaching instrument pays annually.
+## Slide 6 — Rate symbols and horizons
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+These conventions extend Lecture 2: i is nominal, r is real and bar i is the policy target. Spot and forward rates specify the interval being priced; a YTM is the internal rate of return of the promised coupon schedule. Do not write f as F, since F is face value. The mathematical examples use annual effective compounding. Empirical par quotes retain their source conventions, and fitted continuous zero rates are converted explicitly when plotted as annual effective rates.
 
-## Slide 6 — The three-year cash-flow timeline
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Use F=1000 and annual coupon 40 from the preceding slide. There are three coupon payments, and principal is paid once. The initial price is an outflow. This is an original diagram with invented values.
+## Slide 7 — A zero-coupon bond
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+A zero pays only face value at maturity. A two-year buyer pays 90.70295 now for 100 in two years, under the stated annual compounding convention. The 5% return compounds for two years; it is not a total return of 5%. The same relation can be inverted to obtain the spot rate from the zero’s price. Treasury bills are short zero-coupon instruments; ordinary Treasury notes and bonds usually pay coupons.
 
-## Slide 7 — Face value and the price quote are different
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. [TreasuryDirect, bills](https://www.treasurydirect.gov/marketable-securities/treasury-bills/).
 
-Define the quotation convention rather than asserting a universal 1000 denomination. A clean quoted price may differ from the cash paid after accrued interest. TreasuryDirect purchases begin at 100-dollar increments.
+## Slide 8 — A discount factor prices one future unit
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+The first equation is the unit price of a certain payment at one date. The second adds the prices of the dated units needed to reproduce every cash flow. For known default-free cash flows, this is the natural no-arbitrage pricing relation. Different dates can have different spot rates. For risky payments, simply discounting expected cash flows with the Treasury zero curve generally misses risk pricing; the optional state-price block explains why.
 
-## Slide 8 — A zero-coupon bond has one future payment
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-This is a valuation in a consistent annual yield convention. Zero coupon means no interim coupon, not zero investment return. The yield is nominal and tied to its horizon. For a zero-coupon bond, spot yield equals its YTM.
+## Slide 9 — Replication gives the pricing intuition
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Jensen’s arbitrage section motivates replication before valuation formulas. If a coupon bond is more expensive than a portfolio reproducing every payment, buy the replicating portfolio and sell the expensive claim. If it is cheaper, reverse the positions. This ideal argument assumes executable borrowing and shorting, consistent collateral and negligible costs. In practice bid–ask spreads and financing create bounds, so an apparent price gap is not automatically a risk-free profit.
 
-## Slide 9 — Discounting a face value of 1,000
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-The exact value is 907.029478. All numbers are hypothetical and repayment is assumed. No coupon-reinvestment issue exists for a held-to-maturity zero-coupon instrument.
+## Slide 10 — A coupon bond is a basket of zeros
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Each zero unit pays one currency unit, not one whole 100-face bond. The three positions reproduce the original bond exactly. The bond’s final payment includes its last coupon plus principal. This is why coupon bonds and zero-coupon curves are linked. Real Treasury STRIPS separate eligible principal and coupon claims, though tax and liquidity differences can matter. No-arbitrage prices the schedule before we introduce a single summary YTM.
 
-## Slide 10 — A coupon bond discounts every dated payment
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-F and coupon rate c were defined before the formula. A YTM is a price summary for a specified schedule, not an assumption that the whole term structure is flat. No-arbitrage pricing more generally uses individual dated discount factors.
+## Slide 11 — Worked price with a flat curve
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+The exact value is 97.27675197 per 100 face. Here every annual spot rate equals 5%, so the flat-curve valuation also equals a YTM calculation at 5%. The below-par price compensates for coupons that are lower than the required rate. The nominal face value does not change when the market price changes. Ask whether a 6% coupon under the same yield would trade above or below 100.
 
-## Slide 11 — The coupon-bond calculation
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-This continues the same three-year, F1000 example. The result is 972.7675. Coupon rate is contractual; YTM changes as market price changes. Realised return may differ if sold before maturity or if interim coupon reinvestment differs.
+## Slide 12 — Market price determines yield to maturity
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+YTM is the internal rate of return solving this equation. With positive future cash flows and i greater than −1, price is strictly decreasing in i, giving a unique yield for a positive price in the usual range. A flat spot curve makes YTM equal the common spot rate; otherwise it is only a bond-specific summary. It is not the coupon rate and does not give a guaranteed one-year investment return. Real quotation conventions may use semiannual bond-equivalent yields.
 
-## Slide 12 — Higher discount yields mean lower bond prices
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-The original plot uses P=100/(1+yield)^5. Prices and yields move inversely holding positive cash flows fixed. A different expected cash-flow schedule, default outlook or option structure can complicate the relationship.
+## Slide 13 — Coupon, yield and return
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+The return expression assumes a one-year horizon with one coupon paid at its end. If there are intervening coupons, account for their reinvestment or measure the value of all cash flows at the horizon. H is a nominal investment return, while r remains a real rate. Current yield C/p is only the coupon-income component, not total return. The uncertainty in the future resale price is the first important bridge to asset pricing.
 
-## Slide 13 — Duration measures local yield sensitivity
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-Yield changes in this formula use decimals. Modified duration is −(1/P)dP/dyield; curvature explains why larger moves need convexity terms. This is a small-move approximation at fixed cash flows, not an exact large-move P&L guarantee.
+## Slide 14 — A 5% yield can produce a one-year loss
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+The initial price is 61.39132535. The later price discounts the unchanged face value over nine remaining years at the new 6% yield. The holding-period return is negative despite an initial YTM of 5%. This is an invented rate scenario, not a forecast. A one-year investor does not receive the 100 principal at the sale date. Passage of time and the shift in yield both matter.
 
-## Slide 14 — Treasury bills pay face value without periodic coupons
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-The 98-to-100 example is hypothetical and has no specified remaining maturity, so it cannot imply an annualised yield. Actual bill bank-discount quotations use a different denominator/day-count convention. TreasuryDirect purchases start at 100 of face value.
+## Slide 15 — What holding to maturity locks in
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+For a zero with no default, the terminal payoff is fixed in its own currency, and holding from purchase to maturity realizes the quoted annual effective yield. A coupon bond has a fixed contractual schedule, but realizing its YTM as a compound terminal-wealth return requires reinvesting coupons at that yield. An investor matching a particular liability cares about its currency, amount and date. Nominal certainty is not certainty of future purchasing power.
 
-## Slide 15 — The yield curve is one date with many maturities
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-The curve is invented and compares nominal zero-coupon yields in one currency on one observation date. A ten-year yield concerns a ten-year payoff, rather than a rate guaranteed to prevail ten years from today.
+## Slide 16 — Risk-free depends on the investor’s horizon
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+This horizon distinction appears in both supplied courses. A long bond can be safe for one particular nominal liability and risky for a short investment horizon. A bill has little near-term price exposure yet cannot lock a ten-year reinvestment path. These are different risks, not contradictory claims. We revisit the liability perspective after duration and convexity.
 
-## Slide 16 — Yield curves can have different shapes
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
 
-Preserve the initial shapes but postpone causal interpretation until forward rates and term premium have been introduced. Distinguish these theoretical spot curves from official par curves in the dated snapshot.
+## Slide 17 — Bills and auctions
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
 
-## Slide 17 — US and euro-area curve snapshot
+## Slide 18 — Treasury bills are short zero-coupon claims
 
-The selected source-native par data are frozen in the accompanying CSV. The US two-year is 4.77%, ten-year 5.10%; the 2s10s spread is 33 bp. The EUR sample is AAA euro-area government issuers. Differences do not measure a hedge-adjusted arbitrage profit or directly identify expected rates versus term premia.
+Bills are used for short-term cash management. TreasuryDirect lists weekly issuance for the regular shorter terms and every four weeks for 52-week bills. A bill may be sold at a discount or at par. Avoid repeating the old reference course’s narrower maturity list or historical denomination numbers. A short Treasury promise can still have inflation risk or currency risk for a particular holder.
 
-Reference: [US Treasury, October 2026 curve data](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610). [ECB, Yield-curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, bills](https://www.treasurydirect.gov/marketable-securities/treasury-bills/). Rodemeier, Financial Markets and Institutions (Fall 2022), Lecture 4, pp. 10–16. Current rules are checked against TreasuryDirect, rather than the historical course examples.
 
-## Slide 18 — Spot, forward and coupon-bond yields
+## Slide 19 — How the auction clears
 
-The labels distinguish horizons and contractual objects rather than force arbitrary symbol memorisation. A forward is agreed today. An unknown future realised short rate is not already fixed. All rates here are nominal with matched annual compounding.
+Use the official auction rules for current mechanics. A lower required discount rate means willingness to pay a higher price for a bill. Competitive bids are therefore accepted in increasing rate order. The highest accepted rate is the stop-out rate. All successful bidders obtain the uniform auction price implied by that rate, subject to the security’s quotation convention. The next pages isolate this mechanism with invented numbers.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/). Rodemeier, Financial Markets and Institutions (Fall 2022), Lecture 4, pp. 10–16. Current rules are checked against TreasuryDirect, rather than the historical course examples.
 
-## Slide 19 — Two ways to lock a two-year payoff
+## Slide 20 — Two ways to submit a bid
 
-The second route requires an enforceable forward-start reinvestment contract agreed now. Investing next year at whatever rate then prevails is a different, risky strategy. Comparable credit/collateral and frictionless borrowing/lending are assumed.
+For bills, competitive bids specify the bank-discount rate. A TreasuryDirect account uses noncompetitive bidding; competitive participation goes through an eligible bank, broker or dealer. The published limits are 10 million dollars noncompetitive per auction and 35% of the offering for a competitive bidder, with further rules governing awards. Those institutional details are context rather than a trading recommendation. The uniform price is not the rate written in each winning bid.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/).
 
-## Slide 20 — No-arbitrage makes the locked payoffs match
+## Slide 21 — An invented bill auction
 
-This is replication with matching cash-flow dates. The forward is determined by discount factors D(0,1)/D(0,2)−1. The equality needs executable contracts and consistent conventions; it does not assume the future spot rate is known.
+The invented order book uses 28-day bills. First allocate 20 million across eligible noncompetitive bidders, leaving 80 million for competitive bids. Ask who receives how much before showing the answer. Lower rate bids mean higher willingness to pay. The example is deliberately different from the older course’s auction numbers.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/). Rodemeier, Financial Markets and Institutions (Fall 2022), Lecture 4, pp. 10–16. Current rules are checked against TreasuryDirect, rather than the historical course examples.
 
-## Slide 21 — Calculating the implied forward
+## Slide 22 — The cutoff bidder receives a partial fill
 
-Exact forward is 6.009615%. One-year investment gives 104, which earns the locked forward to give 110.25. Rounding the forward may produce a fractional-cent difference. None of these numbers is current market data.
+After A and B receive 60 million, 20 million remains of the competitive 80 million. C is the marginal bidder and receives two-thirds of the requested face value. D is above the clearing rate and receives nothing. C’s rationing is not a different price. The 20 million noncompetitive award plus these competitive awards totals the 100 million offering.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/).
 
-## Slide 22 — A locked forward is not a guaranteed forecast
+## Slide 23 — One price for every successful bidder
 
-No-arbitrage gives a relation among prices, not a proof that forward equals expected future short rate. Investor risk preferences and hedging demand matter. This distinction is the bridge to the term-premium decomposition.
+All successful bidders in the invented auction, including noncompetitive bidders, pay the price associated with the stop-out rate. The discount quote uses face value and a 360-day basis. It is a market quotation, not the annual effective return used in our earlier spot examples. The 28-day interval starts at issue, not auction day. Treasury rounds published per-100 prices; multiplying large face amounts can therefore produce small rounding differences.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, bills](https://www.treasurydirect.gov/marketable-securities/treasury-bills/). [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/).
 
-## Slide 23 — A long yield contains a path and a premium
+## Slide 24 — Actual four-week auction: 15 October 2026
 
-Define term premium in words before writing a summation. It can be negative when duration is a valuable hedge. It is not simply a default spread or expected inflation. Decomposing an actual observed yield requires a model.
+These are frozen official TreasuryDirect API observations, checked against the result release. The auction occurs on 15 October, but the 28-day investment runs from 20 October to 17 November. The reported investment rate is 4.068%. Bid-to-cover is reported directly: do not divide total tendered by total accepted indiscriminately, because published total accepted can include additional SOMA awards outside the announced public offering. The data table also preserves an eight-week bill and the two note/bond auction cases.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect result release](https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261015_2.pdf). Data: ../data/lecture_03_auction_results_2026-10.csv.
 
-## Slide 24 — Writing the yield decomposition mathematically
+## Slide 25 — The same bill has different rate quotations
 
-This is the same stylised approximation as in the prior explanation, with the observation date suppressed on the left and premium for readability. Annual one-period rates are matched to an n-year zero yield. Coupon-bond YTM and exact compounding require more detailed treatment.
+Use F=100 and p=99.688889. The holding return is about 0.31208% over 28 days, not 4.068% over 28 days. The discount rate divides the interest amount by face value; the investment rate divides by the purchase price. This short-term investment-rate formula uses simple 365-day annualization for this 28-day example and is not the annual effective compounded return. Longer bills can have additional bond-equivalent-yield conventions. The exact daily dates and quotation labels stay in the source data.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: [TreasuryDirect, bills](https://www.treasurydirect.gov/marketable-securities/treasury-bills/). Rodemeier, Financial Markets and Institutions (Fall 2022), Lecture 4, pp. 10–16. Current rules are checked against TreasuryDirect, rather than the historical course examples.
 
-## Slide 25 — Today's rate and a ten-year yield can move differently
+## Slide 26 — Coupon bonds also have clean and dirty prices
 
-This is a conditional explanation, not an automatic reaction to cuts. Changes must be relative to prior pricing, and both decomposition terms are unobserved. The final exercise supplies assumed changes so the price effect can be computed.
+This is an invented between-coupon quote. Accrued interest compensates the seller for the coupon accrual up to settlement; it is not an extra final principal payment. The present value of future cash flows equals the full or dirty price. Our simple annual examples sit on coupon dates, so accrued interest is zero. Actual notes and bonds often quote a clean price and a semiannual bond-equivalent yield. Keep those conventions separate from our annualized teaching formulas.
 
-Reference: [Bank of England, Yield curves](https://www.bankofengland.co.uk/statistics/yield-curves/terminology-and-concepts). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md.
 
-## Slide 26 — Exercise: a cut today with a bond sell-off
+## Slide 27 — Curves and forwards
 
-The assumed changes are relative to prior market pricing. A more persistent inflation outlook could raise later expected policy rates despite a near-term cut. Distinguish a supplied scenario from evidence that this was the cause of an observed market move.
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
 
-Reference: [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 28 — A yield curve is one date, many maturities
 
-## Slide 27 — The decomposition gives the answer
+Every point is a yield priced at the same observation time t, for a different remaining horizon. A curve can rise, fall, flatten or have a hump. A one-year point and a ten-year point do not show what the policy rate is today and in ten years. Interpreting the slope requires forward pricing and risk assumptions. These two smooth curves are invented teaching functions, not interpolated observations.
 
-Apply the yield move approximately to the duration-8 bond’s YTM, assuming its spread and cash flows do not change. A benchmark zero yield and a coupon-bond YTM are not identical objects. The small-move estimate excludes carry, convexity, costs and any cash-flow changes.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 29 — US Treasury par curve: all published tenors
 
-## Slide 28 — A curve-slope exercise
+The dots are the 14 published Treasury tenor observations, not 14 individual bond execution prices. A line only joins those points. Values include 4.17% at one month, 4.77% at two years, 5.10% at ten years and 5.43% at thirty years. The official Treasury par curve is itself estimated from market inputs. This panel retains the source quote convention; it is not substituted for the annual-effective zero curve in our pricing equations. Observation dates are frozen rather than described as live.
 
-State the question for this section, then ask the group for a prediction before showing the following example.
+Reference: [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
 
-Reference:  [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 30 — The short end deserves a closer look
 
-## Slide 29 — A curve view needs two maturity forecasts
+Short maturities are compressed on a thirty-year linear axis. Show the same points on a two-year scale before drawing conclusions about the front end. One, one-and-a-half, two, three, four and six-month maturities are all included, followed by one and two years. These are source-native par/CMT quotations, not a projected sequence of meeting decisions.
 
-Before: two-year yield 4.2%, ten-year 4.5%. Scenario: two-year 3.7%, ten-year 4.4%. The following trade uses local duration on representative bonds. These are original hypothetical values, not the official snapshot and not predicted future policy rates.
+Reference: [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 31 — Euro-area AAA: 358 fitted maturities
 
-## Slide 30 — This is a bull steepening
+This is much denser than the former ten-point selection. The ECB publishes a smooth fitted curve at monthly maturities. Those points are model outputs estimated from a selected AAA euro-area central-government bond sample, not 358 independent executable instruments and not all euro sovereign issuers. The latest successful retrieval returned 14 October, so no 15 October value is fabricated. The ten-year par value is about 3.4781%, and thirty-year about 3.7160%. Compare dates and conventions before comparing it with the US panel.
 
-One basis point is 0.01 percentage point: the slope moves from 30 to 70 basis points, widening by 40 basis points. A curve can also steepen with rising yields (bear steepening), so the slope description alone does not give direction.
+Reference: [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 32 — Fitted zero curves on a common date
 
-## Slide 31 — Expressing the relative view with bonds
+The common date is 9 October because the Fed Gürkaynak–Sack–Wright data are updated weekly with a lag. The US curve is evaluated monthly from published Svensson parameters over one to thirty years; the 30 annual source-grid points are marked. The euro curve uses the ECB’s published monthly zero rates on that same date. Both continuous-compounding rates z are converted to annual effective rates by exp(z)−1. This conversion changes the displayed numerical percentage, and these are zero rates, so they should not be mistaken for the earlier par quotes. The Fed fit uses off-the-run coupon securities and excludes bills, floating-rate notes, on-the-run and first-off-the-run notes and bonds.
 
-Shorting means selling a borrowed bond and later repurchasing it. Borrow availability, financing, margin, coupon compensation and transaction costs matter. This is an educational conditional position, not a recommendation. Equal face values or market values do not equalise rate risk.
+Reference: [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 33 — Spot, par and YTM are different objects
 
-## Slide 32 — DV01 puts the two legs on comparable terms
+The distinction is essential when using dense online data. A spot curve prices individual dated payments. A par curve reports the hypothetical coupon rates that make bonds price at par under a coupon-frequency convention. A YTM is a summary for a particular bond. The Fed and ECB provide multiple fitted outputs; the labels must survive the download. Smoothing helps describe the cross-section, while fit assumptions, sample liquidity and data revisions remain relevant.
 
-Use the positive magnitude of DV01 for each bond before signing a position. A long loses approximately DV01 dollars when its yield rises by one basis point; a short gains that amount. Modified duration was defined earlier. A parallel hedge is local and does not hedge every term-structure shock.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md. [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 34 — A non-flat curve discounts dates differently
 
-## Slide 33 — Exercise: choose the size of the short leg
+This two-year example has annual coupons and is valued on a coupon date. It prices two separately replicated payment dates. A single YTM can summarize the resulting price, but it is not a substitute for building the zero curve consistently across instruments. The next page infers one discount factor from a coupon price and an already known shorter discount factor.
 
-Use a single currency and representative instruments with the stated durations. DV01s are magnitudes; position signs differ. Ask for V_short=180/(8×0.0001)=225000. Sizes are market values, not face values. These durations and yields are hypothetical.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 35 — Bootstrapping a two-year discount factor
 
-## Slide 34 — Equal DV01 requires unequal market values
+The first coupon costs 4.80 to replicate. The remaining 95.20 buys the final 105 payment, so d(2)=95.2/105=0.9066667. The corresponding annual-effective two-year spot rate is about 5.01997%. This is an original hypothetical bootstrap, not a fit to the market snapshot. More complicated real bootstraps also account for coupon schedules, settlement, day counts and interpolation. Ask why the bond’s 5% par coupon differs from its two-year spot rate.
 
-Signed DV01 here is exposure convention: a positive long DV01 loses when yield rises. First-order parallel sensitivity sums to zero. Equal DV01 hedges the specified local parallel shift only, not twists, curve reshaping, convexity or spread moves.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 36 — A forward loan is agreed today
 
-## Slide 35 — Work out the scenario profit and loss
+For simplicity, the loan starts one year from today and ends a year later. A lender locks the future reinvestment rate; a borrower locks the future financing rate. This is a contractual rate, not a guess about what a new one-year loan will cost next year. A forward-starting agreement can have zero value today at the fair implied rate even though its future principal transfers are substantial.
 
-The long gains because its yield falls; the short loses because its yield also falls, but less. A uniform 10-bp rally would cancel at first order. The scenario profit follows from the supplied yield changes; correctly calling a policy cut alone does not establish these changes.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 37 — Two ways to lock a two-year payoff
 
-## Slide 36 — Counterfactual: what would make this trade lose?
+Both routes fix the final payoff today. The second route uses a forward, not a future rate left unknown. This distinction is what lets no-arbitrage relate them exactly. If borrowing and lending are executable on those matched terms, differing locked payoffs allow a self-financing arbitrage. The unsecured retail borrowing rate is not automatically the same as the collateralized zero-curve funding rate.
 
-Ask for a numeric counterexample: two-year yield falls 10 bp while ten-year falls 50 bp. The same position loses 7200 at first order. Further risks include borrow squeeze, margin, spread risk, changing DV01 and convexity. If presenting live trading context, this requires current independently verified prices and financing.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-securities/understanding-pricing/). [New York Fed, Term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs). [KOM, 12th Global Edition, ch. 14, printed pp. 390–411](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
+## Slide 38 — Exact no-arbitrage across the two routes
 
-## Slide 37 — Further reading
+This is an exact relation for annual effective rates and one-year then one-year intervals under the matched trading assumptions. It does not require a theory of expected future policy rates. In discount-factor form, 1+f(1,2)=d(1)/d(2). A spread between theoretical and quoted forwards must first be checked for bid–ask, collateral, credit and funding differences.
 
-Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
 
-Reference: See [source_map.md](source_map.md) and syllabus.md.
+## Slide 39 — Worked forward rate
 
+The second-year rate must exceed 5% because the first year earns only 4%, while the total two-year locked return matches 5% compounded twice. The exact implied forward is 6.009615%. A common rough calculation, 2 times 5 minus 4 equals 6%, is only a small-rate approximation. Start with the compounded-payoff relation rather than teaching the approximation as an identity.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 40 — Replicating the forward with two zeros
+
+The short one-year zero finances the initial purchase of the two-year zero. At year 1 the investor must pay 100 on the short position; at year 2 the long position receives 106.0096. Both initial prices are 96.153846. This exactly reproduces lending 100 over year 1 to year 2 at the forward rate. The cash-flow signs refer to the investor implementing the synthetic lender. Shorting and financing assumptions are explicit.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 41 — A mispriced forward creates a locked profit
+
+The initial value is zero, the principal flows at year 1 cancel, and the year-2 net payment is positive. This is an invented inconsistency, not an observed opportunity. The proof requires the same currency, dates, credit and collateral terms, together with executable lending and borrowing and no offsetting costs. An attractive expected trading return with downside risk is a different concept from this deterministic arbitrage.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 42 — A forward is a price; a forecast is a belief
+
+This is where we leave exact replication and enter asset pricing under uncertainty. A forward is a contractual rate fixed today. The physical expectation of next year’s short rate averages future outcomes under actual-world beliefs. Risk compensation and nonlinear pricing can separate them. The next section rebuilds the former unexplained decomposition one step at a time.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 43 — Expectations and term premia
+
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
+
+## Slide 44 — Rolling over leaves the second rate unknown
+
+These are two hypothetical future short-rate outcomes, not forecasts. The two-year zero locks nominal final wealth, while rolling one-year instruments exposes the investor to the year-2 rate. Therefore their actual outcomes need not be equal. Only adding the forward contract removes the rate uncertainty and gives the earlier exact arbitrage relation. Their expected returns can differ when risk is priced.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 45 — Compounding averages forward rates
+
+For whole-year periods and consistent annual-effective conventions, the relation is exact. The long zero yield is a geometric, not arithmetic, average of the locked one-year forward returns. Logs turn that geometric relation into an arithmetic average of log gross rates. At low rates, the arithmetic average of the simple forwards is a useful approximation. Nothing in this algebra has yet introduced expected future policy or a term premium.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 46 — The expectations hypothesis adds an assumption
+
+This expectations-hypothesis relation is an additional economic restriction, not a consequence of no-arbitrage alone. The approximate equality ignores pricing and convexity adjustments under uncertainty. E_t denotes an expectation formed using information at time t. The rate is a matched one-year market rate, not mechanically the central bank’s overnight policy target. Policy expectations influence market short rates, but their horizons and implementation spreads differ.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 47 — An explicit expected short-rate path
+
+This invented five-year path makes the expectation component concrete. Each number is the expectation, formed today, of the one-year market rate for that period. The arithmetic average is 3.30%. It is an approximate simple-rate building block, not yet a bond price and not an empirical forecast. Ask what happens to the five-year average if only the first number falls by 0.25 percentage points: it falls by only 0.05 points.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 48 — Why a term premium can appear
+
+The risk is not merely that a bond has a long maturity. The value of its return in the investor’s bad states matters. Inflationary shocks can reduce nominal bond values when investors need protection; recessionary shocks can make safe bonds valuable hedges. Demand from pension funds matching liabilities or changes in bond supply can also affect required compensation. A term premium can be positive or negative and can change over time. Jensen’s older liquidity-preference discussion is therefore broadened rather than treated as a universal positive-premium law.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 49 — Add the premium as a separate component
+
+These are assumed illustrative components in a log-linear/simple-rate approximation. TP is not the coupon rate or a dealer fee. It is the part attributed to term-risk pricing under the stated framework, with any convention-specific adjustment handled consistently. Do not present this arithmetic as an exact compounded identity. This slide separates the intuition before introducing a general notation.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 50 — The yield decomposition, now defined
+
+This replaces old slide 24. i_t(n) is the current nominal zero yield for maturity n. The sum averages expectations formed today about future one-year market rates, including the current first year at k=0. TP is a maturity-specific pricing component. The equation is a useful approximation rather than an accounting identity or an exact no-arbitrage restriction on physical expectations. It abstracts from log/simple-rate and Jensen adjustments. An overnight policy target is not silently substituted for a one-year rate. Full term-structure models define these components consistently and can give different estimates.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 51 — One observed yield can have different stories
+
+This is an identification problem. One market price is consistent with different beliefs and different prices of risk. To estimate components, use a specified term-structure model, survey information and other restrictions. A rising long yield need not mean that the expected policy path rose by the same amount. Likewise, a model’s term-premium residual is not an independently traded price that can be observed without assumptions.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 52 — An estimated US decomposition over time
+
+The black line is the ACM model’s fitted ten-year yield, not a specific Treasury’s YTM. The rust line is its estimated term premium. The teal line is computed as fitted yield minus term premium, corresponding to the model’s remaining/risk-neutral-yield component. It should not be described as a directly surveyed average forecast. Model-specific nonlinear and convexity conventions matter. The fitted yield also differs slightly from the source GSW yield; both are retained in the CSV. The historical chart illustrates that the premium can change and need not be positive.
+
+Reference: [New York Fed, Treasury term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs), Adrian–Crump–Moench model. Inputs: ../data/lecture_03_acm_decomposition.csv.
+
+## Slide 53 — Reading the model snapshot
+
+At the final frozen month-end, fitted yield is 5.258961%, premium 0.885008% and the remaining component 4.373953%. The displayed two-decimal sum is rounded. In the ACM framework the remaining/risk-neutral yield reflects the modeled expected-rate component with model conventions, not a directly observed public expectation. The measured GSW ten-year zero yield on this date is 5.283562%, showing the small model fitting difference. These are September model estimates, not a live October decomposition.
+
+Reference: [New York Fed, Treasury term premia](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs), Adrian–Crump–Moench model. Inputs: ../data/lecture_03_acm_decomposition.csv.
+
+## Slide 54 — Fed dot plot: June 2026
+
+This is the user-supplied graphic, retained rather than silently redrawn. Its distribution and horizon labels were checked against Figure 2 of the Federal Reserve’s 17 June 2026 SEP. The graphic’s US Bureau of Labor Statistics credit is wrong: the SEP is produced by the Federal Reserve. Each dot represents an individual assessment of the appropriate end-year target midpoint or target level. It is a historical June communication example, not the latest October outlook or a current forward curve. The anonymous submissions do not identify matching people across years.
+
+Reference: [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../data/lecture_03_fed_dots_june2026.csv.
+
+## Slide 55 — What each dot means
+
+A dot is neither a commitment by the FOMC nor a market contract. Officials provide a policy assessment conditional on their own economic projections. The cross-sectional spread is disagreement among those assessments, not an uncertainty band for one participant or a set of market-implied probabilities. Longer run means convergence under appropriate policy without further shocks, not a security maturity. The June projection date must remain visible when comparing with later news.
+
+Reference: [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../data/lecture_03_fed_dots_june2026.csv.
+
+## Slide 56 — June’s individual assessments and medians
+
+The Fed’s vector chart contains 18 dots for 2026, 18 for 2027, 17 for 2028 and 18 longer-run dots. Projection values are rounded to one-eighth percentage point in the official figure. Extracted medians are 3.75, 3.625, 3.375 and 3.0625 percent, which match the published one-decimal medians 3.8, 3.6, 3.4 and 3.1. A median does not identify a particular participant’s whole forecast path. This native TikZ redraw uses the data only and remains editable.
+
+Reference: [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../data/lecture_03_fed_dots_june2026.csv.
+
+## Slide 57 — Three objects to keep separate
+
+Do not put a June dot next to an October forward and call the difference a clean term-premium estimate. Dates, horizons, participants, instruments and pricing conventions differ. A term-structure model is needed to translate relevant information into an expectations component. This is the main interpretation lesson of the dot plot and the decomposition. The same distinctions matter when reading a newspaper claim that the bond market expects a particular policy decision.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md. [Federal Reserve, 17 June 2026 SEP, pp. 2 and 4](https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf). Inputs: ../data/lecture_03_fed_dots_june2026.csv.
+
+## Slide 58 — A cut today can coexist with rising long yields
+
+This is not a description of a particular meeting. It specifies a policy cut today together with a higher expected average of later rates and a larger term premium. Under the approximate decomposition, the long yield rises 0.30 percentage points. There is no contradiction: the central bank chooses a short-rate setting, while markets price the longer sequence and its risk. The new target may already have been anticipated; only surprises and changes in other inputs move prices. We calculate the bond-loss implication after introducing duration.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 59 — Duration and convexity
+
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
+
+## Slide 60 — The price–yield relation is curved
+
+The graph holds face value and remaining maturity fixed. It is a cross-section of possible current prices as the required yield varies, not a time path with the bond aging. The slope is negative, but it changes with the yield. A tangent gives the first-order approximation, and curvature explains its error for larger moves. All rates are nominal; this local i is the bond yield, not a new real-rate notation.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 61 — Modified duration is the normalized slope
+
+Modified duration is local sensitivity to the selected yield parameter. It normalizes the derivative by the price, so multiplying duration by a decimal rate change approximates the proportional price change. If duration is eight, a 50-basis-point rise implies about −4%. It assumes fixed cash flows and an unchanged credit/liquidity setting. For a coupon bond, a change in its single YTM is a one-parameter repricing; a general curve twist requires more risk information.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 62 — A zero’s duration follows by differentiation
+
+Differentiate while fixing maturity and face value. The face value cancels from proportional sensitivity, so the duration of a zero does not depend on whether F is 100 or 1,000. Modified duration is slightly below the ten-year payment time under annual compounding. This is distinct from Macaulay duration, which equals exactly T for a zero. The derivative is with respect to a decimal annual-effective rate.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 63 — Coupon duration weights the payment dates
+
+The three-year 4% coupon bond at 5% yield has price 97.27675197. Each weight is CF_k/(1.05^k p), and the weights sum to one. Macaulay duration is the present-value-weighted payment time, 2.88437972 years. Coupons bring part of the value forward, so this is less than three years. This weighted-time interpretation gives intuition before dividing by 1+i to obtain modified sensitivity.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 64 — Macaulay and modified duration
+
+For annual payments the derivative of each discounted cash flow generates k/(1+i), giving this relation. With m coupon periods per year and a nominal annual YTM, the corresponding factor is 1+i/m. Keep the coupon-frequency convention explicit before importing a quoted duration. Duration is a cash-flow-timing measure and a sensitivity only after the chosen normalization is specified.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 65 — DV01 converts sensitivity into money
+
+V is the current market value of the position, not its face value. A positive DV01 quoted for a long bond measures the approximate loss for a one-basis-point yield rise, or gain for a one-basis-point fall. In later trade tables, signed DV01 is positive for long and negative for short, with P&L approximately minus signed DV01 times the yield move in basis points. The 1 million and duration eight are hypothetical risk inputs.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 66 — A ten-basis-point move
+
+This is the first-order monetary calculation for the preceding position. The signs reverse for a short position. The symmetry is a property of the tangent approximation, not of the full bond-price function. We now use the Taylor expansion to make the missing curvature term explicit.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 67 — Duration comes from a Taylor expansion
+
+For this smooth bond-price function, Taylor’s theorem around the initial yield gives the local expansion. Retaining only the first derivative gives the duration rule. Retaining the second derivative gives the duration-plus-convexity rule. The remainder depends on higher derivatives and the shock size, so the quadratic is still an approximation. This price convexity is not the same object as the Jensen adjustment that arises when averaging uncertain future rates in a term-structure model.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 68 — Convexity normalizes the second derivative
+
+Divide the Taylor expansion by the initial price. Since d²[CF_k(1+i)^(−k)]/di² equals k(k+1)CF_k(1+i)^(−k−2), every positive fixed payment contributes positive curvature for i>−1. The second-order term is positive for either sign of the rate change. This is not a claim that every security has positive effective convexity: embedded call or prepayment options can change the cash flows when rates change.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 69 — A zero’s convexity is explicit
+
+The ten-year zero’s modified duration is 9.5238095 and convexity is 99.7732426 under annual-effective compounding. The positive second derivative has a direct calculus proof, rather than being a general intuition asserted without assumptions. Face value cancels from both normalized sensitivities. Use a decimal shock: one percentage point is 0.01, whose square is 0.0001.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 70 — Exact, tangent and quadratic repricing
+
+The horizontal variable is percentage points for readability; the calculation converts it to decimals. The vertical axis is proportional price change in percent. The duration line is tangent at zero. The quadratic adds positive curvature for both signs of the move. For large shocks it can still deviate, and the approximation must not be extrapolated beyond a sensible neighborhood. This is an original native TikZ plot, not a reproduced course or book figure.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 71 — Work out a one-percentage-point move
+
+All calculations use the same ten-year zero initially yielding 5%. Read the exact numbers from the table, independently generated from the price formula. The convexity correction is about +0.499 percentage points of price return for either sign of the one-point yield move. It reduces the estimated loss when yields rise and increases the estimated gain when yields fall. The correction is not an additional coupon or guaranteed profit.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 72 — The asymmetry has economic meaning
+
+With positive convexity, the tangent lies below the exact price function. Relative to the same starting price, a symmetric yield decrease therefore creates a larger gain than the loss from the corresponding increase. This does not create a free trading strategy: prices, yields, duration, credit and financing differ across instruments. Callable bonds and mortgage-backed securities can have negative effective convexity because the borrower can shorten the cash-flow schedule when rates fall.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 73 — Sensitivity is conditional on the experiment
+
+The exact derivative is conditional on the parameter being changed. A bond’s YTM can move because of Treasury rates, credit spreads or liquidity, while a portfolio is exposed to several maturity points. Key-rate durations distinguish where the curve moves. Convexity handles the nonlinear part of one specified shift; it does not eliminate cash-flow uncertainty, funding risk, option exercise or rebalancing needs. The next trade deliberately changes the curve slope.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 74 — A liability changes what counts as risky
+
+A ten-year zero’s market value can move strongly while remaining a precise cash-flow hedge for an equal nominal liability on its maturity date. When discount rates move, the matched asset and liability values move together. A short bill avoids most immediate mark-to-market risk but does not fix the future rate needed to fund a long liability. This finance perspective is different from asking which bond will rally next week. A full immunization problem is an optional extension, not a guarantee from the word duration alone.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 75 — A bond fund usually keeps exposure beyond one maturity
+
+This describes a generic rolling bond fund, not every fund or target-maturity product. A fund’s portfolio value and distributions depend on changing yields, reinvestment and its management rules. It generally has no promise to redeem a unit at a fixed face value on one specified date. A target-maturity fund can behave differently. Both instruments can be useful for different purposes; the point is to identify the contract and the risk rather than treating a displayed yield as a guaranteed personal return.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed. (2018), ch. 14, pp. 432–448. Jensen, Financial Economics (2023), Part 15A, pp. 6–14. Rodemeier, Financial Markets and Institutions (2022), Lecture 3, pp. 3–27, 35–50. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 76 — Hedging and market cases
+
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
+
+## Slide 77 — News lab: income horizon or price trade?
+
+The accessible opening of the column distinguishes investors attracted to the stream of bond income from those making a price/rate view. Use only that verified opening as the source, rather than claiming the full paid article has been read. Ask two students to describe a ten-year payment-matching investor and a one-year trader buying the same bond. Their mark-to-market exposure is identical, but the way it relates to their objectives differs. The source article and MIT access guide are linked in the reading list.
+
+Reference: [WSJ, Telis Demos, bond-strategy column, 8 October 2026](https://www.wsj.com/finance/investing/choosing-the-right-bond-strategy-for-todays-high-yield-world-0c4b6a78). The accessible opening motivates the question; the exercise is original.
+
+## Slide 78 — News lab: buying during a Treasury sell-off
+
+The FT headline and opening were verified through its authorized syndicated Yahoo Finance version; the direct FT page requires access that this tool could not confirm. Do not claim MIT authentication or full-text access was completed. No article screenshots, full text or proprietary flow datasets are redistributed. The discussion asks what horizon, duration and expected yield path would make a purchase sensible for a given objective. A high observed yield does not by itself identify a future price rally or an expected excess return.
+
+Reference: [Financial Times, Harriet Clarfelt and Kate Duguid, 13 October 2026](https://www.ft.com/content/6fa735a2-a590-4461-b092-920ba489e7a8). Headline and opening verified through the FT’s syndicated Yahoo Finance version. Full FT text may require MIT SSO.
+
+## Slide 79 — Two real auctions, two different questions
+
+The remaining terms are nine years ten months and twenty-nine years ten months because these are reopenings. The ten-year note’s coupon is 4.625%, while its high auction yield is 5.300%; the thirty-year bond’s coupon is 5.125%, while its high yield is 5.618%. The offering is the announced public amount; additional awards can make total accepted differ. A high absolute yield and strong bidding relative to expectations can coexist. Bid-to-cover is informative but needs comparison with similar auctions and the pre-auction market.
+
+Reference: [TreasuryDirect 7 October results](https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-07); [8 October results](https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-08). ../data/lecture_03_auction_results_2026-10.csv.
+
+## Slide 80 — An auction tail needs a market benchmark
+
+A when-issued quote is the pre-settlement market yield for the security being auctioned. A positive tail means the auction cleared at a higher yield, hence lower price, than that contemporaneous benchmark. A negative difference is often called a stop-through. The example is invented; it is not a claim about the 7 October auction, since a matched deadline when-issued observation was not verified. A comparison with last month’s auction yield cannot measure this tail.
+
+Reference: [TreasuryDirect, auction process](https://www.treasurydirect.gov/auctions/how-auctions-work/). Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 81 — A curve view needs two maturity scenarios
+
+The two-year yield falls by 50 basis points and the ten-year yield falls by ten. Both bond prices therefore rise, but the relative response depends on position size and duration. The joining segments only summarize the two scenario points, not a fitted thirty-year market curve. These are matched bond-yield risk inputs for the P&L exercise, rather than mixing the official par and zero datasets.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 82 — This scenario is a bull steepening
+
+Bull describes falling yields and rising fixed-cash-flow prices. Steepening describes an increase in the selected long-minus-short yield spread, here from 30 to 70 basis points. A steepening can also occur with rising yields, so the two words describe different dimensions. We use i_2 and i_10 as shorthand for the two bond-yield inputs, not to redefine the spot-versus-YTM distinction.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 83 — Expressing the relative view
+
+Buying the short maturity and shorting the long maturity expresses a steeper long-minus-short yield spread when the legs are sized by DV01. The short ten-year leg loses in this particular bull-steepening scenario, since that bond also rallies. The expected gain comes from a sufficiently larger DV01-adjusted rally in the two-year leg. Equal market values or equal face values generally give different sensitivities.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 84 — Match DV01, rather than market values
+
+The two-year long has DV01=1,000,000 times 1.8 times 0.0001=180 currency units per basis point. Matching that magnitude requires only 225,000 market value of the duration-eight ten-year bond. Its signed DV01 is −180 because the position is short. This is a market-value hedge, not a notional or face-value equality. It is approximately neutral to a small parallel yield move at inception.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 85 — Work out the scenario profit and loss
+
+P&L is minus signed DV01 times the yield change in basis points. The long leg gains 9,000 and the short leg loses 1,800. For equal absolute DV01 q, combined first-order P&L is q times the change in the long-minus-short yield spread, giving 180 times 40=7,200. This is a specified conditional scenario, not an arbitrage. Actual financing and short-sale mechanics can materially affect the result.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 86 — A small parallel move cancels at first order
+
+The equal and opposite DV01 exposures cancel the local level move under this simplified two-point repricing. That cancellation is first order and local, not an exact invariance for large shocks. The two bonds have different convexity, carry, roll-down and funding costs. Their sensitivities also evolve as time passes and yields change, so a live hedge requires monitoring and often rebalancing.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 87 — Counterfactual: the curve flattens
+
+The two-year fall is now smaller than the ten-year fall, so the ten-year minus two-year spread narrows by 40 basis points. The short long-duration leg loses more than the long two-year leg gains. This is why forecasting a general rate cut is not enough to define the curve trade. It must be a relative view that differs from what is already priced, with position sizing and horizon specified.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 88 — A cut with a sell-off: the complete calculation
+
+Return to the earlier invented policy-cut experiment. The expected-rate component rises 0.10 points and term premium 0.20, so the approximate long-yield rise is 30 basis points. A 1 million position with duration eight has first-order price P&L −24,000. Under an additionally assumed convexity of 80, the second-order correction is 0.5 times 1,000,000 times 80 times 0.003 squared=360, giving approximate repricing −23,640. This excludes coupon carry and financing. The assumptions—not the fact of a cut alone—produce the answer.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 89 — Questions before taking the trade
+
+Ask each student to state a trade in these concrete terms. A model-based term-premium estimate, an auction headline and a central-bank dot are useful evidence, but none alone identifies a profitable position. The counterfactual should include adverse yield shape changes and a plausible funding constraint. This closes the core teaching route; the next section is optional mathematics for readers who want the underlying asset-pricing framework.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md. Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 90 — Optional foundations
+
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
+
+## Slide 91 — General forward intervals
+
+This generalizes the one-year forward calculation to any two positive remaining times with T2>T1. The ratio is the gross locked growth over the interval; the power annualizes it. It follows from a portfolio of two zeros. For actual FRAs, futures and swaps, use contractual day counts and settlement conventions; futures convexity adjustments and collateral differences can separate their quotes from this ideal forward.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 92 — Continuous and annual-effective spot rates
+
+Here z is a continuously compounded nominal zero rate, used only to document the source convention. It is not a new name for the real rate r. A source quote of 5% continuous corresponds to an annual-effective rate exp(0.05)−1=5.12711%, not exactly 5%. This transformation does not change a discount factor or produce a market move. The data CSV retains both the source percentage and the converted percentage.
+
+Reference: [US Treasury par rates](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610); [Fed fitted nominal curve](https://www.federalreserve.gov/data/nominal-yield-curve.htm); [ECB curve methods](https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/euro_area_yield_curves/html/index.en.html). Inputs: ../data/lecture_03_yield_curves_2026-10-16.csv.
+
+## Slide 93 — The par coupon comes from discount factors
+
+Set the dirty price equal to face value, price each payment with the zero curve, and solve for the annual par coupon. With fractional coupon periods, the denominator includes the relevant accrual fractions and conventions. This makes the distinction between the spot curve and the par curve explicit. It also explains why a smoothly estimated spot curve can generate a different-looking par curve from the same underlying discount factors.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 94 — Two states: equal average payoff, different price
+
+This optional example introduces state pricing rather than assuming a universal discount rate for expected cash flows. State prices are q_good=0.4 and q_bad=0.56153846, both positive. Hence a certain one-unit payment costs q_good+q_bad=1/1.04, while A costs 100q_good=40 and B costs 100q_bad=56.153846. Their physical expected payoffs are both 50, but B insures the bad state. This is an original finite-state construction; it does not claim these numbers describe the market or appear in the reference courses.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 15, pp. 467–486. Jensen, Financial Economics (2023), Parts 14 and 15B. Bibliography: source_map.md.
+
+## Slide 95 — A stochastic discount factor prices states
+
+In the preceding finite-state example, q_s=probability_s times m_s, with m_good=0.8 and m_bad=1.123076923. The covariance decomposition is exact algebra. A payoff that arrives when m is high has a larger current price for the same expected payoff and thus a lower required expected return. A certain one-unit payoff has price E[m], so its gross risk-free return is 1/E[m]=1.04. Under suitable no-arbitrage assumptions, positive state prices support such a discount factor. This is a bridge to future asset-pricing classes, rather than a full equilibrium derivation.
+
+Reference: John H. Cochrane, Asset Pricing, revised ed., ch. 1; optional original two-state construction. See lecture_03_readings.md.
+
+## Slide 96 — Optional liability hedge: match value and duration
+
+Assume a flat 5% curve and assets initially worth the liability PV, 100/1.05^10. The one-year and twenty-year zeros have Macaulay durations equal to their maturities. These market-value weights give an asset Macaulay duration of ten, matching the liability; the shared 1.05 normalization also matches modified duration. This cancels a small parallel-yield sensitivity at inception, while cash-flow dates and convexity still differ. Future reinvestment and rebalancing are needed. The example adapts the course’s immunization mechanism using different maturities, amounts and rates.
+
+Reference: Bodie, Kane & Marcus, Investments, 11th ed., ch. 16, pp. 496–508. Jensen, Financial Economics (2023), Part 16, pp. 3–13. Bibliography: source_map.md.
+
+## Slide 97 — Reading
+
+Introduce the section question and ask for an economic prediction before calculating. The section can be a separate short meeting.
+
+## Slide 98 — Reading and next questions
+
+The textbook is Investments, 11th edition, 2018: chapter 14 on prices/yields, chapter 15 on the term structure and chapter 16 on duration, convexity and management. Jensen’s 2023 Financial Economics Parts 14–16 guide replication, realized returns and risk management. Rodemeier’s 2022 Financial Markets and Institutions Lectures 3–4 guide valuation and auctions; their old market examples and institutional facts are checked against current official pages. Krugman–Obstfeld–Melitz chapter 14 remains useful for matched asset-return comparisons in international finance. The newspaper links are reading prompts, not reproduced articles. The user’s AI-trade article is kept in the local reference backlog for a later Lecture 2 discussion.
+
+Reference: See lecture_03_readings.md and source_map.md.
 
 
 ---

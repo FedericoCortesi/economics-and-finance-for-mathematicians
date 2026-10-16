@@ -1,23 +1,34 @@
-# Delivery checks — 15 October 2026
+# Delivery checks — 16 October 2026
 
-309 slide pages across seven modules. All pages were rendered and visually reviewed. Changed pages were rendered again after the final layout edits.
+370 slide pages across seven teaching modules. The revised Lecture 3 has 98 pages, with matching editable Beamer source, slide-indexed notes and course outline. Its six short-meeting routes are in the syllabus and reading list.
 
-- Class 1: 42 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 2: 86 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 3: 37 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 4: 36 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 5: 38 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 6: 28 pages; editable source, compiled PDF and slide-indexed notes agree.
-- Class 7: 42 pages; editable source, compiled PDF and slide-indexed notes agree.
+## Lecture 3 revision
 
-All seven decks compile with pdfLaTeX without errors or overfull boxes. The combined PDF preserves class and section bookmarks. Representative calculations were independently recomputed: project NPV, bond prices, IS–LM intersections, covered parity, carry P&L, DV01 sizing, trade values and exact debt-ratio changes. Frozen summer data contain no duplicate series/date rows; the FX cross-rate arithmetic is consistent.
+- pdfLaTeX completed two final passes with no errors, warnings or overfull boxes.
+- All 98 pages were rendered to PNG and visually inspected. The final auction allocation edits were rendered and checked again. Formula, empirical-chart, supplied-image and Taylor-comparison pages were also inspected individually at full preview size.
+- Independently recomputed zero/coupon prices, holding return, bootstrap discount factor, exact forward replication and hypothetical arbitrage payoff; auction allocation and bill day-count quotations; analytic duration/convexity against finite differences; Taylor approximation errors; DV01 sizing and both trade scenarios; state prices and immunization weights.
+- The 1,100 curve rows have unique series/date/maturity keys. Counts are 14 Treasury par tenors, 358 ECB par maturities, 349 monthly US zero points, 30 annual US source-grid zero points and 349 monthly EUR zeros. All continuous-to-annual conversions reconcile.
+- The US Svensson evaluation reproduces all 30 published annual source quotes within 0.00011 percentage points. Fitted points are clearly distinguished from independent market observations.
+- All 81 ACM monthly decompositions reconcile to their fitted yield. The 71 June Fed dots reproduce the official distribution and medians. Quote conventions, source dates and model assumptions remain explicit.
+- Actual auctions are separated from invented allocation and when-issued examples. The supplied chart's incorrect BLS credit is corrected in its visible caption.
+- Local Markdown links in the changed course entry points, reading list, revision map and Lecture 3 notes resolve.
 
-Market observations retain dates and official source URLs. Native yield conventions and local observation times differ across jurisdictions; no causal capital-flow claim is inferred from their co-movement. Textbook and course figures were used for reference; the delivered plots, examples and teaching illustrations are original.
+## Course integrity and publication
 
-## GitHub publication
+| Module | Pages | Status |
+|---|---:|---|
+| 1 | 42 | Source, PDF and notes unchanged |
+| 2 | 86 | Source, PDF and notes unchanged |
+| 3 | 98 | Rebuilt and checked in this revision |
+| 4 | 36 | Source, PDF and notes unchanged |
+| 5 | 38 | Source, PDF and notes unchanged |
+| 6 | 28 | Source, PDF and notes unchanged |
+| 7 | 42 | Source, PDF and notes unchanged |
 
-The course title is Economics and Finance for Mathematicians. All seven decks were rebuilt, and all seven updated title slides were rendered and checked. Slide content and page counts are otherwise unchanged. The shared theme is now `../theme/course_theme.tex`; the combined deck is `../dist/economics_and_finance.pdf`. The public build script also regenerates the combined deck and bookmarks. Third-party textbook and reference lecture files, build logs, local archives and ZIP bundles are excluded from Git.
+The other six modules' PDFs, sources and individual notes are byte-identical to the preceding published revision. Their earlier compile and visual checks remain applicable. The assembled 370-page PDF has class/section bookmarks, and every page's extracted text matches its standalone lecture counterpart. Representative combined pages were rendered as an assembly check.
 
-## Folder reorganization
+The two finance courses were inspected privately. Their Drive links, downloaded reference decks/book text, raw research and the future Lecture 2 article backlog remain in `reference_courses/`, excluded by `.gitignore`. Only original teaching content, the explicitly requested supplied chart and processed public-source data are published. News prompts use verified accessible openings, with full-text/MIT-access limitations recorded in the reading list. The source ZIP excludes private references and build intermediates.
 
-Every lecture now has a source, PDF and notes under `lectures/lecture_XX/`. Shared files are grouped into `assets/`, `data/`, `docs/` and `theme/`; the combined PDF is in `dist/`. All seven sources rebuilt successfully with the updated paths and no overfull boxes or LaTeX errors. All 309 page texts matched the preceding version, and the published PDFs retain their preceding byte-identical contents. Markdown file links were checked. The local `reference_courses/` folder is excluded by `.gitignore`; its finance-course links are not part of the public files.
+## Earlier course checks
+
+Before this revision, all seven decks (309 pages) compiled and were rendered and reviewed. Representative macro, FX, debt and portfolio calculations were checked. The folder reorganization preserved those PDFs byte-for-byte and updated their build paths. This revision changes only the bond module and related course documentation/data, then reassembles the complete PDF.

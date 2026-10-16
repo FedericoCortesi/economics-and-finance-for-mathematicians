@@ -2,7 +2,7 @@
 
 An evolving course for mathematicians learning economics, finance and markets. The lectures build intuition through models, original diagrams, worked examples and trading questions, with every important assumption stated explicitly.
 
-The current seven modules start with macroeconomics and move through bonds, foreign exchange and sovereign risk. Future lectures will expand the asset-pricing and finance material. The course is not limited to a fixed number of classes.
+The current seven modules start with macroeconomics and move through bonds, foreign exchange and sovereign risk. Lecture 3 develops fixed-income pricing, auctions, forwards, duration, convexity and a curve trade. Future lectures will expand asset pricing further. The course is not limited to a fixed number of classes.
 
 [Syllabus](syllabus.md) · [Complete slide deck](dist/economics_and_finance.pdf) · [Instructor notes](docs/instructor_notes.md) · [Sources](docs/source_map.md)
 
@@ -14,13 +14,13 @@ The current seven modules start with macroeconomics and move through bonds, fore
 |---|---|---:|---|
 | 1 | [Output, income and capital flows](lectures/lecture_01/lecture_01.pdf) | 42 | [Notes](lectures/lecture_01/notes.md) |
 | 2 | [Money, inflation and activity](lectures/lecture_02/lecture_02.pdf) | 86 | [Notes](lectures/lecture_02/notes.md) |
-| 3 | [Bonds and yield curves](lectures/lecture_03/lecture_03.pdf) | 37 | [Notes](lectures/lecture_03/notes.md) |
+| 3 | [Bonds and yield curves](lectures/lecture_03/lecture_03.pdf) | 98 | [Notes](lectures/lecture_03/notes.md) |
 | 4 | [Foreign exchange](lectures/lecture_04/lecture_04.pdf) | 36 | [Notes](lectures/lecture_04/notes.md) |
 | 5 | [Open-economy policy and regimes](lectures/lecture_05/lecture_05.pdf) | 38 | [Notes](lectures/lecture_05/notes.md) |
 | 6 | [Currency crises and the euro](lectures/lecture_06/lecture_06.pdf) | 28 | [Notes](lectures/lecture_06/notes.md) |
 | 7 | [Public debt and macro trades](lectures/lecture_07/lecture_07.pdf) | 42 | [Notes](lectures/lecture_07/notes.md) |
 
-The modules contain more material than a single short talk. The syllabus gives 25–30-minute routes, optional extensions and suggested questions. Lecture 1 develops production, income and external accounts. Lecture 2 introduces rates, inflation, money and IS–LM before the dedicated bond-pricing module.
+The modules contain more material than a single short talk. The syllabus gives 25–30-minute routes, optional extensions and suggested questions. Lecture 1 develops production, income and external accounts. Lecture 2 introduces rates, inflation, money and IS–LM before the dedicated bond-pricing module. The expanded [Lecture 3 reading list](docs/lecture_03_readings.md) provides six 25–30-minute routes, two finance-course mappings and dated WSJ/FT discussion prompts.
 
 ## Repository layout
 
@@ -57,6 +57,6 @@ Krugman, Obstfeld & Melitz, *International Economics: Theory and Policy*, and pu
 
 Examples and unlabelled model curves are hypothetical. Empirical charts use frozen CSV snapshots with observation dates, units and source URLs. Those snapshots describe their stated dates and are not live market views. The notes distinguish accounting identities from causal models and short-run assumptions from long-run benchmarks.
 
-The four teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
+The supplied June Fed dot-plot graphic is credited separately and accompanied by an editable official-data replot. The four teaching illustrations were generated with OpenAI's image-generation tool and depict invented settings. [Image credits](assets/credits.md) and [full prompts](docs/image_prompts.md) document their provenance.
 
 Prepared by Federico Vittorio Cortesi. This course is a work in progress.

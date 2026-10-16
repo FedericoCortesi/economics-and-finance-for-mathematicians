@@ -1,0 +1,5 @@
+cusip,security_type,security_term,auction_date,issue_date,maturity_date,offering_amount_usd,high_discount_rate_percent,high_investment_rate_percent,high_yield_percent,price_per_100,reported_bid_to_cover,source_url,retrieved
+912797VX2,Bill,4-Week,2026-10-15,2026-10-20,2026-11-17,110000000000,4.000000,4.068000,,99.688889,2.560000,https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-15,2026-10-16
+912797WF0,Bill,8-Week,2026-10-15,2026-10-20,2026-12-15,105000000000,4.050000,4.132000,,99.370000,2.260000,https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-15,2026-10-16
+91282CRF0,Note,9-Year 10-Month,2026-10-07,2026-10-15,2036-08-15,39000000000,,,5.3000,94.864261,2.770000,https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-07,2026-10-16
+912810UW6,Bond,29-Year 10-Month,2026-10-08,2026-10-15,2056-08-15,22000000000,,,5.6180,92.889131,2.540000,https://www.treasurydirect.gov/TA_WS/securities/search?format=json&auctionDate=2026-10-08,2026-10-16
