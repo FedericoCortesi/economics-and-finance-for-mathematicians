@@ -23,7 +23,7 @@ The revised deck has **86 slides**. This table maps the annotated 69-slide versi
 ## Opening additions
 
 - **Slide 2:** a short-run/long-run caveat before any model. The standard long-run benchmark has a zero output gap, with no fixed calendar duration. Results depend on which prices, quantities and expectations can adjust. Real shocks can move potential output and the neutral real rate.
-- **Slide 3:** an original AI-generated illustration connects bank credit, investment in a bakery oven and household spending. The saved asset and full prompt are in `assets/money_bakery.png` and `image_prompts.md`.
+- **Slide 3:** an original AI-generated illustration connects bank credit, investment in a bakery oven and household spending. The saved asset and full prompt are in `../assets/money_bakery.png` and `image_prompts.md`.
 - The preceding 84-slide content is retained in the same order. All its page numbers after the title move forward by two.
 
 ## Notation
@@ -34,6 +34,6 @@ The revised deck has **86 slides**. This table maps the annotated 69-slide versi
 
 ## Data and theory distinctions
 
-The post-Covid chart uses BLS CPI and the Federal Reserve target upper bound via FRED, January 2020–September 2026, retrieved 15 October 2026. It uses trailing 12-month CPI inflation and month-end policy observations. October 2025 CPI is missing in the source and is left as a gap. Observed inflation is not expected inflation, so the difference between these lines is not an ex ante real rate. Inputs and transformations are frozen in `us_inflation_policy_2020_2026.csv`.
+The post-Covid chart uses BLS CPI and the Federal Reserve target upper bound via FRED, January 2020–September 2026, retrieved 15 October 2026. It uses trailing 12-month CPI inflation and month-end policy observations. October 2025 CPI is missing in the source and is left as a gap. Observed inflation is not expected inflation, so the difference between these lines is not an ex ante real rate. Inputs and transformations are frozen in `../data/us_inflation_policy_2020_2026.csv`.
 
 The textbook references are ch. 16, printed pp. 459–462 and 480–482 (Fisher and short/long run), ch. 19, pp. 647–648 (saving/investment equilibrium), and ch. 15, pp. 423–426 (real money balances and money-market adjustment). Full URLs are in `source_map.md` and the slide-indexed notes.

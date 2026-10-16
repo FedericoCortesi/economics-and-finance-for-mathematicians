@@ -7,4 +7,4 @@ Original illustrations generated with the built-in OpenAI image-generation tool 
 - `gold.png`: an invented bank counter exchanging paper claims for gold, used for convertibility.
 - `money_bakery.png`: an invented bank loan, oven investment and bread purchase, generated 15 October 2026 for Lecture 2 with the built-in image-generation tool.
 
-Prompts requested a wide 16:9 painted/cut-paper editorial style, navy/teal/ochre on ivory, no text, no numerical data, no logos and clear physical teaching examples. Full generation prompts are retained in `image_prompts.md` alongside the course source files. No textbook cartoons or photographed slide pages were reused.
+Prompts requested a wide 16:9 painted/cut-paper editorial style, navy/teal/ochre on ivory, no text, no numerical data, no logos and clear physical teaching examples. Full generation prompts are retained in `../docs/image_prompts.md` alongside the course source files. No textbook cartoons or photographed slide pages were reused.

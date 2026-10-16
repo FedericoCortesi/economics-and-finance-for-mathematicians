@@ -4,7 +4,7 @@ How do dated payments, expectations and risk premia produce a yield?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Bonds and yield curves
 
@@ -226,5 +226,5 @@ Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-s
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](../../docs/source_map.md) and syllabus.md.
 

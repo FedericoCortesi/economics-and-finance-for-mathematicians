@@ -16,4 +16,8 @@ Market observations retain dates and official source URLs. Native yield conventi
 
 ## GitHub publication
 
-The course title is Economics and Finance for Mathematicians. All seven decks were rebuilt, and all seven updated title slides were rendered and checked. Slide content and page counts are otherwise unchanged. The shared theme is now `course_theme.tex`; the combined deck is `economics_and_finance.pdf`. The public build script also regenerates the combined deck and bookmarks. Third-party textbook and reference lecture files, build logs, local archives and ZIP bundles are excluded from Git.
+The course title is Economics and Finance for Mathematicians. All seven decks were rebuilt, and all seven updated title slides were rendered and checked. Slide content and page counts are otherwise unchanged. The shared theme is now `../theme/course_theme.tex`; the combined deck is `../dist/economics_and_finance.pdf`. The public build script also regenerates the combined deck and bookmarks. Third-party textbook and reference lecture files, build logs, local archives and ZIP bundles are excluded from Git.
+
+## Folder reorganization
+
+Every lecture now has a source, PDF and notes under `lectures/lecture_XX/`. Shared files are grouped into `assets/`, `data/`, `docs/` and `theme/`; the combined PDF is in `dist/`. All seven sources rebuilt successfully with the updated paths and no overfull boxes or LaTeX errors. All 309 page texts matched the preceding version, and the published PDFs retain their preceding byte-identical contents. Markdown file links were checked. The local `reference_courses/` folder is excluded by `.gitignore`; its finance-course links are not part of the public files.

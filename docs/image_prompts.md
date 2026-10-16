@@ -2,19 +2,19 @@
 
 Generated with the built-in OpenAI image-generation tool for this course. The images are invented educational illustrations, not photographs or empirical evidence. Economic labels are editable LaTeX outside the images. No source slide, textbook figure or cartoon was supplied for reproduction.
 
-## Bakery — `assets/bakery.png`
+## Bakery — `../assets/bakery.png`
 
 Use case: scientific-educational. Create an original editorial illustration for university economics lecture slides, wide landscape 16:9. Subject: a small bakery production chain clearly shown in three connected physical areas within one continuous scene: at left a wheat farmer with sacks of wheat; centre a mill producing sacks of flour; right a baker with fresh bread at a counter. Human, warm, lightly humorous but professional, clean cut-paper and painted editorial style, subtle navy and teal with warm ochre accents on an ivory background. Put the objects in the lower two-thirds with generous clear space around each production stage so labels can be placed outside the image. No writing, no letters, no numbers, no arrows, no logos, no money, no infographic boxes. Accurate physical objects. Purpose is to help explain that wheat and flour are intermediate inputs while bread is the final good, and each stage adds value. This is a teaching illustration, not evidence of a real business.
 
-## Trade — `assets/trade.png`
+## Trade — `../assets/trade.png`
 
 Use case: scientific-educational. Original wide 16:9 editorial teaching illustration for economics slides. A continuous scene of a container port joining three clearly different trading participants: left a factory sending products into containers, centre a cargo ship at a dock, right a small retailer receiving imported goods with an ordinary customer. Include a small fuel tanker or energy pipe in the far background to hint that imports are also production inputs. Clean painted cut-paper editorial style, navy and teal with warm ochre on ivory, restrained academic design, generous margins. No writing, no numbers, no arrows, no currency symbols, no logos. It should help discuss exporter revenue, importer cost and global supply chains, not look like stock marketing artwork. Entire picture represents an invented setting.
 
-## Gold convertibility — `assets/gold.png`
+## Gold convertibility — `../assets/gold.png`
 
 Use case: scientific-educational. Original wide 16:9 editorial illustration for university economics slides on the gold standard. A close view of a historical bank counter: gold bars and several plain coins at left, a simple paper bearer certificate without legible text at centre, and a vault partly open in the background. A bank clerk's hands exchanging a paper claim for a few coins. Clean painted cut-paper editorial style, navy and teal accents with gold ochre on ivory. Historically suggestive late 19th century materials, no modern credit cards or computer. No writing, numbers, logos or identifiable real people. Generous uncluttered framing. This is an invented teaching illustration of convertibility, not a photo or historical document.
 
-## Bakery finance — `assets/money_bakery.png`
+## Bakery finance — `../assets/money_bakery.png`
 
 Generated 15 October 2026 with the built-in OpenAI image-generation tool. Opaque background. The Lecture 1 illustration informed the written style description; no source slide or textbook figure was supplied to reproduce. The full image is saved unchanged. Editable LaTeX places the title and caption over the image margins.
 

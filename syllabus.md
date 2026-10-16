@@ -33,7 +33,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | US borrowing and dollar privilege | 29–41 | Prediction, mechanism, worked example and discussion |
 | Reading | 42–42 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 2–3, plus textbook ch. 20 on risk sharing. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_01_notes.md`.
+**Reading:** Bocconi lecture(s) 2–3, plus textbook ch. 20 on risk sharing. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_01/notes.md`.
 
 **Trading question:** Does a GDP or current-account headline identify a rate/FX trade, or only constrain competing explanations?
 
@@ -41,7 +41,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 
 **Learning objectives:** Use i, r and the policy target ī consistently; discount a zero-coupon payment; distinguish the exact purchasing-power conversion, Fisher approximation and long-run Fisher effect; solve saving/investment shifts; explain inflation without assuming extra money; derive classic LM from money demand and bond-market adjustment; read an illustrative policy rule and post-Covid chart; compare fixed-money policy with rate targeting.
 
-**25–30-minute teaching blocks:** Open with the horizon caveat (2) and bakery illustration (3). Use four short meetings if needed. Rates and the real benchmark: 6–17 (25–30 min). Inflation and money: 18–27 (15 min), 29–35 (12 min). Classic IS–LM: 37–45 (15 min), 49–57 (15 min); 46–48 give the optional spending-function algebra. Policy feedback and modern targeting: 59–67 (15 min), 68–76 (15 min). Slides 77–85 are optional mathematical follow-up. See `lecture_02_revision_map.md` for the original annotated slide numbers.
+**25–30-minute teaching blocks:** Open with the horizon caveat (2) and bakery illustration (3). Use four short meetings if needed. Rates and the real benchmark: 6–17 (25–30 min). Inflation and money: 18–27 (15 min), 29–35 (12 min). Classic IS–LM: 37–45 (15 min), 49–57 (15 min); 46–48 give the optional spending-function algebra. Policy feedback and modern targeting: 59–67 (15 min), 68–76 (15 min). Slides 77–85 are optional mathematical follow-up. See `docs/lecture_02_revision_map.md` for the original annotated slide numbers.
 
 | Section | Slide range | Teaching emphasis |
 |---|---:|---|
@@ -54,7 +54,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | Optional mathematical extension | 77–85 | Optional algebra or a second pass |
 | Reading | 86–86 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 6, 23–24; textbook ch. 15 and 16; MIT for IS–LM. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_02_notes.md`.
+**Reading:** Bocconi lecture(s) 6, 23–24; textbook ch. 15 and 16; MIT for IS–LM. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_02/notes.md`.
 
 **Trading question:** Was the rate move a demand-policy surprise, a response to inflation, or a change in expected real restraint?
 
@@ -71,7 +71,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | A curve-slope exercise | 28–36 | Prediction, mechanism, worked example and discussion |
 | Reading | 37–37 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 14 for asset-return logic; TreasuryDirect/BoE/NY Fed for fixed income. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_03_notes.md`.
+**Reading:** Bocconi lecture(s) 14 for asset-return logic; TreasuryDirect/BoE/NY Fed for fixed income. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_03/notes.md`.
 
 **Trading question:** Which cash flow and maturity does a yield price, and what move would make the relative-value position lose?
 
@@ -91,7 +91,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | Dornbusch overshooting | 29–35 | Prediction, mechanism, worked example and discussion |
 | Reading | 36–36 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 4–10; textbook ch. 14–16. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_04_notes.md`.
+**Reading:** Bocconi lecture(s) 4–10; textbook ch. 14–16. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_04/notes.md`.
 
 **Trading question:** Is the apparent interest advantage hedged, forecast-dependent, or compensation for currency risk?
 
@@ -111,7 +111,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | Gold and the international system | 31–37 | Prediction, mechanism, worked example and discussion |
 | Reading | 38–38 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 10–18; textbook ch. 17–19. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_05_notes.md`.
+**Reading:** Bocconi lecture(s) 10–18; textbook ch. 17–19. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_05/notes.md`.
 
 **Trading question:** Does a depreciation affect demand through quantities, contract prices, or a balance sheet—and which policy setting is held fixed?
 
@@ -130,7 +130,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | Banks and sovereigns | 22–27 | Prediction, mechanism, worked example and discussion |
 | Reading | 28–28 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 15–22; textbook ch. 18, 20–22. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_06_notes.md`.
+**Reading:** Bocconi lecture(s) 15–22; textbook ch. 18, 20–22. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_06/notes.md`.
 
 **Trading question:** Is the threat a liquidity shortage, a coordination equilibrium, or insufficient real resources?
 
@@ -151,7 +151,7 @@ Times include discussion and are approximate. Optional mathematical slides can b
 | A macro trading lab | 36–41 | Prediction, mechanism, worked example and discussion |
 | Reading | 42–42 | Prediction, mechanism, worked example and discussion |
 
-**Reading:** Bocconi lecture(s) 21–24; IMF debt analysis, official 2026 releases. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_07_notes.md`.
+**Reading:** Bocconi lecture(s) 21–24; IMF debt analysis, official 2026 releases. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_07/notes.md`.
 
 **Trading question:** What is already priced, which component of the yield changes, and how much risk does the position carry?
 
@@ -174,4 +174,4 @@ Times include discussion and are approximate. Optional mathematical slides can b
 2. Primary institutional sources for definitions, policy implementation and dated cases.
 3. Original hypothetical numerical examples and editable diagrams for explanation.
 
-Full source URLs, chapter/page map and adaptation choices are in `source_map.md`.
+Full source URLs, chapter/page map and adaptation choices are in `docs/source_map.md`.

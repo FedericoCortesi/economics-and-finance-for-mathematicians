@@ -4,10 +4,11 @@ import json
 from pypdf import PdfReader, PdfWriter
 
 root=Path(__file__).resolve().parent.parent
-outline=json.loads((root/'course_outline.json').read_text())
+outline=json.loads((root/'docs/course_outline.json').read_text())
 writer=PdfWriter()
 for lecture in outline:
-    reader=PdfReader(root/f'lecture_{lecture["number"]:02}.pdf')
+    stem=f'lecture_{lecture["number"]:02}'
+    reader=PdfReader(root/'lectures'/stem/f'{stem}.pdf')
     if len(reader.pages)!=lecture['slides']:
         raise ValueError(f'Lecture {lecture["number"]}: PDF and outline page counts differ')
     start=len(writer.pages)
@@ -23,5 +24,6 @@ for lecture in outline:
 writer.add_metadata({'/Title':'Economics and Finance for Mathematicians',
                      '/Author':'Federico Vittorio Cortesi'})
 writer.page_mode='/UseOutlines'
-writer.write(root/'economics_and_finance.pdf')
+(root/'dist').mkdir(exist_ok=True)
+writer.write(root/'dist/economics_and_finance.pdf')
 print(f'Combined {len(outline)} lectures into {len(writer.pages)} pages.')

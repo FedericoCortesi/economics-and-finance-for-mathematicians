@@ -1,6 +1,6 @@
 # Economics and Finance for Mathematicians — instructor notes
 
-Seven teaching modules. Use `syllabus.md` for short-session routes, prerequisites and timing; `source_map.md` for the source/edition map and dated evidence. Each module below follows its own slide numbering.
+Seven teaching modules. Use `../syllabus.md` for short-session routes, prerequisites and timing; `source_map.md` for the source/edition map and dated evidence. Each module below follows its own slide numbering.
 
 
 ---
@@ -11,7 +11,7 @@ How do real resources become income, saving and financial claims?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Output, income and capital flows
 
@@ -263,7 +263,7 @@ Reference: [Sergeyev, Bocconi 30054, lecture 3, PDF pp. 6–11](https://drive.go
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -275,7 +275,7 @@ How does a policy rate connect spending today to payments tomorrow?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Money, inflation and activity
 
@@ -291,7 +291,7 @@ Reference: [KOM, 12th Global Edition, ch. 16, printed pp. 459–462, 480–482](
 
 ## Slide 3 — Money, production and spending
 
-An original AI-generated illustration, created with the built-in OpenAI image-generation tool on 15 October 2026. It depicts an invented bank, bakery investment and household purchase, with no numerical data or real institution. Use it to connect Lecture 1’s physical production chain to today’s financing question: what happens to the oven project if borrowing becomes more expensive? The bank contract represents finance, the oven represents real capital formation, and the bread purchase represents consumption. These are conceptual stages rather than a measured flow of the same banknotes. The image does not imply that loans require an equal prior deposit from savers. Later slides explain deposit creation and distinguish nominal finance from the available real resources. The short-run/long-run caveat on the preceding slide also applies: demand can affect current utilisation while investment may change future capacity. Full generation prompt and provenance: image_prompts.md and assets/credits.md.
+An original AI-generated illustration, created with the built-in OpenAI image-generation tool on 15 October 2026. It depicts an invented bank, bakery investment and household purchase, with no numerical data or real institution. Use it to connect Lecture 1’s physical production chain to today’s financing question: what happens to the oven project if borrowing becomes more expensive? The bank contract represents finance, the oven represents real capital formation, and the bread purchase represents consumption. These are conceptual stages rather than a measured flow of the same banknotes. The image does not imply that loans require an equal prior deposit from savers. Later slides explain deposit creation and distinguish nominal finance from the available real resources. The short-run/long-run caveat on the preceding slide also applies: demand can affect current utilisation while investment may change future capacity. Full generation prompt and provenance: [image_prompts.md](image_prompts.md) and assets/credits.md.
 
 Reference:  [KOM, 12th Global Edition, ch. 15–16, printed pp. 417–448, 458–462](https://drive.google.com/file/d/1-UaatD4D8-K1UynWK7AkRZ2fAZ3y04mI/view). PDF page = printed page + 1 in the supplied copy.
 
@@ -801,7 +801,7 @@ Reference: [Federal Reserve, Measuring the Natural Rate of Interest](https://www
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -813,7 +813,7 @@ How do dated payments, expectations and risk premia produce a yield?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Bonds and yield curves
 
@@ -1035,7 +1035,7 @@ Reference: [TreasuryDirect, Pricing](https://www.treasurydirect.gov/marketable-s
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -1047,7 +1047,7 @@ How do returns, expectations and purchasing power price a currency?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Foreign exchange
 
@@ -1263,7 +1263,7 @@ Reference: [Sergeyev, Bocconi 30054, lecture 5, PDF pp. 16–17](https://drive.g
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -1275,7 +1275,7 @@ How does currency adjustment interact with demand and policy constraints?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Open-economy policy and regimes
 
@@ -1503,7 +1503,7 @@ Reference: [Sergeyev, Bocconi 30054, lecture 17, PDF pp. 8–11](https://drive.g
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -1515,7 +1515,7 @@ How can balance sheets and expectations turn a funding shock into a crisis?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Currency crises and the euro
 
@@ -1683,7 +1683,7 @@ Reference: [KOM, 12th Global Edition, ch. 20, printed pp. 661–668](https://dri
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
 
 
@@ -1695,7 +1695,7 @@ How do fiscal promises, monetary policy and market prices interact?
 
 ## Delivery
 
-Use the core route in `syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
+Use the core route in `../syllabus.md`. Pause on the questions and ask for a curve shift, numerical prediction or counterfactual before revealing the next slide. All unlabelled numerical examples and model paths are hypothetical. Rates in pricing formulas use decimals; policy examples and chart labels specify percent or percentage points.
 
 ## Slide 1 — Public debt and macro trades
 
@@ -1947,5 +1947,5 @@ Reference: [Sergeyev, Bocconi 30054, lecture 24, PDF pp. 25–34](https://drive.
 
 Read the relevant sources after the lecture rather than before a first encounter. The course source map records what was retained, simplified or placed in optional material.
 
-Reference: See source_map.md and syllabus.md.
+Reference: See [source_map.md](source_map.md) and syllabus.md.
 
