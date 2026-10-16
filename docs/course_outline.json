@@ -2,7 +2,7 @@
   {
     "number": 1,
     "title": "Output, income and capital flows",
-    "slides": 42,
+    "slides": 47,
     "outline": [
       {
         "page": 1,
@@ -66,192 +66,222 @@
       },
       {
         "page": 11,
+        "title": "Reading the GDP calendar",
+        "section": "Production and income",
+        "kind": "intuition"
+      },
+      {
+        "page": 12,
+        "title": "GDP levels: the size of an economy",
+        "section": "Production and income",
+        "kind": "data"
+      },
+      {
+        "page": 13,
+        "title": "Real GDP growth in Q2 2026",
+        "section": "Production and income",
+        "kind": "data"
+      },
+      {
+        "page": 14,
+        "title": "The latest monthly GDP update",
+        "section": "Production and income",
+        "kind": "data"
+      },
+      {
+        "page": 15,
+        "title": "GDP news and market expectations",
+        "section": "Production and income",
+        "kind": "exercise"
+      },
+      {
+        "page": 16,
         "title": "Accounting and equilibrium",
         "section": "Accounting and equilibrium",
         "kind": "intuition"
       },
       {
-        "page": 12,
+        "page": 17,
         "title": "Expenditure in a closed economy",
         "section": "Accounting and equilibrium",
         "kind": "intuition"
       },
       {
-        "page": 13,
+        "page": 18,
         "title": "Unsold bread still has an accounting destination",
         "section": "Accounting and equilibrium",
         "kind": "example"
       },
       {
-        "page": 14,
+        "page": 19,
         "title": "Equilibrium adds planned spending",
         "section": "Accounting and equilibrium",
         "kind": "plot"
       },
       {
-        "page": 15,
+        "page": 20,
         "title": "Potential output and the long run",
         "section": "Accounting and equilibrium",
         "kind": "intuition"
       },
       {
-        "page": 16,
+        "page": 21,
         "title": "The output gap connects activity to rates",
         "section": "Accounting and equilibrium",
         "kind": "example"
       },
       {
-        "page": 17,
+        "page": 22,
         "title": "A recession can be an equilibrium with slack",
         "section": "Accounting and equilibrium",
         "kind": "plot"
       },
       {
-        "page": 18,
+        "page": 23,
         "title": "Saving and investment in a closed economy",
         "section": "Accounting and equilibrium",
         "kind": "intuition"
       },
       {
-        "page": 19,
+        "page": 24,
         "title": "Private and public saving",
         "section": "Accounting and equilibrium",
         "kind": "intuition"
       },
       {
-        "page": 20,
+        "page": 25,
         "title": "The rest of the world",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 21,
+        "page": 26,
         "title": "Domestic expenditure and trade",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 22,
+        "page": 27,
         "title": "An imported machine",
         "section": "The rest of the world",
         "kind": "example"
       },
       {
-        "page": 23,
-        "title": "From domestic production to residents\u2019 income",
+        "page": 28,
+        "title": "From domestic production to residents’ income",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 24,
+        "page": 29,
         "title": "Primary income: an ownership example",
         "section": "The rest of the world",
         "kind": "diagram"
       },
       {
-        "page": 25,
+        "page": 30,
         "title": "Current transfers add disposable income",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 26,
+        "page": 31,
         "title": "The current account is our net current flow from abroad",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 27,
+        "page": 32,
         "title": "Saving finances investment at home or abroad",
         "section": "The rest of the world",
         "kind": "intuition"
       },
       {
-        "page": 28,
+        "page": 33,
         "title": "A deficit can finance productive investment",
         "section": "The rest of the world",
         "kind": "example"
       },
       {
-        "page": 29,
+        "page": 34,
         "title": "US borrowing and dollar privilege",
         "section": "US borrowing and dollar privilege",
         "kind": "intuition"
       },
       {
-        "page": 30,
+        "page": 35,
         "title": "The financial counterpart",
         "section": "US borrowing and dollar privilege",
         "kind": "intuition"
       },
       {
-        "page": 31,
+        "page": 36,
         "title": "Foreign investors help finance US spending",
         "section": "US borrowing and dollar privilege",
         "kind": "data"
       },
       {
-        "page": 32,
+        "page": 37,
         "title": "Net international investment position",
         "section": "US borrowing and dollar privilege",
         "kind": "intuition"
       },
       {
-        "page": 33,
+        "page": 38,
         "title": "The US external balance sheet is large on both sides",
         "section": "US borrowing and dollar privilege",
         "kind": "data"
       },
       {
-        "page": 34,
-        "title": "What is the US \u201cexorbitant privilege\u201d?",
-        "section": "US borrowing and dollar privilege",
-        "kind": "application"
-      },
-      {
-        "page": 35,
-        "title": "Negative NIIP can coexist with positive investment income",
-        "section": "US borrowing and dollar privilege",
-        "kind": "example"
-      },
-      {
-        "page": 36,
-        "title": "US asset demand connects yields and the dollar",
-        "section": "US borrowing and dollar privilege",
-        "kind": "application"
-      },
-      {
-        "page": 37,
-        "title": "Risk sharing is a gain from international finance",
-        "section": "US borrowing and dollar privilege",
-        "kind": "example"
-      },
-      {
-        "page": 38,
-        "title": "Diversification depends on correlation",
-        "section": "US borrowing and dollar privilege",
-        "kind": "plot"
-      },
-      {
         "page": 39,
-        "title": "What a macro release can and cannot tell a trader",
+        "title": "What is the US “exorbitant privilege”?",
         "section": "US borrowing and dollar privilege",
         "kind": "application"
       },
       {
         "page": 40,
+        "title": "Negative NIIP can coexist with positive investment income",
+        "section": "US borrowing and dollar privilege",
+        "kind": "example"
+      },
+      {
+        "page": 41,
+        "title": "US asset demand connects yields and the dollar",
+        "section": "US borrowing and dollar privilege",
+        "kind": "application"
+      },
+      {
+        "page": 42,
+        "title": "Risk sharing is a gain from international finance",
+        "section": "US borrowing and dollar privilege",
+        "kind": "example"
+      },
+      {
+        "page": 43,
+        "title": "Diversification depends on correlation",
+        "section": "US borrowing and dollar privilege",
+        "kind": "plot"
+      },
+      {
+        "page": 44,
+        "title": "What a macro release can and cannot tell a trader",
+        "section": "US borrowing and dollar privilege",
+        "kind": "application"
+      },
+      {
+        "page": 45,
         "title": "Counterfactual exercise: extra public consumption",
         "section": "US borrowing and dollar privilege",
         "kind": "exercise"
       },
       {
-        "page": 41,
+        "page": 46,
         "title": "The accounting answer and the economic question",
         "section": "US borrowing and dollar privilege",
         "kind": "solution"
       },
       {
-        "page": 42,
+        "page": 47,
         "title": "Further reading",
         "section": "Reading",
         "kind": "reference"
@@ -283,7 +313,7 @@
       },
       {
         "page": 4,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -475,134 +505,134 @@
       },
       {
         "page": 36,
-        "title": "IS\u2013LM and shocks",
-        "section": "IS\u2013LM and shocks",
+        "title": "IS–LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "intuition"
       },
       {
         "page": 37,
         "title": "What is an economic model?",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 38,
         "title": "The variables and assumptions of this model",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 39,
         "title": "A firm needs 10 million to start a project",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "example"
       },
       {
         "page": 40,
         "title": "The owner compares the project with an alternative",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "example"
       },
       {
         "page": 41,
         "title": "The project's net present value",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "example"
       },
       {
         "page": 42,
         "title": "Working through the financing cost",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "example"
       },
       {
         "page": 43,
         "title": "Higher rates eliminate marginal projects",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "plot"
       },
       {
         "page": 44,
         "title": "IS means Investment--Saving",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 45,
         "title": "Why IS slopes downward",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 46,
         "title": "Households respond to disposable income",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 47,
         "title": "Investment responds to the rate",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 48,
         "title": "Combining spending gives the IS equation",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 49,
         "title": "LM means Liquidity preference--Money supply",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 50,
         "title": "Why classic LM slopes upward",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 51,
         "title": "Agents adjust portfolios, and bond prices move",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "diagram"
       },
       {
         "page": 52,
         "title": "Higher output shifts money demand to the right",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "plot"
       },
       {
         "page": 53,
         "title": "The intersection balances both markets",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "plot"
       },
       {
         "page": 54,
         "title": "A movement along a curve versus a shift",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "theory"
       },
       {
         "page": 55,
         "title": "Monetary tightening shifts classic LM",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "plot"
       },
       {
         "page": 56,
         "title": "Fiscal expansion with an unchanged money supply",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "plot"
       },
       {
         "page": 57,
         "title": "A demand shock versus a supply shock",
-        "section": "IS\u2013LM and shocks",
+        "section": "IS–LM and shocks",
         "kind": "intuition"
       },
       {
@@ -806,7 +836,7 @@
       },
       {
         "page": 2,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -890,7 +920,7 @@
       },
       {
         "page": 16,
-        "title": "Risk-free depends on the investor\u2019s horizon",
+        "title": "Risk-free depends on the investor’s horizon",
         "section": "Cash flows and prices",
         "kind": "intuition"
       },
@@ -1148,7 +1178,7 @@
       },
       {
         "page": 59,
-        "title": "A zero\u2019s duration follows by differentiation",
+        "title": "A zero’s duration follows by differentiation",
         "section": "Duration and convexity",
         "kind": "theory"
       },
@@ -1190,7 +1220,7 @@
       },
       {
         "page": 66,
-        "title": "A zero\u2019s convexity is explicit",
+        "title": "A zero’s convexity is explicit",
         "section": "Duration and convexity",
         "kind": "theory"
       },
@@ -1395,7 +1425,7 @@
       },
       {
         "page": 2,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -1618,7 +1648,7 @@
       },
       {
         "page": 2,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -1654,7 +1684,7 @@
       },
       {
         "page": 8,
-        "title": "Marshall\u2013Lerner gives a local condition",
+        "title": "Marshall–Lerner gives a local condition",
         "section": "Trade prices and quantities",
         "kind": "intuition"
       },
@@ -1822,7 +1852,7 @@
       },
       {
         "page": 36,
-        "title": "Triffin\u2019s dilemma",
+        "title": "Triffin’s dilemma",
         "section": "Gold and the international system",
         "kind": "intuition"
       },
@@ -1853,7 +1883,7 @@
       },
       {
         "page": 2,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -1991,7 +2021,7 @@
       },
       {
         "page": 25,
-        "title": "The bank\u2013sovereign loop",
+        "title": "The bank–sovereign loop",
         "section": "Banks and sovereigns",
         "kind": "diagram"
       },
@@ -2028,7 +2058,7 @@
       },
       {
         "page": 2,
-        "title": "Today\u2019s route",
+        "title": "Today’s route",
         "section": "Introduction",
         "kind": "intuition"
       },
@@ -2040,7 +2070,7 @@
       },
       {
         "page": 4,
-        "title": "The government\u2019s one-period financing constraint",
+        "title": "The government’s one-period financing constraint",
         "section": "Debt arithmetic",
         "kind": "intuition"
       },
@@ -2052,7 +2082,7 @@
       },
       {
         "page": 6,
-        "title": "The interest\u2013growth snowball",
+        "title": "The interest–growth snowball",
         "section": "Debt arithmetic",
         "kind": "intuition"
       },
@@ -2118,7 +2148,7 @@
       },
       {
         "page": 17,
-        "title": "QE changes the public sector\u2019s liability mix",
+        "title": "QE changes the public sector’s liability mix",
         "section": "Fiscal and monetary interaction",
         "kind": "diagram"
       },
@@ -2136,7 +2166,7 @@
       },
       {
         "page": 20,
-        "title": "July\u2013August 2026: a common date window",
+        "title": "July–August 2026: a common date window",
         "section": "Reading",
         "kind": "case"
       },

@@ -4,13 +4,11 @@
 \begin{document}
 
 % Slide 1: Output, income and capital flows
-
 \begin{frame}[plain]
 {\color{Teal}\large ECONOMICS AND FINANCE\quad /\quad 01}\par\vspace{9mm}{\Huge\bfseries Output, income and capital flows}\par\vspace{7mm}{\Large How do real resources become income, saving and financial claims?}
 \end{frame}
 
 % Slide 2: The seven-class route
-
 \begin{frame}{The seven-class route}
 \begin{center}\begin{tabular}{@{}p{.43\textwidth}p{.51\textwidth}@{}}\toprule \textbf{Class} & \textbf{Question}\\\midrule 1. Accounting and flows & Who produces, spends and finances?\\[2mm]
 2. Money, inflation and activity & How does policy affect demand?\\[2mm]
@@ -21,20 +19,18 @@
 7. Debt and macro trades & How do fiscal and market risks interact?\\\bottomrule\end{tabular}\end{center}
 \end{frame}
 
-% Slide 3: Production and income
 \section[Production and income]{Production and income}
+% Slide 3: Production and income
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 1}\par\vspace{9mm}{\Huge\bfseries Production and income}\par\vspace{7mm}{\Large Why can we measure the same economy in three ways?}
 \end{frame}
 
 % Slide 4: A loaf of bread
-
 \begin{frame}{A loaf of bread}
 \begin{center}\includegraphics[trim=0bp 110bp 0bp 150bp,clip,width=.93\textwidth,height=4.2cm,keepaspectratio]{assets/bakery.png}\end{center}\eqnote{Invented bakery economy. The farmer, mill and bakery each add value.}
 \end{frame}
 
 % Slide 5: Value added along the chain
-
 \begin{frame}{Value added along the chain}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Producer} & \textbf{Sales} & \textbf{Bought inputs} & \textbf{Value added}\\\midrule Farmer & 10 & 0 & 10\\[2mm]
 Mill & 25 & 10 & 15\\[2mm]
@@ -43,7 +39,6 @@ Total &  &  & 60\\\bottomrule\end{tabular}\end{center}\eqnote{One period, one cu
 \end{frame}
 
 % Slide 6: Output generates income
-
 \begin{frame}{Output generates income}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Producer} & \textbf{Wages} & \textbf{Operating surplus} & \textbf{Value added}\\\midrule Farmer & 6 & 4 & 10\\[2mm]
 Mill & 10 & 5 & 15\\[2mm]
@@ -52,49 +47,121 @@ Total & 41 & 19 & 60\\\bottomrule\end{tabular}\end{center}\eqnote{Each unit of v
 \end{frame}
 
 % Slide 7: Three measurements of one flow
-
 \begin{frame}{Three measurements of one flow}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small,align=center,text width=3.5cm}]\node at (0.0,0){Value added\\60};\node at (5.1,0){Income\\41 + 19};\node at (10.2,0){Final expenditure\\60};\draw[->,Teal,thick] (1.9,0)--(3.1999999999999997,0);\draw[->,Teal,thick] (7.0,0)--(8.299999999999999,0);\end{tikzpicture}\end{center}\point{Production, income and expenditure count the same activity.}
 \end{frame}
 
 % Slide 8: GDP counts current domestic production
-
 \begin{frame}{GDP counts current domestic production}
 \point{Final goods and services produced inside the economy.}\point{Investment includes new capital and changes in inventories.}\point{Purchases of existing shares or old houses are asset trades.}
 \end{frame}
 
 % Slide 9: Nominal output and real output
-
 \begin{frame}{Nominal output and real output}
 \[GDP^{\rm nominal}_t=Q_tY_t.\]\point{$Y_t$: real output. $Q_t$: the GDP price deflator.}\point{Nominal growth combines more production and higher prices.}
 \end{frame}
 
 % Slide 10: Growth rates separate prices and quantities
-
 \begin{frame}{Growth rates separate prices and quantities}
 \[1+g_{\rm nominal}=(1+g_{\rm real})(1+\pi_{\rm GDP}).\]\[1.03\times1.02-1=5.06\%.\]\eqnote{Hypothetical 3\% real growth and 2\% GDP-deflator inflation.}
 \end{frame}
 
-% Slide 11: Accounting and equilibrium
+% Slide 11: Reading the GDP calendar
+\begin{frame}{Reading the GDP calendar}
+\point{The US and euro-area countries measure GDP by quarter. Early estimates are revised as more data arrive.}
+\point{Three US estimates of one quarter arrive in successive releases. The UK also publishes monthly real GDP.}
+\point{The Fed has eight scheduled policy meetings a year. New data can change rate expectations between meetings.}
+\eqnote{\href{https://www.bea.gov/news/schedule}{BEA releases} $\cdot$ \href{https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026}{ONS monthly GDP} $\cdot$ \href{https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm}{FOMC calendar}. Snapshot: 16 Oct 2026.}
+\end{frame}
+
+% Slide 12: GDP levels: the size of an economy
+\begin{frame}{GDP levels: the size of an economy}
+\begin{center}\begin{tikzpicture}[x=.28cm,y=.54cm,every node/.style={font=\small}]
+\node[anchor=west,text=Muted] at (0,5.1){Nominal GDP in 2025, USD trillions};
+\draw[Ink!12] (0,-.5)--(0,4.5);\node[below,font=\scriptsize] at (0,-.5){0};
+\draw[Ink!12] (10,-.5)--(10,4.5);\node[below,font=\scriptsize] at (10,-.5){10};
+\draw[Ink!12] (20,-.5)--(20,4.5);\node[below,font=\scriptsize] at (20,-.5){20};
+\draw[Ink!12] (30,-.5)--(30,4.5);\node[below,font=\scriptsize] at (30,-.5){30};
+\node[anchor=east] at (-.55,4){\href{https://tradingeconomics.com/united-states/gdp}{United States}};\fill[Ink] (0,3.77) rectangle (30.77,4.23);\node[anchor=west] at (31.22,4){30.77};
+\node[anchor=east] at (-.55,3){\href{https://tradingeconomics.com/germany/gdp}{Germany}};\fill[Teal] (0,2.77) rectangle (5.051,3.23);\node[anchor=west] at (5.501,3){5.05};
+\node[anchor=east] at (-.55,2){\href{https://tradingeconomics.com/united-kingdom/gdp}{United Kingdom}};\fill[Teal] (0,1.77) rectangle (4.003,2.23);\node[anchor=west] at (4.453,2){4.00};
+\node[anchor=east] at (-.55,1){\href{https://tradingeconomics.com/france/gdp}{France}};\fill[Teal] (0,0.77) rectangle (3.366,1.23);\node[anchor=west] at (3.8160000000000003,1){3.37};
+\node[anchor=east] at (-.55,0){\href{https://tradingeconomics.com/italy/gdp}{Italy}};\fill[Teal] (0,-0.23) rectangle (2.552,0.23);\node[anchor=west] at (3.0020000000000002,0){2.55};
+\end{tikzpicture}\end{center}
+\eqnote{Annual production at current prices, converted at market exchange rates. USD values also move with currencies; this is not a living-standards comparison.}
+\eqnote{\href{https://tradingeconomics.com/country-list/gdp}{Trading Economics / World Bank: explore the charts}. 2025 data; accessed 16 Oct 2026.}
+\end{frame}
+
+% Slide 13: Real GDP growth in Q2 2026
+\begin{frame}{Real GDP growth in Q2 2026}
+\begin{center}\begin{tikzpicture}[x=11cm,y=.59cm,every node/.style={font=\small}]
+\node[anchor=west,text=Muted] at (0,5.0){Real growth, quarter on quarter (\%)};
+\node[anchor=west,text=Muted] at (.77,5.0){Release date};
+\draw[Ink!12] (0,-.45)--(0,4.45);\node[below,font=\scriptsize] at (0,-.45){0.0};
+\draw[Ink!12] (0.2,-.45)--(0.2,4.45);\node[below,font=\scriptsize] at (0.2,-.45){0.2};
+\draw[Ink!12] (0.4,-.45)--(0.4,4.45);\node[below,font=\scriptsize] at (0.4,-.45){0.4};
+\draw[Ink!12] (0.6,-.45)--(0.6,4.45);\node[below,font=\scriptsize] at (0.6,-.45){0.6};
+\node[anchor=east] at (-.025,4){United States};
+\fill[Teal] (0,3.79) rectangle (0.54552,4.21);
+\node[anchor=west] at (0.56052,4){0.55\%};\node[anchor=west] at (.77,4){\href{https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd}{30 Sep 2026}};
+\node[anchor=east] at (-.025,3){United Kingdom};
+\fill[Teal] (0,2.79) rectangle (0.50000,3.21);
+\node[anchor=west] at (0.51500,3){0.50\%};\node[anchor=west] at (.77,3){\href{https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026}{30 Sep 2026}};
+\node[anchor=east] at (-.025,2){Germany};
+\fill[Teal] (0,1.79) rectangle (0.30000,2.21);
+\node[anchor=west] at (0.31500,2){0.30\%};\node[anchor=west] at (.77,2){\href{https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html}{25 Aug 2026}};
+\node[anchor=east] at (-.025,1){Italy};
+\fill[Teal] (0,0.79) rectangle (0.20000,1.21);
+\node[anchor=west] at (0.21500,1){0.20\%};\node[anchor=west] at (.77,1){\href{https://www.istat.it/en/press-release/quarterly-national-accounts-time-series-revision-q2-2026/}{5 Oct 2026}};
+\node[anchor=east] at (-.025,0){France};
+\fill[Teal] (0,0) circle (1.6pt);
+\node[anchor=west] at (0.01500,0){0.00\%};\node[anchor=west] at (.77,0){\href{https://www.insee.fr/fr/statistiques/9039499?sommaire=9007859}{28 Aug 2026}};
+\end{tikzpicture}\end{center}
+\[g_{\rm US,q/q}=100\big[(1.022)^{1/4}-1\big]\approx0.55\%.\]
+\eqnote{US headline: 2.2\% annualized, converted above. All bars are real, seasonally adjusted, nonannualized growth; European data also calendar adjusted.}
+\end{frame}
+
+% Slide 14: The latest monthly GDP update
+\begin{frame}{The latest monthly GDP update}
+\eqnote{UK release: 15 Oct 2026. Reference month: August 2026.}
+\begin{center}\begin{tikzpicture}[x=2.4cm,y=3.1cm,every node/.style={font=\small}]
+\node[anchor=south west,text=Muted] at (-.55,.61){UK real GDP, month on month (\%)};
+\foreach \v in {0,.2,.4}{\draw[Ink!12](-.55,\v)--(2.55,\v);\node[left,font=\scriptsize]at(-.55,\v){\pgfmathprintnumber[fixed,precision=1]{\v}};}
+\fill[Ink!55](-.27,0)rectangle(.27,.4);\node[above]at(0,.4){+0.4\%};\node[below]at(0,0){June};
+\fill[Ink!55](.73,0)rectangle(1.27,.4);\node[above]at(1,.4){+0.4\%};\node[below]at(1,0){July};
+\fill[Teal](1.73,0)rectangle(2.27,.1);\node[above]at(2,.1){+0.1\%};\node[below]at(2,0){August};
+\end{tikzpicture}\end{center}
+\eqnote{June--August average GDP: +0.7\% versus March--May.}
+\eqnote{\href{https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026}{ONS: explore charts and data}. Revised estimates.}
+\eqnote{Italy, 16 Oct: \href{https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/}{September CPI: +4.2\% y/y}. Latest \href{https://www.istat.it/en/press-release/quarterly-national-accounts-time-series-revision-q2-2026/}{GDP (5 Oct)}: Q2 +0.2\% q/q. }
+\end{frame}
+
+% Slide 15: GDP news and market expectations
+\begin{frame}{GDP news and market expectations}
+\point{Italy, 30 July 2026: Q2 GDP +0.2\%, versus +0.1\% consensus.}
+\[\underbrace{0.2\%-0.1\%}_{\text{actual minus consensus}}=+0.1\text{ percentage points}.\]
+\point{Stronger demand may lift profits. It may also raise expected interest rates, lowering bond prices.}
+\point{Exercise: why might shares fall after good GDP news?}
+\eqnote{\href{https://tradingeconomics.com/italy/gdp-growth}{Italy GDP: chart and actual / consensus calendar}. A surprise alone does not fix market direction.}
+\end{frame}
+
 \section[Accounting and equilibrium]{Accounting and equilibrium}
+% Slide 16: Accounting and equilibrium
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 1}\par\vspace{9mm}{\Huge\bfseries Accounting and equilibrium}\par\vspace{7mm}{\Large Which equalities always hold, and which need a model?}
 \end{frame}
 
-% Slide 12: Expenditure in a closed economy
-
+% Slide 17: Expenditure in a closed economy
 \begin{frame}{Expenditure in a closed economy}
 \[\boxed{Y=C+I+G.}\]\point{$C$: private consumption. $I$: gross domestic investment.}\point{$G$: government purchases. No international trade yet.}
 \end{frame}
 
-% Slide 13: Unsold bread still has an accounting destination
-
+% Slide 18: Unsold bread still has an accounting destination
 \begin{frame}{Unsold bread still has an accounting destination}
 \[Y=60,\qquad C=50,\qquad I_{\rm inventory}=10.\]\point{Production is 60. Customers spend 50.}\point{The bakery holds 10 of newly produced unsold bread.}
 \end{frame}
 
-% Slide 14: Equilibrium adds planned spending
-
+% Slide 19: Equilibrium adds planned spending
 \begin{frame}{Equilibrium adds planned spending}
 \[Y=C^{\rm plan}+I^{\rm plan}+G.\]\begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
 \draw[Ink!10] (0.0000,0.0000)--(0.0000,1.8000);\node[below,font=\scriptsize] at (0.0000,0.0000){0};
@@ -113,20 +180,17 @@ Total & 41 & 19 & 60\\\bottomrule\end{tabular}\end{center}\eqnote{Each unit of v
 \end{tikzpicture}\end{center}\eqnote{At E, planned spending equals output. Prices are fixed in this model.}
 \end{frame}
 
-% Slide 15: Potential output and the long run
-
+% Slide 20: Potential output and the long run
 \begin{frame}{Potential output and the long run}
 \[\boxed{Y^*=A K^\alpha(L^*)^{1-\alpha},\qquad0<\alpha<1.}\]\point{$A$: productivity. $K$: capital. $L^*$: labour at normal employment.}\point{$\alpha$: output elasticity of capital in this Cobb--Douglas model.}\eqnote{Potential is sustainable output. The long-run benchmark has $Y=Y^*$.}
 \end{frame}
 
-% Slide 16: The output gap connects activity to rates
-
+% Slide 21: The output gap connects activity to rates
 \begin{frame}{The output gap connects activity to rates}
 \[\text{Output gap}=100\,\frac{Y-Y^*}{Y^*}.\]\[Y=95,\quad Y^*=100\quad\Rightarrow\quad\text{gap}=-5\%.\]\point{Below potential: spare capacity can reduce inflation pressure.}\point{Above potential: stretched resources can increase inflation pressure.}\eqnote{This helps interpret central-bank decisions. The next plot shows a gap closing.}
 \end{frame}
 
-% Slide 17: A recession can be an equilibrium with slack
-
+% Slide 22: A recession can be an equilibrium with slack
 \begin{frame}{A recession can be an equilibrium with slack}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
 \draw[Ink!10] (0.0000,0.0000)--(0.0000,2.2500);\node[below,font=\scriptsize] at (0.0000,0.0000){0};
@@ -143,99 +207,85 @@ Total & 41 & 19 & 60\\\bottomrule\end{tabular}\end{center}\eqnote{Each unit of v
 \end{tikzpicture}\end{center}\eqnote{Hypothetical demand shock. The closing gap is a modelled adjustment.}
 \end{frame}
 
-% Slide 18: Saving and investment in a closed economy
-
+% Slide 23: Saving and investment in a closed economy
 \begin{frame}{Saving and investment in a closed economy}
 \[S\equiv Y-C-G.\]\[Y=C+I+G\quad\Rightarrow\quad \boxed{S=I.}\]\point{Saving is income not consumed by households or government.}
 \end{frame}
 
-% Slide 19: Private and public saving
-
+% Slide 24: Private and public saving
 \begin{frame}{Private and public saving}
 \[S_p=Y-T-C,\qquad S_g=T-G.\]\[S=S_p+S_g.\]\point{$T$: taxes less current transfers.}\point{A public deficit may be matched by private saving or investment changes.}
 \end{frame}
 
-% Slide 20: The rest of the world
 \section[The rest of the world]{The rest of the world}
+% Slide 25: The rest of the world
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 1}\par\vspace{9mm}{\Huge\bfseries The rest of the world}\par\vspace{7mm}{\Large How do trade, investment income and transfers connect?}
 \end{frame}
 
-% Slide 21: Domestic expenditure and trade
-
+% Slide 26: Domestic expenditure and trade
 \begin{frame}{Domestic expenditure and trade}
 \[\boxed{Y=C+I+G+X-M.}\]\point{$X$: exports. $M$: imports. $NX\equiv X-M$.}\point{Imports are removed because spending categories include foreign output.}
 \end{frame}
 
-% Slide 22: An imported machine
-
+% Slide 27: An imported machine
 \begin{frame}{An imported machine}
 \[\Delta I=10,\qquad\Delta M=10.\]\[\Delta Y=\Delta I-\Delta M=0.\]\point{No extra domestic production at the purchase date in this stripped-down example.}
 \end{frame}
 
-% Slide 23: From domestic production to residents’ income
-
+% Slide 28: From domestic production to residents’ income
 \begin{frame}{From domestic production to residents’ income}
 \[GNI=Y+NPI.\]\point{$NPI$: net primary income received from abroad.}\point{Think interest, dividends, reinvested earnings and cross-border labour income.}
 \end{frame}
 
-% Slide 24: Primary income: an ownership example
-
+% Slide 29: Primary income: an ownership example
 \begin{frame}{Primary income: an ownership example}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small,align=center,text width=3.5cm}]\node at (0.0,0){Foreign factory\\pays dividends};\node at (5.1,0){Resident fund\\receives 6};\node at (10.2,0){Resident investors\\earn foreign income};\draw[->,Teal,thick] (1.9,0)--(3.1999999999999997,0);\draw[->,Teal,thick] (7.0,0)--(8.299999999999999,0);\end{tikzpicture}\end{center}\[\text{Income received }6-\text{income paid abroad }2=NPI=4.\]\eqnote{Invented resident/nonresident transactions, in one currency.}
 \end{frame}
 
-% Slide 25: Current transfers add disposable income
-
+% Slide 30: Current transfers add disposable income
 \begin{frame}{Current transfers add disposable income}
 \[GNDI=Y+NPI+NSI.\]\point{$NSI$: net secondary income from abroad.}\point{A resident abroad sending a family remittance is a concrete example.}
 \end{frame}
 
-% Slide 26: The current account is our net current flow from abroad
-
+% Slide 31: The current account is our net current flow from abroad
 \begin{frame}{The current account is our net current flow from abroad}
 \point{It adds what residents receive from the rest of the world, less what they pay, for trade, income and current transfers.}\[\boxed{CA=(X-M)+NPI+NSI.}\]\point{A deficit means current payments exceed receipts. The gap needs external financing.}\eqnote{This is why the current account connects trade to saving, investment and funding needs.}
 \end{frame}
 
-% Slide 27: Saving finances investment at home or abroad
-
+% Slide 32: Saving finances investment at home or abroad
 \begin{frame}{Saving finances investment at home or abroad}
 \[S\equiv GNDI-C-G.\]\[GNDI=C+I+G+CA.\]\[\boxed{S-I=CA.}\]
 \end{frame}
 
-% Slide 28: A deficit can finance productive investment
-
+% Slide 33: A deficit can finance productive investment
 \begin{frame}{A deficit can finance productive investment}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Economy} & \textbf{Saving} & \textbf{Investment} & \textbf{CA}\\\midrule New investment opportunity & 20 & 30 & -10\\[2mm]
 High consumption, same saving gap & 10 & 20 & -10\\\bottomrule\end{tabular}\end{center}\point{The same current-account deficit can reflect different economic stories.}
 \end{frame}
 
-% Slide 29: US borrowing and dollar privilege
 \section[US borrowing and dollar privilege]{US borrowing and dollar privilege}
+% Slide 34: US borrowing and dollar privilege
 \begin{frame}[plain]
 {\color{Gold}\large LECTURE 1}\par\vspace{9mm}{\Huge\bfseries US borrowing and dollar privilege}\par\vspace{7mm}{\Large Why does the world keep financing the United States?}
 \end{frame}
 
-% Slide 30: The financial counterpart
-
+% Slide 35: The financial counterpart
 \begin{frame}{The financial counterpart}
 \[CA+KA=FA\quad\text{when measured without errors}.\]\point{$KA$: capital-account balance.}\point{$FA$: net acquisition of foreign assets minus net incurrence of liabilities.}
 \end{frame}
 
-% Slide 31: Foreign investors help finance US spending
-
+% Slide 36: Foreign investors help finance US spending
 \begin{frame}{Foreign investors help finance US spending}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small,align=center,text width=3.5cm}]\node at (0.0,0){Foreign saver\\buys a US bond};\node at (5.1,0){US issuer\\receives funding};\node at (10.2,0){US economy can spend\\more than its income};\draw[->,Teal,thick] (1.9,0)--(3.1999999999999997,0);\draw[->,Teal,thick] (7.0,0)--(8.299999999999999,0);\end{tikzpicture}\end{center}\[CA_{\rm US}=-\$246.0\text{ billion in Q2 2026}.\]\eqnote{BEA, release 24 September 2026. The diagram illustrates one financing channel.}
 \end{frame}
 
-% Slide 32: Net international investment position
-
+% Slide 37: Net international investment position
 \begin{frame}{Net international investment position}
 \[\boxed{NIIP=\text{assets held abroad}-\text{foreign claims on us}.}\]\point{The current account is a flow over a period. NIIP is a balance sheet at a date.}\point{A negative NIIP means foreign claims exceed residents’ foreign assets.}\eqnote{Claims include equity and direct investment as well as debt.}
 \end{frame}
 
-% Slide 33: The US external balance sheet is large on both sides
-
+% Slide 38: The US external balance sheet is large on both sides
 \begin{frame}{The US external balance sheet is large on both sides}
 \begin{center}\begin{tikzpicture}[x=.105cm,y=.8cm,every node/.style={font=\small}]
 \node[anchor=east,align=right] at (0,.25){US assets\\abroad};
@@ -250,36 +300,31 @@ High consumption, same saving gap & 10 & 20 & -10\\\bottomrule\end{tabular}\end{
 \end{tikzpicture}\end{center}\[NIIP=46.97-69.39=-\$22.42\text{ trillion}.\]\eqnote{BEA, end of Q2 2026. These positions include corporate equity and direct investment.}
 \end{frame}
 
-% Slide 34: What is the US “exorbitant privilege”?
-
+% Slide 39: What is the US “exorbitant privilege”?
 \begin{frame}{What is the US “exorbitant privilege”?}
 \point{Investors want dollar assets for reserves, payments and collateral.}\point{They may accept a lower yield for those services, reducing US funding costs.}\point{The US can borrow in dollars while owning riskier businesses abroad.}\eqnote{Dollar funding advantages and returns on the foreign portfolio both matter.}
 \end{frame}
 
-% Slide 35: Negative NIIP can coexist with positive investment income
-
+% Slide 40: Negative NIIP can coexist with positive investment income
 \begin{frame}{Negative NIIP can coexist with positive investment income}
 \begin{center}\begin{tabular}{@{}llll@{}}\toprule \textbf{Hypothetical external portfolio} & \textbf{Position} & \textbf{Income yield} & \textbf{Annual income}\\\midrule Foreign assets owned & 100 & 6\% & +6\\[2mm]
 Liabilities to foreigners & 150 & 2\% & -3\\\bottomrule\end{tabular}\end{center}\[NIIP=100-150=-50,\qquad\text{net investment income}=6-3=+3.\]\eqnote{Illustrative income yields, excluding capital gains. These are not current US observations.}
 \end{frame}
 
-% Slide 36: US asset demand connects yields and the dollar
-
+% Slide 41: US asset demand connects yields and the dollar
 \begin{frame}{US asset demand connects yields and the dollar}
 \begin{center}\begin{tabular}{@{}p{.44\textwidth}p{.49\textwidth}@{}}\toprule \textbf{Conditional change} & \textbf{Other inputs fixed}\\\midrule Fewer Treasury buyers & Lower prices, higher yields\\[2mm]
 Less demand for dollar assets & Pressure on the dollar\\[2mm]
 A weaker dollar & Higher dollar value of unhedged foreign assets\\\bottomrule\end{tabular}\end{center}\eqnote{These are conditional mechanisms. NIIP alone gives no market forecast.}
 \end{frame}
 
-% Slide 37: Risk sharing is a gain from international finance
-
+% Slide 42: Risk sharing is a gain from international finance
 \begin{frame}{Risk sharing is a gain from international finance}
 \begin{center}\begin{tabular}{@{}lll@{}}\toprule \textbf{Two equally likely states} & \textbf{Home harvest} & \textbf{Foreign harvest}\\\midrule State A & 120 & 80\\[2mm]
 State B & 80 & 120\\\bottomrule\end{tabular}\end{center}\point{Half-ownership of each harvest pays 100 in either state.}
 \end{frame}
 
-% Slide 38: Diversification depends on correlation
-
+% Slide 43: Diversification depends on correlation
 \begin{frame}{Diversification depends on correlation}
 \begin{center}\begin{tikzpicture}[>=Stealth,every node/.style={font=\small}]
 \draw[Ink!10] (0.0000,0.0000)--(0.0000,2.2500);\node[below,font=\scriptsize] at (0.0000,0.0000){0\%};
@@ -297,28 +342,26 @@ State B & 80 & 120\\\bottomrule\end{tabular}\end{center}\point{Half-ownership of
 \draw[Teal,thick] (3.266666666666667,3.18)--(3.666666666666667,3.18);\node[anchor=west,font=\small] at (3.766666666666667,3.18){Corr. 0};
 \draw[Rust,thick] (6.533333333333334,3.18)--(6.9333333333333345,3.18);\node[anchor=west,font=\small] at (7.033333333333334,3.18){Corr. -0.5};
 \end{tikzpicture}\end{center}\eqnote{Equal standalone volatility of 20\%. Hypothetical assets and correlations.}
+\eqnote{More about portfolio diversification in the future.}
 \end{frame}
 
-% Slide 39: What a macro release can and cannot tell a trader
-
+% Slide 44: What a macro release can and cannot tell a trader
 \begin{frame}{What a macro release can and cannot tell a trader}
 \point{GDP describes production relative to expectations and capacity.}\point{The current account describes net external funding needs.}\point{The US example shows why asset demand, income yields and portfolio risk matter.}
 \end{frame}
 
-% Slide 40: Counterfactual exercise: extra public consumption
-
+% Slide 45: Counterfactual exercise: extra public consumption
 \begin{frame}{Counterfactual exercise: extra public consumption}
 \point{Government consumption rises by 2\% of GDP.}\point{Taxes, disposable income and investment initially stay fixed.}\point{Predict the change in national saving and the current account.}
 \end{frame}
 
-% Slide 41: The accounting answer and the economic question
-
+% Slide 46: The accounting answer and the economic question
 \begin{frame}{The accounting answer and the economic question}
 \[\Delta S=-2\%,\qquad\Delta CA=-2\%\text{ of GDP}.\]\point{If output or private saving responds, those numbers change.}\point{Next lecture supplies a model of demand and rates.}
 \end{frame}
 
-% Slide 42: Further reading
 \section[Reading]{Reading}
+% Slide 47: Further reading
 \begin{frame}{Further reading}
 \point{Dmitriy Sergeyev, Bocconi 30054 course materials.}\point{Krugman, Obstfeld \& Melitz, \emph{International Economics}.}\point{Source links and worked answers accompany each slide in the notes.}
 \end{frame}

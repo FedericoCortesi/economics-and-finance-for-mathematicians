@@ -12,7 +12,7 @@ The current seven modules start with macroeconomics and move through bonds, fore
 
 | Class | Slides | Pages | Speaker notes |
 |---|---|---:|---|
-| 1 | [Output, income and capital flows](lectures/lecture_01/lecture_01.pdf) | 42 | [Notes](lectures/lecture_01/notes.md) |
+| 1 | [Output, income and capital flows](lectures/lecture_01/lecture_01.pdf) | 47 | [Notes](lectures/lecture_01/notes.md) |
 | 2 | [Money, inflation and activity](lectures/lecture_02/lecture_02.pdf) | 88 | [Notes](lectures/lecture_02/notes.md) |
 | 3 | [Bonds and yield curves](lectures/lecture_03/lecture_03.pdf) | 97 | [Notes](lectures/lecture_03/notes.md) |
 | 4 | [Foreign exchange](lectures/lecture_04/lecture_04.pdf) | 36 | [Notes](lectures/lecture_04/notes.md) |
@@ -50,6 +50,20 @@ sh build.sh
 ```
 
 Run the build from the repository root. The build runs locally without fetching market data. Intermediate TeX files stay in `.build/`. The published PDFs are already available above.
+
+## Editing in VS Code
+
+Open the **course root folder** in VS Code, then open a lecture's `.tex` file. Install the recommended LaTeX Workshop extension and ensure `latexmk` and `pdflatex` are available (included in MacTeX/TeX Live).
+
+- Save with **Cmd+S** to rebuild the current lecture automatically.
+- **Option+Cmd+B** builds manually on macOS.
+- **Option+Cmd+V** opens the live PDF preview beside the source. The viewer refreshes after successful builds and supports SyncTeX navigation.
+
+The workspace recipe compiles from the course root so shared theme and image paths resolve. `latexmk` keeps intermediate files in `.build/lecture_XX/` and copies the successful PDF and SyncTeX file to the lecture folder using `-out2dir`. A failed edit leaves the last successful lecture PDF available. The recipe requires a `latexmk` version supporting `-out2dir` (the setup was verified with 4.88).
+
+On the tested VS Code 1.106.3 installation, LaTeX Workshop **10.10.2** provides a working internal PDF preview. It is pinned locally: newer bundled PDF renderers failed with `hashOriginal.toHex is not a function` on that runtime. If the preview breaks after an extension upgrade, use **Install Another Version… → 10.10.2** in the extension menu, or upgrade VS Code before retrying a newer extension.
+
+This rebuilds the individual lecture. Run `sh build.sh` from the course root when you also want to refresh the combined PDF in `dist/`.
 
 ## Sources, illustrations and dated data
 

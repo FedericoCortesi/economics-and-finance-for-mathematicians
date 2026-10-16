@@ -10,3 +10,20 @@ __pycache__/
 /reference_course/
 /reference_courses/
 *.zip
+
+# LaTeX editor/SyncTeX intermediates (PDFs stay tracked)
+/lectures/**/*.aux
+/lectures/**/*.bbl
+/lectures/**/*.bcf
+/lectures/**/*.blg
+/lectures/**/*.fdb_latexmk
+/lectures/**/*.fls
+/lectures/**/*.log
+/lectures/**/*.nav
+/lectures/**/*.out
+/lectures/**/*.run.xml
+/lectures/**/*.snm
+/lectures/**/*.synctex
+/lectures/**/*.synctex.gz
+/lectures/**/*.toc
+/lectures/**/*.vrb

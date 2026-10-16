@@ -8,7 +8,7 @@ The seven modules below are the current starting point. Future classes will expa
 
 | Class | Subject | Slides | Teaching time including discussion |
 |---|---|---:|---|
-| 1 | Output, income and capital flows | 42 | 55–70 minutes |
+| 1 | Output, income and capital flows | 47 | 65–80 minutes |
 | 2 | Money, inflation and activity | 88 | 90–120; or four short meetings minutes |
 | 3 | Bonds and yield curves | 97 | 150–180 minutes in six short meetings, plus optional extensions |
 | 4 | Foreign exchange | 36 | 55–75 minutes |
@@ -20,18 +20,18 @@ Times include discussion and are approximate. Optional mathematical slides can b
 
 ## 1. Output, income and capital flows
 
-**Learning objectives:** Distinguish output, income and expenditure; interpret Cobb–Douglas capacity and compute an output gap; separate accounting from equilibrium; derive S−I=CA from disposable national income; explain US external financing, NIIP and the classical exorbitant privilege; recognise portfolio risk and risk-sharing gains.
+**Learning objectives:** Distinguish output, income and expenditure; read dated GDP releases, compare levels and growth conventions, and interpret a surprise relative to consensus; interpret Cobb–Douglas capacity and compute an output gap; separate accounting from equilibrium; derive S−I=CA from disposable national income; explain US external financing, NIIP and the classical exorbitant privilege; recognise portfolio risk and risk-sharing gains.
 
-**25–30-minute teaching blocks:** First meeting: slides 4–7 (5 min), 12–17 (10 min), 18–19 (4 min), 40–41 (6 min). Second meeting: 21–28 (10 min), 31–35 (11 min), 36 (4 min). Slide 30 gives the formal financial-account convention; 37–38 extend the portfolio/risk-sharing discussion.
+**25–30-minute teaching blocks:** First meeting: slides 4–7 (5 min), 17–22 (10 min), 23–24 (4 min), 45–46 (6 min). Second meeting: 26–33 (10 min), 36–40 (11 min), 41 (4 min). Slide 35 gives the formal financial-account convention; 42–43 extend the portfolio/risk-sharing discussion. Add a 10-minute data discussion using 11–15: calendars, GDP levels, comparable quarterly growth, the newest monthly release and a GDP-surprise exercise.
 
 | Section | Slide range | Teaching emphasis |
 |---|---:|---|
 | Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
-| Production and income | 3–10 | Prediction, mechanism, worked example and discussion |
-| Accounting and equilibrium | 11–19 | Prediction, mechanism, worked example and discussion |
-| The rest of the world | 20–28 | Prediction, mechanism, worked example and discussion |
-| US borrowing and dollar privilege | 29–41 | Prediction, mechanism, worked example and discussion |
-| Reading | 42–42 | Prediction, mechanism, worked example and discussion |
+| Production and income | 3–15 | Prediction, mechanism, worked example and discussion |
+| Accounting and equilibrium | 16–24 | Prediction, mechanism, worked example and discussion |
+| The rest of the world | 25–33 | Prediction, mechanism, worked example and discussion |
+| US borrowing and dollar privilege | 34–46 | Prediction, mechanism, worked example and discussion |
+| Reading | 47–47 | Prediction, mechanism, worked example and discussion |
 
 **Reading:** Bocconi lecture(s) 2–3, plus textbook ch. 20 on risk sharing. See the exact source/edition map in `docs/source_map.md` and the links accompanying each slide in `lectures/lecture_01/notes.md`.
 

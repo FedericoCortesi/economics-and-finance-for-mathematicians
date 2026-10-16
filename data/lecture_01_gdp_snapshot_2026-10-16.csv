@@ -1,0 +1,16 @@
+series,country,period,value,unit,release_or_access_date,source_url,transformation
+nominal_gdp,United States,2025,30.77,USD trillion current prices,accessed 2026-10-16,https://tradingeconomics.com/country-list/gdp,source USD billions / 1000; rounded to 3 decimals
+nominal_gdp,Germany,2025,5.051,USD trillion current prices,accessed 2026-10-16,https://tradingeconomics.com/country-list/gdp,source USD billions / 1000; rounded to 3 decimals
+nominal_gdp,United Kingdom,2025,4.003,USD trillion current prices,accessed 2026-10-16,https://tradingeconomics.com/country-list/gdp,source USD billions / 1000; rounded to 3 decimals
+nominal_gdp,France,2025,3.366,USD trillion current prices,accessed 2026-10-16,https://tradingeconomics.com/country-list/gdp,source USD billions / 1000; rounded to 3 decimals
+nominal_gdp,Italy,2025,2.552,USD trillion current prices,accessed 2026-10-16,https://tradingeconomics.com/country-list/gdp,source USD billions / 1000; rounded to 3 decimals
+real_gdp_growth,United States,2026Q2,0.545519865,percent q/q seasonally adjusted,30 Sep 2026,https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd,100*((1+0.022)^(1/4)-1)
+real_gdp_growth,United Kingdom,2026Q2,0.500000000,percent q/q seasonally adjusted,30 Sep 2026,https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026,none; European data calendar adjusted
+real_gdp_growth,Germany,2026Q2,0.300000000,percent q/q seasonally adjusted,25 Aug 2026,https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html,none; European data calendar adjusted
+real_gdp_growth,Italy,2026Q2,0.200000000,percent q/q seasonally adjusted,5 Oct 2026,https://www.istat.it/en/press-release/quarterly-national-accounts-time-series-revision-q2-2026/,none; European data calendar adjusted
+real_gdp_growth,France,2026Q2,0.000000000,percent q/q seasonally adjusted,28 Aug 2026,https://www.insee.fr/fr/statistiques/9039499?sommaire=9007859,none; European data calendar adjusted
+real_gdp_growth,United Kingdom,2026-06,0.4,percent m/m seasonally adjusted,2026-10-15,https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026,latest revised estimates
+real_gdp_growth,United Kingdom,2026-07,0.4,percent m/m seasonally adjusted,2026-10-15,https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026,latest revised estimates
+real_gdp_growth,United Kingdom,2026-08,0.1,percent m/m seasonally adjusted,2026-10-15,https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026,latest revised estimates
+real_gdp_growth_surprise,Italy,2026Q2,0.1,percentage points actual minus consensus,2026-07-30,https://tradingeconomics.com/italy/gdp-growth,0.2 - 0.1
+cpi_nic,Italy,2026-09,4.2,percent y/y,2026-10-16,https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/,none
