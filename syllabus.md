@@ -1,0 +1,177 @@
+# Economics and Finance for Mathematicians — seven-class syllabus
+
+For mathematicians encountering economics for the first time. The course develops economic mechanisms and market implications together. It adapts Dmitriy Sergeyev’s supplied Bocconi 30054 materials, with Krugman, Obstfeld & Melitz as a central companion. The seven decks are teaching modules: each can occupy a longer class or several short meetings, with time for predictions and worked examples.
+
+The seven modules below are the current starting point. Future classes will expand asset pricing and other finance topics.
+
+## Course route
+
+| Class | Subject | Slides | Teaching time including discussion |
+|---|---|---:|---|
+| 1 | Output, income and capital flows | 42 | 55–70 minutes |
+| 2 | Money, inflation and activity | 86 | 90–120; or four short meetings minutes |
+| 3 | Bonds and yield curves | 37 | 50–65 minutes |
+| 4 | Foreign exchange | 36 | 55–75 minutes |
+| 5 | Open-economy policy and regimes | 38 | 55–75 minutes |
+| 6 | Currency crises and the euro | 28 | 45–60 minutes |
+| 7 | Public debt and macro trades | 42 | 55–75 minutes |
+
+Times include discussion and are approximate. Optional mathematical slides can be skipped on first exposure. The short-session routes below preserve a coherent question for a 25–30-minute meeting; the full deck supplies extensions and alternative explanations.
+
+## 1. Output, income and capital flows
+
+**Learning objectives:** Distinguish output, income and expenditure; interpret Cobb–Douglas capacity and compute an output gap; separate accounting from equilibrium; derive S−I=CA from disposable national income; explain US external financing, NIIP and the classical exorbitant privilege; recognise portfolio risk and risk-sharing gains.
+
+**25–30-minute teaching blocks:** First meeting: slides 4–7 (5 min), 12–17 (10 min), 18–19 (4 min), 40–41 (6 min). Second meeting: 21–28 (10 min), 31–35 (11 min), 36 (4 min). Slide 30 gives the formal financial-account convention; 37–38 extend the portfolio/risk-sharing discussion.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Production and income | 3–10 | Prediction, mechanism, worked example and discussion |
+| Accounting and equilibrium | 11–19 | Prediction, mechanism, worked example and discussion |
+| The rest of the world | 20–28 | Prediction, mechanism, worked example and discussion |
+| US borrowing and dollar privilege | 29–41 | Prediction, mechanism, worked example and discussion |
+| Reading | 42–42 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 2–3, plus textbook ch. 20 on risk sharing. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_01_notes.md`.
+
+**Trading question:** Does a GDP or current-account headline identify a rate/FX trade, or only constrain competing explanations?
+
+## 2. Money, inflation and activity
+
+**Learning objectives:** Use i, r and the policy target ī consistently; discount a zero-coupon payment; distinguish the exact purchasing-power conversion, Fisher approximation and long-run Fisher effect; solve saving/investment shifts; explain inflation without assuming extra money; derive classic LM from money demand and bond-market adjustment; read an illustrative policy rule and post-Covid chart; compare fixed-money policy with rate targeting.
+
+**25–30-minute teaching blocks:** Open with the horizon caveat (2) and bakery illustration (3). Use four short meetings if needed. Rates and the real benchmark: 6–17 (25–30 min). Inflation and money: 18–27 (15 min), 29–35 (12 min). Classic IS–LM: 37–45 (15 min), 49–57 (15 min); 46–48 give the optional spending-function algebra. Policy feedback and modern targeting: 59–67 (15 min), 68–76 (15 min). Slides 77–85 are optional mathematical follow-up. See `lecture_02_revision_map.md` for the original annotated slide numbers.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–4 | Prediction, mechanism, worked example and discussion |
+| Interest and inflation | 5–27 | Prediction, mechanism, worked example and discussion |
+| Money and short rates | 28–35 | Prediction, mechanism, worked example and discussion |
+| IS–LM and shocks | 36–57 | Prediction, mechanism, worked example and discussion |
+| Inflation and policy feedback | 58–71 | Prediction, mechanism, worked example and discussion |
+| Modern rate targeting | 72–76 | Prediction, mechanism, worked example and discussion |
+| Optional mathematical extension | 77–85 | Optional algebra or a second pass |
+| Reading | 86–86 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 6, 23–24; textbook ch. 15 and 16; MIT for IS–LM. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_02_notes.md`.
+
+**Trading question:** Was the rate move a demand-policy surprise, a response to inflation, or a change in expected real restraint?
+
+## 3. Bonds and yield curves
+
+**Learning objectives:** Price zero and coupon payments; interpret face value, YTM, duration and bills; derive locked forward rates; separate forwards from forecasts; decompose a yield and size a DV01-matched slope trade.
+
+**25–30-minute teaching blocks:** First meeting: 4–14 (14 min), 15–17 (5 min), 19–22 (8 min). Second meeting: 23–27 (8 min), 28–36 (18 min). Slides 18 and 24 give notation and algebra for a slower second pass.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Bonds and the yield curve | 3–27 | Prediction, mechanism, worked example and discussion |
+| A curve-slope exercise | 28–36 | Prediction, mechanism, worked example and discussion |
+| Reading | 37–37 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 14 for asset-return logic; TreasuryDirect/BoE/NY Fed for fixed income. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_03_notes.md`.
+
+**Trading question:** Which cash flow and maturity does a yield price, and what move would make the relative-value position lose?
+
+## 4. Foreign exchange
+
+**Learning objectives:** Use one FX quote consistently; derive CIP; distinguish UIP and a risk premium; calculate carry P&L; explain PPP limits and productivity-based relative prices; derive the intuition for overshooting.
+
+**25–30-minute teaching blocks:** First meeting: 4–10 (10 min), 13–18 (12 min), 19 (4 min). Second meeting: 21–25 (8 min), 27–29 (7 min), 31–35 (12 min). The productivity example at slide 26 is an extension.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Currency quotes and contracts | 3–6 | Prediction, mechanism, worked example and discussion |
+| Covered interest parity | 7–11 | Prediction, mechanism, worked example and discussion |
+| Uncovered returns and carry | 12–19 | Prediction, mechanism, worked example and discussion |
+| Expectations and purchasing power | 20–28 | Prediction, mechanism, worked example and discussion |
+| Dornbusch overshooting | 29–35 | Prediction, mechanism, worked example and discussion |
+| Reading | 36–36 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 4–10; textbook ch. 14–16. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_04_notes.md`.
+
+**Trading question:** Is the apparent interest advantage hedged, forecast-dependent, or compensation for currency risk?
+
+## 5. Open-economy policy and regimes
+
+**Learning objectives:** Calculate import-value and quantity effects; interpret Marshall–Lerner and the J-curve; compare invoice currencies; derive DD–AA slopes and shocks; analyse pegs, sterilisation and the trilemma; connect gold/Bretton Woods to policy constraints.
+
+**25–30-minute teaching blocks:** First meeting: 4–11 (12 min), 13–16 (8 min), 18–20 (8 min). Second meeting: 21–23 (7 min), 25–30 (12 min), 32–37 (10 min). Gold and Bretton Woods can also be a separate historical discussion.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Trade prices and quantities | 3–11 | Prediction, mechanism, worked example and discussion |
+| The DD schedule | 12–16 | Prediction, mechanism, worked example and discussion |
+| The AA schedule | 17–23 | Prediction, mechanism, worked example and discussion |
+| Pegs and interventions | 24–30 | Prediction, mechanism, worked example and discussion |
+| Gold and the international system | 31–37 | Prediction, mechanism, worked example and discussion |
+| Reading | 38–38 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 10–18; textbook ch. 17–19. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_05_notes.md`.
+
+**Trading question:** Does a depreciation affect demand through quantities, contract prices, or a balance sheet—and which policy setting is held fixed?
+
+## 6. Currency crises and the euro
+
+**Learning objectives:** Trace currency mismatches and contractionary depreciation; distinguish fundamentals from coordination crises; solve a simple exit game; evaluate currency-union trade-offs; explain national inflation differences and bank–sovereign feedback.
+
+**25–30-minute teaching blocks:** First meeting: 4–6 (6 min), 8–13 (14 min), 27 (6 min). Second meeting: 15–21 (14 min), 23–26 (10 min), revisit 27 (3 min).
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Balance-sheet exposure | 3–6 | Prediction, mechanism, worked example and discussion |
+| Pegs under pressure | 7–13 | Prediction, mechanism, worked example and discussion |
+| Currency unions | 14–21 | Prediction, mechanism, worked example and discussion |
+| Banks and sovereigns | 22–27 | Prediction, mechanism, worked example and discussion |
+| Reading | 28–28 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 15–22; textbook ch. 18, 20–22. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_06_notes.md`.
+
+**Trading question:** Is the threat a liquidity shortage, a coordination equilibrium, or insufficient real resources?
+
+## 7. Public debt and macro trades
+
+**Learning objectives:** Derive exact nominal debt-ratio dynamics; assess interest/growth/primary-balance scenarios; distinguish fiscal dominance from high debt; use verified US/Japan evidence without claiming causal identification; construct and stress-test a macro trade.
+
+**25–30-minute teaching blocks:** First meeting: 4–11 (14 min), 14–17 (9 min), 38–39 (5 min). Second meeting: 20–27 (14 min), 31–35 (8 min), 40–41 (6 min). Slides 12 and 18 are mathematical extensions; 28–30 add the dated US policy/curve context.
+
+| Section | Slide range | Teaching emphasis |
+|---|---:|---|
+| Introduction | 1–2 | Prediction, mechanism, worked example and discussion |
+| Debt arithmetic | 3–11 | Prediction, mechanism, worked example and discussion |
+| Fiscal and monetary interaction | 12–18 | Prediction, mechanism, worked example and discussion |
+| Dated US and Japan cases | 19–19 | Prediction, mechanism, worked example and discussion |
+| Reading | 20–27 | Prediction, mechanism, worked example and discussion |
+| Dated US and Japan cases | 28–35 | Prediction, mechanism, worked example and discussion |
+| A macro trading lab | 36–41 | Prediction, mechanism, worked example and discussion |
+| Reading | 42–42 | Prediction, mechanism, worked example and discussion |
+
+**Reading:** Bocconi lecture(s) 21–24; IMF debt analysis, official 2026 releases. See the exact source/edition map in `source_map.md` and the links accompanying each slide in `lecture_07_notes.md`.
+
+**Trading question:** What is already priced, which component of the yield changes, and how much risk does the position carry?
+
+## Accuracy conventions
+
+- Production equals domestic income by accounting. Planned expenditure equals output only under the goods-market equilibrium condition. The long-run benchmark closes the output gap; its horizon is not a fixed calendar duration.
+- Saving and investment are gross throughout unless labelled otherwise. I includes public capital formation under full national accounts; G denotes government consumption/purchases excluding investment already in I. The textbook sometimes uses a simplified government-purchases convention; do not mix the two.
+- CA = NX + net primary income + net secondary income. National saving is defined from gross national disposable income. Current capital transfers belong to KA only when actually capital transfers; ordinary remittances are secondary income.
+- FA uses the IMF-style sign, net acquisition of assets less net incurrence of liabilities. CA+KA=FA absent measurement errors. IIP changes also include valuation and other changes.
+- Expected versus realised inflation and nominal versus real rates are separate objects. Market yields, policy settings and effective fiscal interest costs are not interchangeable.
+- FX is home units per one foreign unit. A rise is home depreciation. CIP is a replication relation under matched executable funding/collateral assumptions. UIP adds risk and belief assumptions.
+- DD–AA experiments fix prices, future FX expectations and specified foreign inputs; investment is fixed to isolate the FX channel. Monetary closure differs from modern fixed-rate IS diagrams.
+- Marshall–Lerner’s simple unweighted condition assumes balanced starting trade and a pricing/supply structure. The J-curve and overshooting paths are illustrative, not fitted forecasts.
+- Debt dynamics use nominal effective interest and nominal GDP growth consistently, with an exact growth denominator. Other stock-flow adjustments and stochastic risks can matter. A stable ratio is a diagnostic rather than a complete solvency theorem.
+- The official 2026 case observations are explicitly dated. Subsequent scenarios are hypothetical. No yield level, accounting identity or headline alone identifies a profitable trade.
+
+## Source hierarchy
+
+1. Supplied course and textbook for the teaching sequence and theory.
+2. Primary institutional sources for definitions, policy implementation and dated cases.
+3. Original hypothetical numerical examples and editable diagrams for explanation.
+
+Full source URLs, chapter/page map and adaptation choices are in `source_map.md`.

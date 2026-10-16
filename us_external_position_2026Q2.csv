@@ -1,0 +1,5 @@
+series,period,value,units,status,source_url
+US current-account balance,2026-Q2,-246.0,"USD billion; quarterly flow, seasonally adjusted",BEA release 2026-09-24; retrieved 2026-10-15,https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026
+US foreign financial assets,2026-06-30,46.97,USD trillion; end-quarter stock,BEA release 2026-09-24; retrieved 2026-10-15,https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026
+US external liabilities,2026-06-30,69.39,USD trillion; end-quarter stock,BEA release 2026-09-24; retrieved 2026-10-15,https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026
+US NIIP,2026-06-30,-22.42,USD trillion; end-quarter stock,BEA release 2026-09-24; retrieved 2026-10-15,https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-2nd-quarter-2026

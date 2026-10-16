@@ -1,0 +1,35 @@
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,tikz,graphicx}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\definecolor{Ink}{HTML}{17324D}
+\definecolor{Teal}{HTML}{007F7A}
+\definecolor{Muted}{HTML}{556574}
+\definecolor{Paper}{HTML}{FAFAF7}
+\definecolor{Rust}{HTML}{AD532E}
+\definecolor{Gold}{HTML}{B38630}
+\setbeamercolor{background canvas}{bg=Paper}
+\setbeamercolor{normal text}{fg=Ink}
+\setbeamercolor{frametitle}{fg=Ink}
+\setbeamercolor{structure}{fg=Teal}
+\setbeamercolor{alerted text}{fg=Rust}
+\setbeamerfont{frametitle}{size=\LARGE,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=9mm,text margin right=9mm}
+\setbeamertemplate{frametitle}{\par\vspace{2mm}\insertframetitle\par\vspace{1mm}{\color{Gold}\rule{14mm}{1pt}}}
+\setbeamertemplate{footline}{\hspace{9mm}\scriptsize\color{Muted}\insertsectionhead\hfill\insertframenumber\hspace{9mm}\vspace{4mm}}
+\hypersetup{colorlinks=true,urlcolor=Teal,linkcolor=Muted,pdfauthor={}}
+\newcommand{\point}[1]{\par\vspace{3mm}{\large #1\par}}
+\newcommand{\eqnote}[1]{\par\vspace{2mm}{\small\color{Muted}#1\par}}
+\newcommand{\smalltext}[1]{\eqnote{#1}}
+\newcommand{\insight}[1]{\par\vspace{2mm}{\color{Teal}\bfseries #1}\par}
+\newcommand{\identity}{\text{\scriptsize accounting identity}}
+\newcommand{\policy}{R^{\mathrm{policy}}}
+\newcommand{\loanrate}{R^{\mathrm{loan}}}
+\newcommand{\nominal}{R^{\mathrm{nom}}}
+\newcommand{\realrate}{R^{\mathrm{real}}}
+\newcommand{\neutral}{R^{\mathrm{neutral}}}
+\newcommand{\spot}[1]{R^{\mathrm{spot}}(#1)}
+\newcommand{\forward}[2]{R^{\mathrm{forward}}(#1,#2)}
+\newcommand{\bondyield}{R^{\mathrm{bond}}}
+\newcommand{\bondrate}[1]{R^{\mathrm{bond}}(#1)}
+\AtBeginDocument{\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}\setlength{\abovedisplayshortskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}}

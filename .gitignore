@@ -1,0 +1,11 @@
+# Local builds and macOS metadata
+.build/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local archives, scratch work and downloaded reference material
+/archive/
+/work/
+/reference_course/
+*.zip

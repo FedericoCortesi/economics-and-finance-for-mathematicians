@@ -1,0 +1,9 @@
+series,observation_date,effective_or_period,value,units,status,source_url
+Fed target lower,2026-09-16,2026-09-16,3.75,percent,decision,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+Fed target upper,2026-09-16,2026-09-16,4.00,percent,decision,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+BoJ call guideline,2026-09-18,2026-09-24,1.25,percent,decision,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf
+BoJ monthly JGB purchase plan,2026-06-16,2026-Q2,2.7,JPY trillion,plan,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf
+BoJ monthly JGB purchase plan,2026-06-16,2026-Q3,2.5,JPY trillion,plan,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf
+BoJ monthly JGB purchase plan,2026-06-16,2026-Q4,2.3,JPY trillion,plan,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf
+BoJ monthly JGB purchase plan,2026-06-16,2027-Q1,2.1,JPY trillion,plan,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf
+BoJ monthly JGB purchase plan,2026-06-16,2027-Q2 onward,2,JPY trillion,plan,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf

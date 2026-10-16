@@ -1,0 +1,1905 @@
+[
+  {
+    "number": 1,
+    "title": "Output, income and capital flows",
+    "slides": 42,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Output, income and capital flows",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "The seven-class route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Production and income",
+        "section": "Production and income",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "A loaf of bread",
+        "section": "Production and income",
+        "kind": "picture"
+      },
+      {
+        "page": 5,
+        "title": "Value added along the chain",
+        "section": "Production and income",
+        "kind": "example"
+      },
+      {
+        "page": 6,
+        "title": "Output generates income",
+        "section": "Production and income",
+        "kind": "example"
+      },
+      {
+        "page": 7,
+        "title": "Three measurements of one flow",
+        "section": "Production and income",
+        "kind": "intuition"
+      },
+      {
+        "page": 8,
+        "title": "GDP counts current domestic production",
+        "section": "Production and income",
+        "kind": "intuition"
+      },
+      {
+        "page": 9,
+        "title": "Nominal output and real output",
+        "section": "Production and income",
+        "kind": "intuition"
+      },
+      {
+        "page": 10,
+        "title": "Growth rates separate prices and quantities",
+        "section": "Production and income",
+        "kind": "example"
+      },
+      {
+        "page": 11,
+        "title": "Accounting and equilibrium",
+        "section": "Accounting and equilibrium",
+        "kind": "intuition"
+      },
+      {
+        "page": 12,
+        "title": "Expenditure in a closed economy",
+        "section": "Accounting and equilibrium",
+        "kind": "intuition"
+      },
+      {
+        "page": 13,
+        "title": "Unsold bread still has an accounting destination",
+        "section": "Accounting and equilibrium",
+        "kind": "example"
+      },
+      {
+        "page": 14,
+        "title": "Equilibrium adds planned spending",
+        "section": "Accounting and equilibrium",
+        "kind": "plot"
+      },
+      {
+        "page": 15,
+        "title": "Potential output and the long run",
+        "section": "Accounting and equilibrium",
+        "kind": "intuition"
+      },
+      {
+        "page": 16,
+        "title": "The output gap connects activity to rates",
+        "section": "Accounting and equilibrium",
+        "kind": "example"
+      },
+      {
+        "page": 17,
+        "title": "A recession can be an equilibrium with slack",
+        "section": "Accounting and equilibrium",
+        "kind": "plot"
+      },
+      {
+        "page": 18,
+        "title": "Saving and investment in a closed economy",
+        "section": "Accounting and equilibrium",
+        "kind": "intuition"
+      },
+      {
+        "page": 19,
+        "title": "Private and public saving",
+        "section": "Accounting and equilibrium",
+        "kind": "intuition"
+      },
+      {
+        "page": 20,
+        "title": "The rest of the world",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 21,
+        "title": "Domestic expenditure and trade",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 22,
+        "title": "An imported machine",
+        "section": "The rest of the world",
+        "kind": "example"
+      },
+      {
+        "page": 23,
+        "title": "From domestic production to residents\u2019 income",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 24,
+        "title": "Primary income: an ownership example",
+        "section": "The rest of the world",
+        "kind": "diagram"
+      },
+      {
+        "page": 25,
+        "title": "Current transfers add disposable income",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 26,
+        "title": "The current account is our net current flow from abroad",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 27,
+        "title": "Saving finances investment at home or abroad",
+        "section": "The rest of the world",
+        "kind": "intuition"
+      },
+      {
+        "page": 28,
+        "title": "A deficit can finance productive investment",
+        "section": "The rest of the world",
+        "kind": "example"
+      },
+      {
+        "page": 29,
+        "title": "US borrowing and dollar privilege",
+        "section": "US borrowing and dollar privilege",
+        "kind": "intuition"
+      },
+      {
+        "page": 30,
+        "title": "The financial counterpart",
+        "section": "US borrowing and dollar privilege",
+        "kind": "intuition"
+      },
+      {
+        "page": 31,
+        "title": "Foreign investors help finance US spending",
+        "section": "US borrowing and dollar privilege",
+        "kind": "data"
+      },
+      {
+        "page": 32,
+        "title": "Net international investment position",
+        "section": "US borrowing and dollar privilege",
+        "kind": "intuition"
+      },
+      {
+        "page": 33,
+        "title": "The US external balance sheet is large on both sides",
+        "section": "US borrowing and dollar privilege",
+        "kind": "data"
+      },
+      {
+        "page": 34,
+        "title": "What is the US \u201cexorbitant privilege\u201d?",
+        "section": "US borrowing and dollar privilege",
+        "kind": "application"
+      },
+      {
+        "page": 35,
+        "title": "Negative NIIP can coexist with positive investment income",
+        "section": "US borrowing and dollar privilege",
+        "kind": "example"
+      },
+      {
+        "page": 36,
+        "title": "US asset demand connects yields and the dollar",
+        "section": "US borrowing and dollar privilege",
+        "kind": "application"
+      },
+      {
+        "page": 37,
+        "title": "Risk sharing is a gain from international finance",
+        "section": "US borrowing and dollar privilege",
+        "kind": "example"
+      },
+      {
+        "page": 38,
+        "title": "Diversification depends on correlation",
+        "section": "US borrowing and dollar privilege",
+        "kind": "plot"
+      },
+      {
+        "page": 39,
+        "title": "What a macro release can and cannot tell a trader",
+        "section": "US borrowing and dollar privilege",
+        "kind": "application"
+      },
+      {
+        "page": 40,
+        "title": "Counterfactual exercise: extra public consumption",
+        "section": "US borrowing and dollar privilege",
+        "kind": "exercise"
+      },
+      {
+        "page": 41,
+        "title": "The accounting answer and the economic question",
+        "section": "US borrowing and dollar privilege",
+        "kind": "solution"
+      },
+      {
+        "page": 42,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Money, inflation and activity",
+    "slides": 86,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Money, inflation and activity",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Short run and long run",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Money, production and spending",
+        "section": "Introduction",
+        "kind": "picture"
+      },
+      {
+        "page": 4,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 5,
+        "title": "Interest and inflation",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 6,
+        "title": "A zero-coupon bond exchanges money across time",
+        "section": "Interest and inflation",
+        "kind": "example"
+      },
+      {
+        "page": 7,
+        "title": "A higher yield means a lower bond price",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 8,
+        "title": "Three rate symbols are enough",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 9,
+        "title": "A real return measures purchasing power",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 10,
+        "title": "The Fisher approximation comes from logarithms",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 11,
+        "title": "For decisions today, expected inflation matters",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 12,
+        "title": "A nominal cut need not reduce the real rate",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 13,
+        "title": "Saving, investment and the real rate",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 14,
+        "title": "A larger harvest can lower the real rate",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 15,
+        "title": "Better projects can raise the real rate",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 16,
+        "title": "The long-run Fisher effect",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 17,
+        "title": "The causal story depends on the horizon",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 18,
+        "title": "Inflation measures a change in the price level",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 19,
+        "title": "Prices can rise without any extra money",
+        "section": "Interest and inflation",
+        "kind": "example"
+      },
+      {
+        "page": 20,
+        "title": "New money and faster spending are other possibilities",
+        "section": "Interest and inflation",
+        "kind": "theory"
+      },
+      {
+        "page": 21,
+        "title": "Disinflation can leave prices higher",
+        "section": "Interest and inflation",
+        "kind": "example"
+      },
+      {
+        "page": 22,
+        "title": "Demand pressure can raise prices",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 23,
+        "title": "Supply shocks can raise prices while output weakens",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 24,
+        "title": "Expectations can make inflation persistent",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 25,
+        "title": "Why high or volatile inflation is costly",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 26,
+        "title": "Why choose a small positive target?",
+        "section": "Interest and inflation",
+        "kind": "intuition"
+      },
+      {
+        "page": 27,
+        "title": "Constant inflation compounds the price level",
+        "section": "Interest and inflation",
+        "kind": "plot"
+      },
+      {
+        "page": 28,
+        "title": "Money and short rates",
+        "section": "Money and short rates",
+        "kind": "intuition"
+      },
+      {
+        "page": 29,
+        "title": "A bank loan creates an asset and a deposit",
+        "section": "Money and short rates",
+        "kind": "example"
+      },
+      {
+        "page": 30,
+        "title": "The central bank anchors short-term market rates",
+        "section": "Money and short rates",
+        "kind": "theory"
+      },
+      {
+        "page": 31,
+        "title": "Exception: a central bank can target a long yield",
+        "section": "Money and short rates",
+        "kind": "case"
+      },
+      {
+        "page": 32,
+        "title": "Money is useful, but costly to hold",
+        "section": "Money and short rates",
+        "kind": "intuition"
+      },
+      {
+        "page": 33,
+        "title": "Real money balances measure purchasing power",
+        "section": "Money and short rates",
+        "kind": "example"
+      },
+      {
+        "page": 34,
+        "title": "The money-market condition",
+        "section": "Money and short rates",
+        "kind": "theory"
+      },
+      {
+        "page": 35,
+        "title": "The money-demand diagram",
+        "section": "Money and short rates",
+        "kind": "plot"
+      },
+      {
+        "page": 36,
+        "title": "IS\u2013LM and shocks",
+        "section": "IS\u2013LM and shocks",
+        "kind": "intuition"
+      },
+      {
+        "page": 37,
+        "title": "What is an economic model?",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 38,
+        "title": "The variables and assumptions of this model",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 39,
+        "title": "A firm needs 10 million to start a project",
+        "section": "IS\u2013LM and shocks",
+        "kind": "example"
+      },
+      {
+        "page": 40,
+        "title": "The owner compares the project with an alternative",
+        "section": "IS\u2013LM and shocks",
+        "kind": "example"
+      },
+      {
+        "page": 41,
+        "title": "The project's net present value",
+        "section": "IS\u2013LM and shocks",
+        "kind": "example"
+      },
+      {
+        "page": 42,
+        "title": "Working through the financing cost",
+        "section": "IS\u2013LM and shocks",
+        "kind": "example"
+      },
+      {
+        "page": 43,
+        "title": "Higher rates eliminate marginal projects",
+        "section": "IS\u2013LM and shocks",
+        "kind": "plot"
+      },
+      {
+        "page": 44,
+        "title": "IS means Investment--Saving",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 45,
+        "title": "Why IS slopes downward",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 46,
+        "title": "Households respond to disposable income",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 47,
+        "title": "Investment responds to the rate",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 48,
+        "title": "Combining spending gives the IS equation",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 49,
+        "title": "LM means Liquidity preference--Money supply",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 50,
+        "title": "Why classic LM slopes upward",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 51,
+        "title": "Agents adjust portfolios, and bond prices move",
+        "section": "IS\u2013LM and shocks",
+        "kind": "diagram"
+      },
+      {
+        "page": 52,
+        "title": "Higher output shifts money demand to the right",
+        "section": "IS\u2013LM and shocks",
+        "kind": "plot"
+      },
+      {
+        "page": 53,
+        "title": "The intersection balances both markets",
+        "section": "IS\u2013LM and shocks",
+        "kind": "plot"
+      },
+      {
+        "page": 54,
+        "title": "A movement along a curve versus a shift",
+        "section": "IS\u2013LM and shocks",
+        "kind": "theory"
+      },
+      {
+        "page": 55,
+        "title": "Monetary tightening shifts classic LM",
+        "section": "IS\u2013LM and shocks",
+        "kind": "plot"
+      },
+      {
+        "page": 56,
+        "title": "Fiscal expansion with an unchanged money supply",
+        "section": "IS\u2013LM and shocks",
+        "kind": "plot"
+      },
+      {
+        "page": 57,
+        "title": "A demand shock versus a supply shock",
+        "section": "IS\u2013LM and shocks",
+        "kind": "intuition"
+      },
+      {
+        "page": 58,
+        "title": "Inflation and policy feedback",
+        "section": "Inflation and policy feedback",
+        "kind": "intuition"
+      },
+      {
+        "page": 59,
+        "title": "The neutral real rate is a benchmark",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 60,
+        "title": "At the target, a neutral nominal benchmark",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 61,
+        "title": "If inflation rises, the nominal rate must catch up",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 62,
+        "title": "US inflation and policy after Covid",
+        "section": "Inflation and policy feedback",
+        "kind": "data"
+      },
+      {
+        "page": 63,
+        "title": "The output gap measures pressure on resources",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 64,
+        "title": "Weak activity changes the policy trade-off",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 65,
+        "title": "A central banker might follow a rule like this",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 66,
+        "title": "A simple Phillips relationship",
+        "section": "Inflation and policy feedback",
+        "kind": "intuition"
+      },
+      {
+        "page": 67,
+        "title": "Expectations shift the Phillips curve",
+        "section": "Inflation and policy feedback",
+        "kind": "plot"
+      },
+      {
+        "page": 68,
+        "title": "Inflation deviations are easier to analyse",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 69,
+        "title": "A simple model of inflation persistence",
+        "section": "Inflation and policy feedback",
+        "kind": "theory"
+      },
+      {
+        "page": 70,
+        "title": "The same shock can decay or amplify",
+        "section": "Inflation and policy feedback",
+        "kind": "plot"
+      },
+      {
+        "page": 71,
+        "title": "Exercise: inflation rises while output falls",
+        "section": "Inflation and policy feedback",
+        "kind": "exercise"
+      },
+      {
+        "page": 72,
+        "title": "Modern rate targeting",
+        "section": "Modern rate targeting",
+        "kind": "intuition"
+      },
+      {
+        "page": 73,
+        "title": "Choose the rate, and let the monetary quantity adjust",
+        "section": "Modern rate targeting",
+        "kind": "theory"
+      },
+      {
+        "page": 74,
+        "title": "With a rate target, policy sets a horizontal line",
+        "section": "Modern rate targeting",
+        "kind": "plot"
+      },
+      {
+        "page": 75,
+        "title": "Fiscal expansion with an unchanged rate target",
+        "section": "Modern rate targeting",
+        "kind": "plot"
+      },
+      {
+        "page": 76,
+        "title": "A private-demand slowdown shifts IS inward",
+        "section": "Modern rate targeting",
+        "kind": "plot"
+      },
+      {
+        "page": 77,
+        "title": "Optional mathematical extension",
+        "section": "Optional mathematical extension",
+        "kind": "intuition"
+      },
+      {
+        "page": 78,
+        "title": "Optional extension: what changes the feedback?",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 79,
+        "title": "Inflation responds to activity and past inflation",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 80,
+        "title": "Real-rate restraint reduces the output gap",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 81,
+        "title": "Policy adds real restraint when inflation exceeds target",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 82,
+        "title": "Substitution gives a stability condition",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 83,
+        "title": "A two-date endowment economy",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 84,
+        "title": "The individual intertemporal budget",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 85,
+        "title": "Market clearing pins down a real rate",
+        "section": "Optional mathematical extension",
+        "kind": "optional"
+      },
+      {
+        "page": 86,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Bonds and yield curves",
+    "slides": 37,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Bonds and yield curves",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Bonds and the yield curve",
+        "section": "Bonds and the yield curve",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "A bond is a schedule of promised payments",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 5,
+        "title": "A coupon rate applies to face value",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 6,
+        "title": "The three-year cash-flow timeline",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 7,
+        "title": "Face value and the price quote are different",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 8,
+        "title": "A zero-coupon bond has one future payment",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 9,
+        "title": "Discounting a face value of 1,000",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 10,
+        "title": "A coupon bond discounts every dated payment",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 11,
+        "title": "The coupon-bond calculation",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 12,
+        "title": "Higher discount yields mean lower bond prices",
+        "section": "Bonds and the yield curve",
+        "kind": "plot"
+      },
+      {
+        "page": 13,
+        "title": "Duration measures local yield sensitivity",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 14,
+        "title": "Treasury bills pay face value without periodic coupons",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 15,
+        "title": "The yield curve is one date with many maturities",
+        "section": "Bonds and the yield curve",
+        "kind": "plot"
+      },
+      {
+        "page": 16,
+        "title": "Yield curves can have different shapes",
+        "section": "Bonds and the yield curve",
+        "kind": "plot"
+      },
+      {
+        "page": 17,
+        "title": "US and euro-area curve snapshot",
+        "section": "Bonds and the yield curve",
+        "kind": "data"
+      },
+      {
+        "page": 18,
+        "title": "Spot, forward and coupon-bond yields",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 19,
+        "title": "Two ways to lock a two-year payoff",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 20,
+        "title": "No-arbitrage makes the locked payoffs match",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 21,
+        "title": "Calculating the implied forward",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 22,
+        "title": "A locked forward is not a guaranteed forecast",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 23,
+        "title": "A long yield contains a path and a premium",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 24,
+        "title": "Writing the yield decomposition mathematically",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 25,
+        "title": "Today's rate and a ten-year yield can move differently",
+        "section": "Bonds and the yield curve",
+        "kind": "theory"
+      },
+      {
+        "page": 26,
+        "title": "Exercise: a cut today with a bond sell-off",
+        "section": "Bonds and the yield curve",
+        "kind": "exercise"
+      },
+      {
+        "page": 27,
+        "title": "The decomposition gives the answer",
+        "section": "Bonds and the yield curve",
+        "kind": "solution"
+      },
+      {
+        "page": 28,
+        "title": "A curve-slope exercise",
+        "section": "A curve-slope exercise",
+        "kind": "intuition"
+      },
+      {
+        "page": 29,
+        "title": "A curve view needs two maturity forecasts",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 30,
+        "title": "This is a bull steepening",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 31,
+        "title": "Expressing the relative view with bonds",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 32,
+        "title": "DV01 puts the two legs on comparable terms",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 33,
+        "title": "Exercise: choose the size of the short leg",
+        "section": "A curve-slope exercise",
+        "kind": "exercise"
+      },
+      {
+        "page": 34,
+        "title": "Equal DV01 requires unequal market values",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 35,
+        "title": "Work out the scenario profit and loss",
+        "section": "A curve-slope exercise",
+        "kind": "application"
+      },
+      {
+        "page": 36,
+        "title": "Counterfactual: what would make this trade lose?",
+        "section": "A curve-slope exercise",
+        "kind": "exercise"
+      },
+      {
+        "page": 37,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Foreign exchange",
+    "slides": 36,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Foreign exchange",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Currency quotes and contracts",
+        "section": "Currency quotes and contracts",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "One quote convention throughout",
+        "section": "Currency quotes and contracts",
+        "kind": "intuition"
+      },
+      {
+        "page": 5,
+        "title": "A quotation example",
+        "section": "Currency quotes and contracts",
+        "kind": "example"
+      },
+      {
+        "page": 6,
+        "title": "Spot, forward and FX swap",
+        "section": "Currency quotes and contracts",
+        "kind": "intuition"
+      },
+      {
+        "page": 7,
+        "title": "Covered interest parity",
+        "section": "Covered interest parity",
+        "kind": "intuition"
+      },
+      {
+        "page": 8,
+        "title": "Two routes for the same home-currency payoff",
+        "section": "Covered interest parity",
+        "kind": "intuition"
+      },
+      {
+        "page": 9,
+        "title": "The locked payoff equation",
+        "section": "Covered interest parity",
+        "kind": "intuition"
+      },
+      {
+        "page": 10,
+        "title": "A complete covered-parity calculation",
+        "section": "Covered interest parity",
+        "kind": "example"
+      },
+      {
+        "page": 11,
+        "title": "Why covered parity can show a basis",
+        "section": "Covered interest parity",
+        "kind": "intuition"
+      },
+      {
+        "page": 12,
+        "title": "Uncovered returns and carry",
+        "section": "Uncovered returns and carry",
+        "kind": "intuition"
+      },
+      {
+        "page": 13,
+        "title": "The unhedged foreign payoff",
+        "section": "Uncovered returns and carry",
+        "kind": "intuition"
+      },
+      {
+        "page": 14,
+        "title": "Uncovered interest parity is an equilibrium assumption",
+        "section": "Uncovered returns and carry",
+        "kind": "intuition"
+      },
+      {
+        "page": 15,
+        "title": "Currency risk premium",
+        "section": "Uncovered returns and carry",
+        "kind": "intuition"
+      },
+      {
+        "page": 16,
+        "title": "Carry: borrow yen and invest dollars",
+        "section": "Uncovered returns and carry",
+        "kind": "example"
+      },
+      {
+        "page": 17,
+        "title": "A small interest gain can meet a large FX loss",
+        "section": "Uncovered returns and carry",
+        "kind": "example"
+      },
+      {
+        "page": 18,
+        "title": "The carry payoff depends on the exit exchange rate",
+        "section": "Uncovered returns and carry",
+        "kind": "plot"
+      },
+      {
+        "page": 19,
+        "title": "Crash risk can hide behind frequent small gains",
+        "section": "Uncovered returns and carry",
+        "kind": "example"
+      },
+      {
+        "page": 20,
+        "title": "Expectations and purchasing power",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 21,
+        "title": "Short-run FX as an asset price",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 22,
+        "title": "A short-run FX return diagram",
+        "section": "Expectations and purchasing power",
+        "kind": "plot"
+      },
+      {
+        "page": 23,
+        "title": "The rate and expectation experiments",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 24,
+        "title": "Purchasing power parity",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 25,
+        "title": "Why a cheap haircut is hard to arbitrage",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 26,
+        "title": "Productivity and local service prices",
+        "section": "Expectations and purchasing power",
+        "kind": "example"
+      },
+      {
+        "page": 27,
+        "title": "The real exchange rate",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 28,
+        "title": "Relative PPP and the Fisher effect",
+        "section": "Expectations and purchasing power",
+        "kind": "intuition"
+      },
+      {
+        "page": 29,
+        "title": "Real interest differences and real FX expectations",
+        "section": "Dornbusch overshooting",
+        "kind": "optional"
+      },
+      {
+        "page": 30,
+        "title": "Dornbusch overshooting",
+        "section": "Dornbusch overshooting",
+        "kind": "intuition"
+      },
+      {
+        "page": 31,
+        "title": "A permanent monetary level shock",
+        "section": "Dornbusch overshooting",
+        "kind": "intuition"
+      },
+      {
+        "page": 32,
+        "title": "Prices adjust slowly",
+        "section": "Dornbusch overshooting",
+        "kind": "plot"
+      },
+      {
+        "page": 33,
+        "title": "The exchange rate can overshoot",
+        "section": "Dornbusch overshooting",
+        "kind": "plot"
+      },
+      {
+        "page": 34,
+        "title": "The overshooting mechanism",
+        "section": "Dornbusch overshooting",
+        "kind": "diagram"
+      },
+      {
+        "page": 35,
+        "title": "Exercise: three explanations for a high yield",
+        "section": "Dornbusch overshooting",
+        "kind": "exercise"
+      },
+      {
+        "page": 36,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Open-economy policy and regimes",
+    "slides": 38,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Open-economy policy and regimes",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Trade prices and quantities",
+        "section": "Trade prices and quantities",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "Exporters and importers face different cash flows",
+        "section": "Trade prices and quantities",
+        "kind": "picture"
+      },
+      {
+        "page": 5,
+        "title": "The real exchange rate and net exports",
+        "section": "Trade prices and quantities",
+        "kind": "intuition"
+      },
+      {
+        "page": 6,
+        "title": "A depreciation raises the local import bill first",
+        "section": "Trade prices and quantities",
+        "kind": "example"
+      },
+      {
+        "page": 7,
+        "title": "Quantities can later reverse the result",
+        "section": "Trade prices and quantities",
+        "kind": "example"
+      },
+      {
+        "page": 8,
+        "title": "Marshall\u2013Lerner gives a local condition",
+        "section": "Trade prices and quantities",
+        "kind": "intuition"
+      },
+      {
+        "page": 9,
+        "title": "The J-curve is a timing mechanism",
+        "section": "Trade prices and quantities",
+        "kind": "plot"
+      },
+      {
+        "page": 10,
+        "title": "Invoice currency changes pass-through",
+        "section": "Trade prices and quantities",
+        "kind": "example"
+      },
+      {
+        "page": 11,
+        "title": "The dollar can matter in third-country trade",
+        "section": "Trade prices and quantities",
+        "kind": "example"
+      },
+      {
+        "page": 12,
+        "title": "The DD schedule",
+        "section": "The DD schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 13,
+        "title": "A short-run open-economy model",
+        "section": "The DD schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 14,
+        "title": "A numerical demand equation",
+        "section": "The DD schedule",
+        "kind": "example"
+      },
+      {
+        "page": 15,
+        "title": "Goods-market equilibrium gives DD",
+        "section": "The DD schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 16,
+        "title": "DD as a graph",
+        "section": "The DD schedule",
+        "kind": "plot"
+      },
+      {
+        "page": 17,
+        "title": "The AA schedule",
+        "section": "The AA schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 18,
+        "title": "Money demand and FX pricing together",
+        "section": "The AA schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 19,
+        "title": "AA slopes downward",
+        "section": "The AA schedule",
+        "kind": "plot"
+      },
+      {
+        "page": 20,
+        "title": "Temporary monetary expansion under a float",
+        "section": "The AA schedule",
+        "kind": "plot"
+      },
+      {
+        "page": 21,
+        "title": "Temporary fiscal expansion under a float",
+        "section": "The AA schedule",
+        "kind": "plot"
+      },
+      {
+        "page": 22,
+        "title": "A fiscal expansion need not improve net exports",
+        "section": "The AA schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 23,
+        "title": "At the lower bound, expectations still matter",
+        "section": "The AA schedule",
+        "kind": "intuition"
+      },
+      {
+        "page": 24,
+        "title": "Pegs and interventions",
+        "section": "Pegs and interventions",
+        "kind": "intuition"
+      },
+      {
+        "page": 25,
+        "title": "The promise behind a peg",
+        "section": "Pegs and interventions",
+        "kind": "intuition"
+      },
+      {
+        "page": 26,
+        "title": "Defending a peg changes the balance sheet",
+        "section": "Pegs and interventions",
+        "kind": "example"
+      },
+      {
+        "page": 27,
+        "title": "Sterilisation offsets the liquidity effect",
+        "section": "Pegs and interventions",
+        "kind": "example"
+      },
+      {
+        "page": 28,
+        "title": "A fixed peg removes one degree of freedom",
+        "section": "Pegs and interventions",
+        "kind": "plot"
+      },
+      {
+        "page": 29,
+        "title": "Independent monetary expansion conflicts with the peg",
+        "section": "Pegs and interventions",
+        "kind": "intuition"
+      },
+      {
+        "page": 30,
+        "title": "The monetary trilemma",
+        "section": "Pegs and interventions",
+        "kind": "diagram"
+      },
+      {
+        "page": 31,
+        "title": "Gold and the international system",
+        "section": "Gold and the international system",
+        "kind": "intuition"
+      },
+      {
+        "page": 32,
+        "title": "Gold convertibility",
+        "section": "Gold and the international system",
+        "kind": "picture"
+      },
+      {
+        "page": 33,
+        "title": "Gold fixes a currency relationship",
+        "section": "Gold and the international system",
+        "kind": "intuition"
+      },
+      {
+        "page": 34,
+        "title": "Deflation makes a fixed nominal rate tighter",
+        "section": "Gold and the international system",
+        "kind": "example"
+      },
+      {
+        "page": 35,
+        "title": "Three monetary arrangements",
+        "section": "Gold and the international system",
+        "kind": "intuition"
+      },
+      {
+        "page": 36,
+        "title": "Triffin\u2019s dilemma",
+        "section": "Gold and the international system",
+        "kind": "intuition"
+      },
+      {
+        "page": 37,
+        "title": "Counterfactual exercise: who can ease?",
+        "section": "Gold and the international system",
+        "kind": "exercise"
+      },
+      {
+        "page": 38,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Currency crises and the euro",
+    "slides": 28,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Currency crises and the euro",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Balance-sheet exposure",
+        "section": "Balance-sheet exposure",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "A firm borrows dollars but earns home currency",
+        "section": "Balance-sheet exposure",
+        "kind": "example"
+      },
+      {
+        "page": 5,
+        "title": "Trade and financial channels can oppose each other",
+        "section": "Balance-sheet exposure",
+        "kind": "diagram"
+      },
+      {
+        "page": 6,
+        "title": "Debt and equity share bad states differently",
+        "section": "Balance-sheet exposure",
+        "kind": "intuition"
+      },
+      {
+        "page": 7,
+        "title": "Pegs under pressure",
+        "section": "Pegs under pressure",
+        "kind": "intuition"
+      },
+      {
+        "page": 8,
+        "title": "A first-generation crisis mechanism",
+        "section": "Pegs under pressure",
+        "kind": "intuition"
+      },
+      {
+        "page": 9,
+        "title": "Reserves can be exhausted by an anticipated attack",
+        "section": "Pegs under pressure",
+        "kind": "plot"
+      },
+      {
+        "page": 10,
+        "title": "A second-generation crisis mechanism",
+        "section": "Pegs under pressure",
+        "kind": "intuition"
+      },
+      {
+        "page": 11,
+        "title": "A coordination example",
+        "section": "Pegs under pressure",
+        "kind": "example"
+      },
+      {
+        "page": 12,
+        "title": "The coordination game",
+        "section": "Pegs under pressure",
+        "kind": "example"
+      },
+      {
+        "page": 13,
+        "title": "A backstop can change incentives",
+        "section": "Pegs under pressure",
+        "kind": "intuition"
+      },
+      {
+        "page": 14,
+        "title": "Currency unions",
+        "section": "Currency unions",
+        "kind": "intuition"
+      },
+      {
+        "page": 15,
+        "title": "The benefits and costs of a common currency",
+        "section": "Currency unions",
+        "kind": "intuition"
+      },
+      {
+        "page": 16,
+        "title": "An integration trade-off",
+        "section": "Currency unions",
+        "kind": "plot"
+      },
+      {
+        "page": 17,
+        "title": "A common currency does not make every price identical",
+        "section": "Currency unions",
+        "kind": "theory"
+      },
+      {
+        "page": 18,
+        "title": "Different baskets can produce different inflation",
+        "section": "Currency unions",
+        "kind": "example"
+      },
+      {
+        "page": 19,
+        "title": "A shared nominal rate can mean different real rates",
+        "section": "Currency unions",
+        "kind": "example"
+      },
+      {
+        "page": 20,
+        "title": "Euro government bonds can also have different yields",
+        "section": "Currency unions",
+        "kind": "theory"
+      },
+      {
+        "page": 21,
+        "title": "Relative prices can adjust without a currency change",
+        "section": "Currency unions",
+        "kind": "intuition"
+      },
+      {
+        "page": 22,
+        "title": "Banks and sovereigns",
+        "section": "Banks and sovereigns",
+        "kind": "intuition"
+      },
+      {
+        "page": 23,
+        "title": "Banks transform maturities",
+        "section": "Banks and sovereigns",
+        "kind": "intuition"
+      },
+      {
+        "page": 24,
+        "title": "A sovereign refinancing feedback",
+        "section": "Banks and sovereigns",
+        "kind": "diagram"
+      },
+      {
+        "page": 25,
+        "title": "The bank\u2013sovereign loop",
+        "section": "Banks and sovereigns",
+        "kind": "diagram"
+      },
+      {
+        "page": 26,
+        "title": "A historical backstop: OMT in 2012",
+        "section": "Banks and sovereigns",
+        "kind": "intuition"
+      },
+      {
+        "page": 27,
+        "title": "Exercise: liquidity support or a fiscal repair?",
+        "section": "Banks and sovereigns",
+        "kind": "exercise"
+      },
+      {
+        "page": 28,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Public debt and macro trades",
+    "slides": 42,
+    "outline": [
+      {
+        "page": 1,
+        "title": "Public debt and macro trades",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 2,
+        "title": "Today\u2019s route",
+        "section": "Introduction",
+        "kind": "intuition"
+      },
+      {
+        "page": 3,
+        "title": "Debt arithmetic",
+        "section": "Debt arithmetic",
+        "kind": "intuition"
+      },
+      {
+        "page": 4,
+        "title": "The government\u2019s one-period financing constraint",
+        "section": "Debt arithmetic",
+        "kind": "intuition"
+      },
+      {
+        "page": 5,
+        "title": "Dividing by nominal GDP",
+        "section": "Debt arithmetic",
+        "kind": "intuition"
+      },
+      {
+        "page": 6,
+        "title": "The interest\u2013growth snowball",
+        "section": "Debt arithmetic",
+        "kind": "intuition"
+      },
+      {
+        "page": 7,
+        "title": "A complete debt-ratio calculation",
+        "section": "Debt arithmetic",
+        "kind": "example"
+      },
+      {
+        "page": 8,
+        "title": "Growth above interest can permit a primary deficit",
+        "section": "Debt arithmetic",
+        "kind": "example"
+      },
+      {
+        "page": 9,
+        "title": "Small parameter differences compound",
+        "section": "Debt arithmetic",
+        "kind": "plot"
+      },
+      {
+        "page": 10,
+        "title": "A rising ratio is a warning, not an instant default test",
+        "section": "Debt arithmetic",
+        "kind": "intuition"
+      },
+      {
+        "page": 11,
+        "title": "A long maturity delays the cash-flow effect",
+        "section": "Debt arithmetic",
+        "kind": "example"
+      },
+      {
+        "page": 12,
+        "title": "Fiscal fatigue and a possible adjustment limit",
+        "section": "Fiscal and monetary interaction",
+        "kind": "optional"
+      },
+      {
+        "page": 13,
+        "title": "Fiscal and monetary interaction",
+        "section": "Fiscal and monetary interaction",
+        "kind": "intuition"
+      },
+      {
+        "page": 14,
+        "title": "Nominal repayment and real value are different promises",
+        "section": "Fiscal and monetary interaction",
+        "kind": "intuition"
+      },
+      {
+        "page": 15,
+        "title": "Fiscal dominance",
+        "section": "Fiscal and monetary interaction",
+        "kind": "intuition"
+      },
+      {
+        "page": 16,
+        "title": "Inflation can reduce some real debt burdens",
+        "section": "Fiscal and monetary interaction",
+        "kind": "intuition"
+      },
+      {
+        "page": 17,
+        "title": "QE changes the public sector\u2019s liability mix",
+        "section": "Fiscal and monetary interaction",
+        "kind": "diagram"
+      },
+      {
+        "page": 18,
+        "title": "Fiscal feedback can stabilise debt in a toy model",
+        "section": "Fiscal and monetary interaction",
+        "kind": "optional"
+      },
+      {
+        "page": 19,
+        "title": "Dated US and Japan cases",
+        "section": "Dated US and Japan cases",
+        "kind": "intuition"
+      },
+      {
+        "page": 20,
+        "title": "July\u2013August 2026: a common date window",
+        "section": "Reading",
+        "kind": "case"
+      },
+      {
+        "page": 21,
+        "title": "Summer 2026: ten-year yield changes",
+        "section": "Reading",
+        "kind": "data"
+      },
+      {
+        "page": 22,
+        "title": "Summer 2026: thirty-year yield changes",
+        "section": "Reading",
+        "kind": "data"
+      },
+      {
+        "page": 23,
+        "title": "Summer endpoints: yields rose in all three samples",
+        "section": "Reading",
+        "kind": "data"
+      },
+      {
+        "page": 24,
+        "title": "Summer FX moved on its own path",
+        "section": "Reading",
+        "kind": "data"
+      },
+      {
+        "page": 25,
+        "title": "The cross rate checks the currency story",
+        "section": "Reading",
+        "kind": "data"
+      },
+      {
+        "page": 26,
+        "title": "A rise in yield is not a flow-of-funds explanation",
+        "section": "Reading",
+        "kind": "case"
+      },
+      {
+        "page": 27,
+        "title": "Exercise: three competing summer explanations",
+        "section": "Reading",
+        "kind": "exercise"
+      },
+      {
+        "page": 28,
+        "title": "US policy evidence: September 2026",
+        "section": "Dated US and Japan cases",
+        "kind": "case"
+      },
+      {
+        "page": 29,
+        "title": "US curve context: 15 October 2026",
+        "section": "Dated US and Japan cases",
+        "kind": "data"
+      },
+      {
+        "page": 30,
+        "title": "Three hypotheses behind a higher US long yield",
+        "section": "Dated US and Japan cases",
+        "kind": "case"
+      },
+      {
+        "page": 31,
+        "title": "Japan policy evidence: September 2026",
+        "section": "Dated US and Japan cases",
+        "kind": "case"
+      },
+      {
+        "page": 32,
+        "title": "Japan: the JGB purchase plan",
+        "section": "Dated US and Japan cases",
+        "kind": "data"
+      },
+      {
+        "page": 33,
+        "title": "Why Japanese capital need not immediately return home",
+        "section": "Dated US and Japan cases",
+        "kind": "case"
+      },
+      {
+        "page": 34,
+        "title": "A hedge-cost illustration",
+        "section": "Dated US and Japan cases",
+        "kind": "example"
+      },
+      {
+        "page": 35,
+        "title": "US/Japan counterfactuals",
+        "section": "Dated US and Japan cases",
+        "kind": "exercise"
+      },
+      {
+        "page": 36,
+        "title": "A macro trading lab",
+        "section": "A macro trading lab",
+        "kind": "intuition"
+      },
+      {
+        "page": 37,
+        "title": "Markets react to the surprise in the full announcement",
+        "section": "A macro trading lab",
+        "kind": "application"
+      },
+      {
+        "page": 38,
+        "title": "Exercise: a cut today, but a higher long yield?",
+        "section": "A macro trading lab",
+        "kind": "exercise"
+      },
+      {
+        "page": 39,
+        "title": "The decomposition gives the answer",
+        "section": "A macro trading lab",
+        "kind": "application"
+      },
+      {
+        "page": 40,
+        "title": "Turn a headline into a conditional chain",
+        "section": "A macro trading lab",
+        "kind": "application"
+      },
+      {
+        "page": 41,
+        "title": "Final exercise: a trade needs a falsifiable claim",
+        "section": "A macro trading lab",
+        "kind": "exercise"
+      },
+      {
+        "page": 42,
+        "title": "Further reading",
+        "section": "Reading",
+        "kind": "reference"
+      }
+    ]
+  }
+]
